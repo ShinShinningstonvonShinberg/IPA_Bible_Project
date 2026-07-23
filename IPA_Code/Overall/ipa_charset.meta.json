@@ -1,0 +1,30 @@
+{
+  "file": "ipa_charset.jsonl",
+  "purpose": "IPA-side character allowlist. Bounds what may appear in emitted IPA, as codepoint_allowlist.json bounds what may appear in a source text.",
+  "normalization": "NFD. Lossless for PanPhon (0 collisions) and the safe canonical form for inspecting diacritics.",
+  "tie_bar": "Affricates are written with U+0361 COMBINING DOUBLE INVERTED BREVE. Measured: PanPhon with tie bars has 0/6367 ambiguously-segmentable entries; without them 1246/6367; PHOIBLE's tie-bar-free convention 1094/3175. Only U+0361 makes IPA strings uniquely decodable, which a deterministic tokenizer and a reversible mapping both require.",
+  "status_rule": "Bands taken from the IPA's own IPA Number ranges. Quarantined entries are recorded, never dropped.",
+  "sources": [
+    {
+      "name": "IPA i-chart symbol database",
+      "url": "https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_TI/",
+      "licence": "CC BY-SA",
+      "attribution": "IPA Chart, http://www.internationalphoneticassociation.org/content/ipa-chart, available under a Creative Commons Attribution-Sharealike License. Copyright © International Phonetic Association.",
+      "note": "Only factual symbol/codepoint/number mappings are extracted; no chart layout or design is reproduced."
+    },
+    {
+      "name": "Unicode Character Database",
+      "via": "python unicodedata + Blocks.txt",
+      "url": "https://www.unicode.org/Public/UNIDATA/Blocks.txt"
+    },
+    {
+      "name": "PanPhon",
+      "licence": "MIT",
+      "role": "attestation only",
+      "url": "https://github.com/dmort27/panphon"
+    }
+  ],
+  "excluded": {
+    "PHOIBLE": "Deliberately unused. Licence stated inconsistently across four official channels (CC-BY-SA 3.0 / GPL-3.0 / CC-BY-4.0 / CC-BY 3.0); share-alike or copyleft would contaminate this MIT repo. Also lacks Ancient Greek (grc) and Biblical Hebrew (hbo) entirely."
+  }
+}
