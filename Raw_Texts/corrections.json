@@ -1,0 +1,303 @@
+{
+  "purpose": "Corrections for upstream character defects. `raw` in Raw_Texts is never edited; these are applied at load.",
+  "policy": "A correction is proposed only for a character outside the edition's allowed set that is a known visual homoglyph, and only when the corrected word reproduces the source's own recorded gematria. audit_texts.py re-verifies independently.",
+  "homoglyph_map": {
+    "U+0041": "U+0391",
+    "U+0048": "U+0397",
+    "U+0049": "U+0399",
+    "U+004E": "U+039D",
+    "U+004F": "U+039F",
+    "U+0054": "U+03A4",
+    "U+1F49": "U+039F"
+  },
+  "corrections": [
+    {
+      "id": "NRV.2Pet.1.12.w5",
+      "book": "2Pet",
+      "ch": 1,
+      "v": 12,
+      "wi": 5,
+      "stored": "ΥΠΟΜΙΜΝHIΣΚΕΙΝ",
+      "corrected": "ΥΠΟΜΙΜΝΗΙΣΚΕΙΝ",
+      "changes": [
+        {
+          "pos": 7,
+          "from": "U+0048",
+          "from_name": "LATIN CAPITAL LETTER H",
+          "to": "U+0397",
+          "to_name": "GREEK CAPITAL LETTER ETA"
+        },
+        {
+          "pos": 8,
+          "from": "U+0049",
+          "from_name": "LATIN CAPITAL LETTER I",
+          "to": "U+0399",
+          "to_name": "GREEK CAPITAL LETTER IOTA"
+        }
+      ],
+      "source_gematria": "993",
+      "corrected_gematria": 993,
+      "proof": "corrected form computes 993, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Acts.22.4.w4",
+      "book": "Acts",
+      "ch": 22,
+      "v": 4,
+      "wi": 4,
+      "stored": "ὉΔΟΝ",
+      "corrected": "ΟΔΟΝ",
+      "changes": [
+        {
+          "pos": 0,
+          "from": "U+1F49",
+          "from_name": "GREEK CAPITAL LETTER OMICRON WITH DASIA",
+          "to": "U+039F",
+          "to_name": "GREEK CAPITAL LETTER OMICRON"
+        }
+      ],
+      "source_gematria": "194",
+      "corrected_gematria": 194,
+      "proof": "corrected form computes 194, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Col.2.14.w3",
+      "book": "Col",
+      "ch": 2,
+      "v": 14,
+      "wi": 3,
+      "stored": "ΚΑTA",
+      "corrected": "ΚΑΤΑ",
+      "changes": [
+        {
+          "pos": 2,
+          "from": "U+0054",
+          "from_name": "LATIN CAPITAL LETTER T",
+          "to": "U+03A4",
+          "to_name": "GREEK CAPITAL LETTER TAU"
+        },
+        {
+          "pos": 3,
+          "from": "U+0041",
+          "from_name": "LATIN CAPITAL LETTER A",
+          "to": "U+0391",
+          "to_name": "GREEK CAPITAL LETTER ALPHA"
+        }
+      ],
+      "source_gematria": "322",
+      "corrected_gematria": 322,
+      "proof": "corrected form computes 322, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.John.1.6.w6",
+      "book": "John",
+      "ch": 1,
+      "v": 6,
+      "wi": 6,
+      "stored": "OΝΟΜΑ",
+      "corrected": "ΟΝΟΜΑ",
+      "changes": [
+        {
+          "pos": 0,
+          "from": "U+004F",
+          "from_name": "LATIN CAPITAL LETTER O",
+          "to": "U+039F",
+          "to_name": "GREEK CAPITAL LETTER OMICRON"
+        }
+      ],
+      "source_gematria": "231",
+      "corrected_gematria": 231,
+      "proof": "corrected form computes 231, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Luke.12.3.w1",
+      "book": "Luke",
+      "ch": 12,
+      "v": 3,
+      "wi": 1,
+      "stored": "ΑNΤΙ",
+      "corrected": "ΑΝΤΙ",
+      "changes": [
+        {
+          "pos": 1,
+          "from": "U+004E",
+          "from_name": "LATIN CAPITAL LETTER N",
+          "to": "U+039D",
+          "to_name": "GREEK CAPITAL LETTER NU"
+        }
+      ],
+      "source_gematria": "361",
+      "corrected_gematria": 361,
+      "proof": "corrected form computes 361, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Matt.1.23.w19",
+      "book": "Matt",
+      "ch": 1,
+      "v": 23,
+      "wi": 19,
+      "stored": "ΜΕTΑ",
+      "corrected": "ΜΕΤΑ",
+      "changes": [
+        {
+          "pos": 2,
+          "from": "U+0054",
+          "from_name": "LATIN CAPITAL LETTER T",
+          "to": "U+03A4",
+          "to_name": "GREEK CAPITAL LETTER TAU"
+        }
+      ],
+      "source_gematria": "346",
+      "corrected_gematria": 346,
+      "proof": "corrected form computes 346, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Phlm.1.2.w2",
+      "book": "Phlm",
+      "ch": 1,
+      "v": 2,
+      "wi": 2,
+      "stored": "ΑΠΦΙΑI",
+      "corrected": "ΑΠΦΙΑΙ",
+      "changes": [
+        {
+          "pos": 5,
+          "from": "U+0049",
+          "from_name": "LATIN CAPITAL LETTER I",
+          "to": "U+0399",
+          "to_name": "GREEK CAPITAL LETTER IOTA"
+        }
+      ],
+      "source_gematria": "602",
+      "corrected_gematria": 602,
+      "proof": "corrected form computes 602, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Phlm.1.2.w15",
+      "book": "Phlm",
+      "ch": 1,
+      "v": 2,
+      "wi": 15,
+      "stored": "ΕΚΚΛΗΣΙΑI",
+      "corrected": "ΕΚΚΛΗΣΙΑΙ",
+      "changes": [
+        {
+          "pos": 8,
+          "from": "U+0049",
+          "from_name": "LATIN CAPITAL LETTER I",
+          "to": "U+0399",
+          "to_name": "GREEK CAPITAL LETTER IOTA"
+        }
+      ],
+      "source_gematria": "304",
+      "corrected_gematria": 304,
+      "proof": "corrected form computes 304, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Titus.1.6.w13",
+      "book": "Titus",
+      "ch": 1,
+      "v": 6,
+      "wi": 13,
+      "stored": "ΚΑΤΗΓΟΡΙΑI",
+      "corrected": "ΚΑΤΗΓΟΡΙΑΙ",
+      "changes": [
+        {
+          "pos": 9,
+          "from": "U+0049",
+          "from_name": "LATIN CAPITAL LETTER I",
+          "to": "U+0399",
+          "to_name": "GREEK CAPITAL LETTER IOTA"
+        }
+      ],
+      "source_gematria": "523",
+      "corrected_gematria": 523,
+      "proof": "corrected form computes 523, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Titus.1.9.w15",
+      "book": "Titus",
+      "ch": 1,
+      "v": 9,
+      "wi": 15,
+      "stored": "ΔΙΔΑΣΚΑΛΙΑI",
+      "corrected": "ΔΙΔΑΣΚΑΛΙΑΙ",
+      "changes": [
+        {
+          "pos": 10,
+          "from": "U+0049",
+          "from_name": "LATIN CAPITAL LETTER I",
+          "to": "U+0399",
+          "to_name": "GREEK CAPITAL LETTER IOTA"
+        }
+      ],
+      "source_gematria": "291",
+      "corrected_gematria": 291,
+      "proof": "corrected form computes 291, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Titus.2.1.w8",
+      "book": "Titus",
+      "ch": 2,
+      "v": 1,
+      "wi": 8,
+      "stored": "ΔΙΔΑΣΚΑΛΙΑI",
+      "corrected": "ΔΙΔΑΣΚΑΛΙΑΙ",
+      "changes": [
+        {
+          "pos": 10,
+          "from": "U+0049",
+          "from_name": "LATIN CAPITAL LETTER I",
+          "to": "U+0399",
+          "to_name": "GREEK CAPITAL LETTER IOTA"
+        }
+      ],
+      "source_gematria": "291",
+      "corrected_gematria": 291,
+      "proof": "corrected form computes 291, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Titus.2.7.w10",
+      "book": "Titus",
+      "ch": 2,
+      "v": 7,
+      "wi": 10,
+      "stored": "ΔΙΔΑΣΚΑΛΙΑI",
+      "corrected": "ΔΙΔΑΣΚΑΛΙΑΙ",
+      "changes": [
+        {
+          "pos": 10,
+          "from": "U+0049",
+          "from_name": "LATIN CAPITAL LETTER I",
+          "to": "U+0399",
+          "to_name": "GREEK CAPITAL LETTER IOTA"
+        }
+      ],
+      "source_gematria": "291",
+      "corrected_gematria": 291,
+      "proof": "corrected form computes 291, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    },
+    {
+      "id": "NRV.Titus.3.3.w15",
+      "book": "Titus",
+      "ch": 3,
+      "v": 3,
+      "wi": 15,
+      "stored": "ΚΑΚΙΑI",
+      "corrected": "ΚΑΚΙΑΙ",
+      "changes": [
+        {
+          "pos": 5,
+          "from": "U+0049",
+          "from_name": "LATIN CAPITAL LETTER I",
+          "to": "U+0399",
+          "to_name": "GREEK CAPITAL LETTER IOTA"
+        }
+      ],
+      "source_gematria": "62",
+      "corrected_gematria": 62,
+      "proof": "corrected form computes 62, matching the source's own recorded value; the stored form cannot, since its characters carry no Greek numeric value"
+    }
+  ],
+  "rejected": []
+}

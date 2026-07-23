@@ -38,6 +38,25 @@ ROOT = Path("/Users/Shared/IPA_Bible_Project")
 TEXTS = ROOT / "Raw_Texts"
 RAW = ROOT / "Git_Ignored_Stuff/Raw_Downloads"
 ALLOWLIST = TEXTS / "codepoint_allowlist.json"
+CORRECTIONS = TEXTS / "corrections.json"
+
+# Greek isopsephy, for independently re-verifying corrections. The audit never
+# trusts corrections.json: it recomputes every value from the source itself.
+GEMATRIA = {
+    "Α": 1, "Β": 2, "Γ": 3, "Δ": 4, "Ε": 5, "Ζ": 7, "Η": 8, "Θ": 9,
+    "Ι": 10, "Κ": 20, "Λ": 30, "Μ": 40, "Ν": 50, "Ξ": 60, "Ο": 70,
+    "Π": 80, "Ρ": 100, "Σ": 200, "Τ": 300, "Υ": 400, "Φ": 500,
+    "Χ": 600, "Ψ": 700, "Ω": 800,
+}
+NRV_OSIS_TO_LABEL = {
+    "Matt": "Matt", "Mark": "Mark", "Luke": "Luke", "John": "John",
+    "Acts": "Acts", "Rom": "Rom", "1Cor": "1 Cor", "2Cor": "2 Cor",
+    "Gal": "Gal", "Eph": "Eph", "Phil": "Phlp", "Col": "Col",
+    "1Thess": "1 Ths", "2Thess": "2 Ths", "1Tim": "1 Tim", "2Tim": "2 Tim",
+    "Titus": "Titus", "Phlm": "Phlm", "Heb": "Heb", "Jas": "James",
+    "1Pet": "1 Pet", "2Pet": "2 Pet", "1John": "1 John", "2John": "2 John",
+    "3John": "3 John", "Jude": "Jude", "Rev": "Rev",
+}
 
 HEBREW_PRESENTATION = (0xFB1D, 0xFB4F)
 ID_RE = re.compile(r"^[A-Za-z0-9]+\.[A-Za-z0-9]+\.\d+\.\d+\.w\d+$")
@@ -105,6 +124,68 @@ def reconcile_nrv():
 
 
 RECONCILERS = {"NRV": reconcile_nrv}
+
+
+def source_gematria():
+    """{(label, ch, v, wi): recorded value} straight from the source TSV."""
+    p = RAW / "livinggreeknt_new.tsv"
+    if not p.exists():
+        return {}
+    out, seen = {}, {}
+    with open(p, encoding="utf-8") as fh:
+        for r in list(csv.reader(fh, delimiter="\t"))[1:]:
+            if len(r) > 9 and r[7]:
+                k = (r[0], int(r[1]), int(r[2]))
+                seen[k] = seen.get(k, 0) + 1
+                out[(r[0], int(r[1]), int(r[2]), seen[k])] = r[9]
+    return out
+
+
+def isopsephy(word):
+    total = 0
+    for ch in word:
+        if ch not in GEMATRIA:
+            return None
+        total += GEMATRIA[ch]
+    return total
+
+
+def load_corrections(recs_by_id):
+    """Load and INDEPENDENTLY re-verify corrections. -> (by_id, errors).
+
+    The corrections file is treated as untrusted input: every entry must name
+    a real record, match that record's stored text, and produce a word whose
+    gematria equals the value the SOURCE recorded. Anything else is an error,
+    never a silent application.
+    """
+    if not CORRECTIONS.exists():
+        return {}, []
+    doc = json.loads(CORRECTIONS.read_text(encoding="utf-8"))
+    src = source_gematria()
+    by_id, errs = {}, []
+    for e in doc.get("corrections", []):
+        rid = e.get("id", "<missing>")
+        rec = recs_by_id.get(rid)
+        if rec is None:
+            errs.append(f"{rid}: correction names a record that does not exist")
+            continue
+        if rec["raw"] != e.get("stored"):
+            errs.append(f"{rid}: stored text {e.get('stored')!r} != actual "
+                        f"{rec['raw']!r} (stale correction)")
+            continue
+        label = NRV_OSIS_TO_LABEL.get(rec["book"])
+        recorded = src.get((label, rec["ch"], rec["v"], rec["wi"]))
+        got = isopsephy(e.get("corrected", ""))
+        if recorded is None:
+            errs.append(f"{rid}: no source gematria to verify against")
+        elif got is None or str(got) != str(recorded):
+            errs.append(f"{rid}: corrected {e.get('corrected')!r} computes "
+                        f"{got}, source records {recorded}")
+        else:
+            by_id[rid] = e["corrected"]
+    for e in doc.get("rejected", []):
+        errs.append(f"{e.get('id')}: unresolved defect - {e.get('reason')}")
+    return by_id, errs
 
 
 # ---------------------------------------------------------------- structure
@@ -196,15 +277,24 @@ def main():
     for o in outs:
         by_edition[o["edition"]].append(o)
 
-    report = {}
+    # Load every record before judging any edition, so corrections can be
+    # verified against the whole corpus.
+    recs_by_ed = {}
     for ed, entries in by_edition.items():
         if ed not in ALLOWED:
             die(f"edition '{ed}' has no ALLOWED codepoint set; refusing to "
                 f"audit it, since every codepoint would look foreign.")
-        recs = [json.loads(l) for e in entries
-                for l in open(TEXTS / e["path"], encoding="utf-8")]
-        if not recs:
+        loaded = [json.loads(l) for e in entries
+                  for l in open(TEXTS / e["path"], encoding="utf-8")]
+        if not loaded:
             die(f"edition '{ed}' produced zero records.")
+        recs_by_ed[ed] = loaded
+    all_by_id = {r["id"]: r for rs in recs_by_ed.values() for r in rs}
+    fixes, fix_errs = load_corrections(all_by_id)
+
+    report = {}
+    for ed, entries in by_edition.items():
+        recs = recs_by_ed[ed]
 
         bad_sums = [e["path"] for e in entries
                     if hashlib.sha256((TEXTS / e["path"]).read_bytes()
@@ -221,7 +311,10 @@ def main():
                          f"{len(recs)}/{exp_words} words, "
                          f"{len(entries)}/{exp_books} books")
 
-        raws = [r["raw"] for r in recs]
+        # Census the CORRECTED view: `raw` stays source-exact on disk, but the
+        # gate must judge the text the engine will actually transcribe.
+        raws = [fixes.get(r["id"], r["raw"]) for r in recs]
+        applied = sum(1 for r in recs if r["id"] in fixes)
         decomposed = reordered = 0
         presentation = Counter()
         for w in raws:
@@ -246,7 +339,8 @@ def main():
         report[ed] = {"entries": entries, "words": len(recs), "stored": stored,
                       "nfd": nfd_c, "sep": sep, "presentation": presentation,
                       "decomposed": decomposed, "reordered": reordered,
-                      "bad_sums": bad_sums, "struct": struct, "recon": recon}
+                      "bad_sums": bad_sums, "struct": struct, "recon": recon,
+                      "applied": applied, "fix_errs": fix_errs}
 
     # ---- allowlist gate, per edition --------------------------------------
     prior = (json.loads(ALLOWLIST.read_text(encoding="utf-8"))
@@ -272,6 +366,7 @@ def main():
         gate[ed] = new
 
         clean = (not new and not R["bad_sums"] and not R["struct"]
+                 and not R["fix_errs"]
                  and (R["recon"] is None or R["recon"][0]))
         if not clean:
             failures.append(ed)
@@ -298,15 +393,20 @@ def main():
     # ------------------------------------------------------------------ out
     print(f"corpus: {len(outs)} files, {sum(R['words'] for R in report.values())}"
           f" words, {len(by_edition)} edition(s)\n")
-    print(f"{'edition':9s} {'files':>5s} {'words':>8s} {'stored':>7s} "
-          f"{'nfd':>5s} {'struct':>7s} {'sums':>5s}  reconcile        gate")
+    print(f"{'edition':9s} {'files':>5s} {'words':>8s} {'cps':>4s} "
+          f"{'fixed':>6s} {'struct':>7s} {'sums':>5s}  reconcile        gate")
     print("-" * 88)
     for ed, R in report.items():
         rc = R["recon"][1] if R["recon"] else "n/a"
         print(f"{ed:9s} {len(R['entries']):5d} {R['words']:8d} "
-              f"{len(R['stored']):7d} {len(R['nfd']):5d} {len(R['struct']):7d} "
+              f"{len(R['stored']):4d} {R['applied']:6d} {len(R['struct']):7d} "
               f"{len(R['bad_sums']):5d}  {rc:16s} "
               f"{'FAIL' if ed in failures else 'pass'}")
+    if any(R["fix_errs"] for R in report.values()):
+        errs = next(R["fix_errs"] for R in report.values() if R["fix_errs"])
+        print(f"\nCORRECTION VERIFICATION ERRORS ({len(errs)}):")
+        for e in errs[:10]:
+            print("   " + e)
 
     for ed, R in report.items():
         if R["struct"]:

@@ -1,0 +1,180 @@
+{
+  "purpose": "frozen inventory of every codepoint known to occur in Raw_Texts. A new codepoint fails the audit until it is classified.",
+  "rule": "auto-freeze only codepoints in an edition's ALLOWED set; anything else must be hand-classified. Gate is the union of stored and NFD codepoints. A failing edition is never rewritten.",
+  "editions": {
+    "NRV": {
+      "words": 137720,
+      "distinct": 24,
+      "codepoints": {
+        "U+0391": {
+          "char": "Α",
+          "name": "GREEK CAPITAL LETTER ALPHA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 76710
+        },
+        "U+0392": {
+          "char": "Β",
+          "name": "GREEK CAPITAL LETTER BETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3514
+        },
+        "U+0393": {
+          "char": "Γ",
+          "name": "GREEK CAPITAL LETTER GAMMA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 11032
+        },
+        "U+0394": {
+          "char": "Δ",
+          "name": "GREEK CAPITAL LETTER DELTA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 12759
+        },
+        "U+0395": {
+          "char": "Ε",
+          "name": "GREEK CAPITAL LETTER EPSILON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 67380
+        },
+        "U+0396": {
+          "char": "Ζ",
+          "name": "GREEK CAPITAL LETTER ZETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 1568
+        },
+        "U+0397": {
+          "char": "Η",
+          "name": "GREEK CAPITAL LETTER ETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 26938
+        },
+        "U+0398": {
+          "char": "Θ",
+          "name": "GREEK CAPITAL LETTER THETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 10658
+        },
+        "U+0399": {
+          "char": "Ι",
+          "name": "GREEK CAPITAL LETTER IOTA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 72419
+        },
+        "U+039A": {
+          "char": "Κ",
+          "name": "GREEK CAPITAL LETTER KAPPA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 23912
+        },
+        "U+039B": {
+          "char": "Λ",
+          "name": "GREEK CAPITAL LETTER LAMDA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 18333
+        },
+        "U+039C": {
+          "char": "Μ",
+          "name": "GREEK CAPITAL LETTER MU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 19637
+        },
+        "U+039D": {
+          "char": "Ν",
+          "name": "GREEK CAPITAL LETTER NU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 56419
+        },
+        "U+039E": {
+          "char": "Ξ",
+          "name": "GREEK CAPITAL LETTER XI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 2222
+        },
+        "U+039F": {
+          "char": "Ο",
+          "name": "GREEK CAPITAL LETTER OMICRON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 66524
+        },
+        "U+03A0": {
+          "char": "Π",
+          "name": "GREEK CAPITAL LETTER PI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 21657
+        },
+        "U+03A1": {
+          "char": "Ρ",
+          "name": "GREEK CAPITAL LETTER RHO",
+          "category": "Lu",
+          "combining": 0,
+          "count": 23091
+        },
+        "U+03A3": {
+          "char": "Σ",
+          "name": "GREEK CAPITAL LETTER SIGMA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 51624
+        },
+        "U+03A4": {
+          "char": "Τ",
+          "name": "GREEK CAPITAL LETTER TAU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 51185
+        },
+        "U+03A5": {
+          "char": "Υ",
+          "name": "GREEK CAPITAL LETTER UPSILON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 39592
+        },
+        "U+03A6": {
+          "char": "Φ",
+          "name": "GREEK CAPITAL LETTER PHI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3891
+        },
+        "U+03A7": {
+          "char": "Χ",
+          "name": "GREEK CAPITAL LETTER CHI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 5235
+        },
+        "U+03A8": {
+          "char": "Ψ",
+          "name": "GREEK CAPITAL LETTER PSI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 948
+        },
+        "U+03A9": {
+          "char": "Ω",
+          "name": "GREEK CAPITAL LETTER OMEGA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 21375
+        }
+      }
+    }
+  }
+}
