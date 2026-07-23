@@ -1,0 +1,107 @@
+{
+  "layer": "Raw_Texts",
+  "purpose": "read layer for IPA reconstruction",
+  "sources": [
+    {
+      "edition": "WLC",
+      "name": "Unicode/XML Leningrad Codex (UXLC 2.5)",
+      "url": "https://tanach.us/Books/Tanach.xml.zip",
+      "licence": "Hebrew text free of restriction (tanach.us)",
+      "sha256": "1bc6e006f43d3b18f2f718cefa3aa4774cac2c54092c28d173dd61996c43a050"
+    },
+    {
+      "edition": "TR1894",
+      "name": "Scrivener Textus Receptus 1894",
+      "url": "https://github.com/bible-api-io/bible-api-version-tr1894",
+      "licence": "MIT-0; underlying text public domain",
+      "sha256": "e5e9ebb1b3a222efd0239119f7df98f31fe71ba10560ea2396ff84e0e93db374"
+    },
+    {
+      "edition": "NRV",
+      "name": "LivingGreekNT (Numeric Restorative)",
+      "url": "https://github.com/ivandustin/livinggreeknt",
+      "licence": "CC0 (site); underlying text public domain",
+      "sha256": "ebd7d814b94f7d04a3e65826fd840050ac5145fcc4241e111f9c64247c0ddf2d"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "WLC.Gen.1.jsonl",
+      "edition": "WLC",
+      "lang": "hbo",
+      "script": "Hebr",
+      "versification": "mt",
+      "book": "Gen",
+      "chapter": 1,
+      "words": 434,
+      "verses": 31,
+      "roundtrip": "pass",
+      "sha256": "56a93d449b314943b9ce8aac5fd5af89eabcc7591b8d879f95a90f38bd529e33"
+    },
+    {
+      "file": "WLC.Ps.16.jsonl",
+      "edition": "WLC",
+      "lang": "hbo",
+      "script": "Hebr",
+      "versification": "mt",
+      "book": "Ps",
+      "chapter": 16,
+      "words": 97,
+      "verses": 11,
+      "roundtrip": "pass",
+      "sha256": "474c5a83a97aa2008d25580c603668bc64998f4967c5ae3c79fb2d8c59755a34"
+    },
+    {
+      "file": "TR.John.1.jsonl",
+      "edition": "TR1894",
+      "lang": "grc",
+      "script": "Grek",
+      "versification": "kjv",
+      "book": "John",
+      "chapter": 1,
+      "words": 846,
+      "verses": 51,
+      "roundtrip": "pass",
+      "sha256": "58762073e98de59befbab059de56b93d2ee4375cff0c3e389cf6b7272a9efdfe"
+    },
+    {
+      "file": "TR.Rom.8.jsonl",
+      "edition": "TR1894",
+      "lang": "grc",
+      "script": "Grek",
+      "versification": "kjv",
+      "book": "Rom",
+      "chapter": 8,
+      "words": 663,
+      "verses": 39,
+      "roundtrip": "pass",
+      "sha256": "82e9fd81ad5512120515648503d31f8c731e7d4a931128b65ff0dcac7526179c"
+    },
+    {
+      "file": "NRV.John.11.jsonl",
+      "edition": "NRV",
+      "lang": "grc",
+      "script": "Grek",
+      "versification": "kjv",
+      "book": "John",
+      "chapter": 11,
+      "words": 945,
+      "verses": 57,
+      "roundtrip": "pass",
+      "sha256": "ecb5bf97c85652715af3ebb8c0430c632ca2c555f46d65517a6b9f3b832a2627"
+    },
+    {
+      "file": "NRV.Rom.1.jsonl",
+      "edition": "NRV",
+      "lang": "grc",
+      "script": "Grek",
+      "versification": "kjv",
+      "book": "Rom",
+      "chapter": 1,
+      "words": 543,
+      "verses": 32,
+      "roundtrip": "pass",
+      "sha256": "8669e945617aa143ba4bd62198391ef517d9a8c3463a569dd2c6d70e2b771c97"
+    }
+  ]
+}

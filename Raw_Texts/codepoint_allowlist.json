@@ -1,0 +1,1212 @@
+{
+  "purpose": "frozen inventory of every codepoint known to occur in Raw_Texts. A new codepoint fails the audit until it is classified here.",
+  "editions": {
+    "WLC": {
+      "words": 531,
+      "distinct": 71,
+      "codepoints": {
+        "U+0020": {
+          "char": " ",
+          "name": "SPACE",
+          "category": "Zs",
+          "combining": 0,
+          "count": 8,
+          "role": "punct/other",
+          "note": "SPACE inside `raw` - occurs only as part of the paseq encoding."
+        },
+        "U+034F": {
+          "char": "͏",
+          "name": "COMBINING GRAPHEME JOINER",
+          "category": "Mn",
+          "combining": 0,
+          "count": 11,
+          "role": "mark",
+          "note": "COMBINING GRAPHEME JOINER - blocks canonical reordering of Masoretic marks. Load-bearing: never strip."
+        },
+        "U+0591": {
+          "char": "֑",
+          "name": "HEBREW ACCENT ETNAHTA",
+          "category": "Mn",
+          "combining": 220,
+          "count": 39,
+          "role": "mark"
+        },
+        "U+0592": {
+          "char": "֒",
+          "name": "HEBREW ACCENT SEGOL",
+          "category": "Mn",
+          "combining": 230,
+          "count": 2,
+          "role": "mark"
+        },
+        "U+0594": {
+          "char": "֔",
+          "name": "HEBREW ACCENT ZAQEF QATAN",
+          "category": "Mn",
+          "combining": 230,
+          "count": 36,
+          "role": "mark"
+        },
+        "U+0595": {
+          "char": "֕",
+          "name": "HEBREW ACCENT ZAQEF GADOL",
+          "category": "Mn",
+          "combining": 230,
+          "count": 1,
+          "role": "mark"
+        },
+        "U+0596": {
+          "char": "֖",
+          "name": "HEBREW ACCENT TIPEHA",
+          "category": "Mn",
+          "combining": 220,
+          "count": 53,
+          "role": "mark"
+        },
+        "U+0597": {
+          "char": "֗",
+          "name": "HEBREW ACCENT REVIA",
+          "category": "Mn",
+          "combining": 230,
+          "count": 27,
+          "role": "mark"
+        },
+        "U+0599": {
+          "char": "֙",
+          "name": "HEBREW ACCENT PASHTA",
+          "category": "Mn",
+          "combining": 230,
+          "count": 32,
+          "role": "mark"
+        },
+        "U+059A": {
+          "char": "֚",
+          "name": "HEBREW ACCENT YETIV",
+          "category": "Mn",
+          "combining": 222,
+          "count": 1,
+          "role": "mark"
+        },
+        "U+059B": {
+          "char": "֛",
+          "name": "HEBREW ACCENT TEVIR",
+          "category": "Mn",
+          "combining": 220,
+          "count": 10,
+          "role": "mark"
+        },
+        "U+059C": {
+          "char": "֜",
+          "name": "HEBREW ACCENT GERESH",
+          "category": "Mn",
+          "combining": 230,
+          "count": 9,
+          "role": "mark"
+        },
+        "U+059D": {
+          "char": "֝",
+          "name": "HEBREW ACCENT GERESH MUQDAM",
+          "category": "Mn",
+          "combining": 230,
+          "count": 10,
+          "role": "mark"
+        },
+        "U+059E": {
+          "char": "֞",
+          "name": "HEBREW ACCENT GERSHAYIM",
+          "category": "Mn",
+          "combining": 230,
+          "count": 2,
+          "role": "mark"
+        },
+        "U+05A0": {
+          "char": "֠",
+          "name": "HEBREW ACCENT TELISHA GEDOLA",
+          "category": "Mn",
+          "combining": 230,
+          "count": 2,
+          "role": "mark"
+        },
+        "U+05A1": {
+          "char": "֡",
+          "name": "HEBREW ACCENT PAZER",
+          "category": "Mn",
+          "combining": 230,
+          "count": 1,
+          "role": "mark"
+        },
+        "U+05A2": {
+          "char": "֢",
+          "name": "HEBREW ACCENT ATNAH HAFUKH",
+          "category": "Mn",
+          "combining": 220,
+          "count": 1,
+          "role": "mark"
+        },
+        "U+05A3": {
+          "char": "֣",
+          "name": "HEBREW ACCENT MUNAH",
+          "category": "Mn",
+          "combining": 220,
+          "count": 72,
+          "role": "mark"
+        },
+        "U+05A4": {
+          "char": "֤",
+          "name": "HEBREW ACCENT MAHAPAKH",
+          "category": "Mn",
+          "combining": 220,
+          "count": 21,
+          "role": "mark"
+        },
+        "U+05A5": {
+          "char": "֥",
+          "name": "HEBREW ACCENT MERKHA",
+          "category": "Mn",
+          "combining": 220,
+          "count": 63,
+          "role": "mark"
+        },
+        "U+05A7": {
+          "char": "֧",
+          "name": "HEBREW ACCENT DARGA",
+          "category": "Mn",
+          "combining": 220,
+          "count": 4,
+          "role": "mark"
+        },
+        "U+05A8": {
+          "char": "֨",
+          "name": "HEBREW ACCENT QADMA",
+          "category": "Mn",
+          "combining": 230,
+          "count": 13,
+          "role": "mark"
+        },
+        "U+05A9": {
+          "char": "֩",
+          "name": "HEBREW ACCENT TELISHA QETANA",
+          "category": "Mn",
+          "combining": 230,
+          "count": 4,
+          "role": "mark"
+        },
+        "U+05AB": {
+          "char": "֫",
+          "name": "HEBREW ACCENT OLE",
+          "category": "Mn",
+          "combining": 230,
+          "count": 2,
+          "role": "mark"
+        },
+        "U+05AC": {
+          "char": "֬",
+          "name": "HEBREW ACCENT ILUY",
+          "category": "Mn",
+          "combining": 230,
+          "count": 1,
+          "role": "mark"
+        },
+        "U+05AD": {
+          "char": "֭",
+          "name": "HEBREW ACCENT DEHI",
+          "category": "Mn",
+          "combining": 222,
+          "count": 6,
+          "role": "mark"
+        },
+        "U+05AE": {
+          "char": "֮",
+          "name": "HEBREW ACCENT ZINOR",
+          "category": "Mn",
+          "combining": 228,
+          "count": 4,
+          "role": "mark"
+        },
+        "U+05B0": {
+          "char": "ְ",
+          "name": "HEBREW POINT SHEVA",
+          "category": "Mn",
+          "combining": 10,
+          "count": 210,
+          "role": "mark"
+        },
+        "U+05B1": {
+          "char": "ֱ",
+          "name": "HEBREW POINT HATAF SEGOL",
+          "category": "Mn",
+          "combining": 11,
+          "count": 32,
+          "role": "mark"
+        },
+        "U+05B2": {
+          "char": "ֲ",
+          "name": "HEBREW POINT HATAF PATAH",
+          "category": "Mn",
+          "combining": 12,
+          "count": 22,
+          "role": "mark"
+        },
+        "U+05B4": {
+          "char": "ִ",
+          "name": "HEBREW POINT HIRIQ",
+          "category": "Mn",
+          "combining": 14,
+          "count": 214,
+          "role": "mark"
+        },
+        "U+05B5": {
+          "char": "ֵ",
+          "name": "HEBREW POINT TSERE",
+          "category": "Mn",
+          "combining": 15,
+          "count": 75,
+          "role": "mark"
+        },
+        "U+05B6": {
+          "char": "ֶ",
+          "name": "HEBREW POINT SEGOL",
+          "category": "Mn",
+          "combining": 16,
+          "count": 153,
+          "role": "mark"
+        },
+        "U+05B7": {
+          "char": "ַ",
+          "name": "HEBREW POINT PATAH",
+          "category": "Mn",
+          "combining": 17,
+          "count": 218,
+          "role": "mark"
+        },
+        "U+05B8": {
+          "char": "ָ",
+          "name": "HEBREW POINT QAMATS",
+          "category": "Mn",
+          "combining": 18,
+          "count": 231,
+          "role": "mark"
+        },
+        "U+05B9": {
+          "char": "ֹ",
+          "name": "HEBREW POINT HOLAM",
+          "category": "Mn",
+          "combining": 19,
+          "count": 155,
+          "role": "mark"
+        },
+        "U+05BB": {
+          "char": "ֻ",
+          "name": "HEBREW POINT QUBUTS",
+          "category": "Mn",
+          "combining": 20,
+          "count": 1,
+          "role": "mark"
+        },
+        "U+05BC": {
+          "char": "ּ",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn",
+          "combining": 21,
+          "count": 241,
+          "role": "mark"
+        },
+        "U+05BD": {
+          "char": "ֽ",
+          "name": "HEBREW POINT METEG",
+          "category": "Mn",
+          "combining": 22,
+          "count": 86,
+          "role": "mark"
+        },
+        "U+05BE": {
+          "char": "־",
+          "name": "HEBREW PUNCTUATION MAQAF",
+          "category": "Pd",
+          "combining": 0,
+          "count": 92,
+          "role": "punct/other",
+          "note": "MAQQEF - joins words; the following `after` is empty by design."
+        },
+        "U+05C0": {
+          "char": "׀",
+          "name": "HEBREW PUNCTUATION PASEQ",
+          "category": "Po",
+          "combining": 0,
+          "count": 8,
+          "role": "punct/other",
+          "note": "PASEQ - phrase divider; WLC encodes it attached to the preceding word, preceded by a space."
+        },
+        "U+05C1": {
+          "char": "ׁ",
+          "name": "HEBREW POINT SHIN DOT",
+          "category": "Mn",
+          "combining": 24,
+          "count": 59,
+          "role": "mark"
+        },
+        "U+05C2": {
+          "char": "ׂ",
+          "name": "HEBREW POINT SIN DOT",
+          "category": "Mn",
+          "combining": 25,
+          "count": 24,
+          "role": "mark"
+        },
+        "U+05C3": {
+          "char": "׃",
+          "name": "HEBREW PUNCTUATION SOF PASUQ",
+          "category": "Po",
+          "combining": 0,
+          "count": 42,
+          "role": "punct/other"
+        },
+        "U+05D0": {
+          "char": "א",
+          "name": "HEBREW LETTER ALEF",
+          "category": "Lo",
+          "combining": 0,
+          "count": 173,
+          "role": "letter"
+        },
+        "U+05D1": {
+          "char": "ב",
+          "name": "HEBREW LETTER BET",
+          "category": "Lo",
+          "combining": 0,
+          "count": 101,
+          "role": "letter"
+        },
+        "U+05D2": {
+          "char": "ג",
+          "name": "HEBREW LETTER GIMEL",
+          "category": "Lo",
+          "combining": 0,
+          "count": 8,
+          "role": "letter"
+        },
+        "U+05D3": {
+          "char": "ד",
+          "name": "HEBREW LETTER DALET",
+          "category": "Lo",
+          "combining": 0,
+          "count": 34,
+          "role": "letter"
+        },
+        "U+05D4": {
+          "char": "ה",
+          "name": "HEBREW LETTER HE",
+          "category": "Lo",
+          "combining": 0,
+          "count": 193,
+          "role": "letter"
+        },
+        "U+05D5": {
+          "char": "ו",
+          "name": "HEBREW LETTER VAV",
+          "category": "Lo",
+          "combining": 0,
+          "count": 207,
+          "role": "letter"
+        },
+        "U+05D6": {
+          "char": "ז",
+          "name": "HEBREW LETTER ZAYIN",
+          "category": "Lo",
+          "combining": 0,
+          "count": 12,
+          "role": "letter"
+        },
+        "U+05D7": {
+          "char": "ח",
+          "name": "HEBREW LETTER HET",
+          "category": "Lo",
+          "combining": 0,
+          "count": 33,
+          "role": "letter"
+        },
+        "U+05D8": {
+          "char": "ט",
+          "name": "HEBREW LETTER TET",
+          "category": "Lo",
+          "combining": 0,
+          "count": 11,
+          "role": "letter"
+        },
+        "U+05D9": {
+          "char": "י",
+          "name": "HEBREW LETTER YOD",
+          "category": "Lo",
+          "combining": 0,
+          "count": 295,
+          "role": "letter"
+        },
+        "U+05DA": {
+          "char": "ך",
+          "name": "HEBREW LETTER FINAL KAF",
+          "category": "Lo",
+          "combining": 0,
+          "count": 15,
+          "role": "letter"
+        },
+        "U+05DB": {
+          "char": "כ",
+          "name": "HEBREW LETTER KAF",
+          "category": "Lo",
+          "combining": 0,
+          "count": 47,
+          "role": "letter"
+        },
+        "U+05DC": {
+          "char": "ל",
+          "name": "HEBREW LETTER LAMED",
+          "category": "Lo",
+          "combining": 0,
+          "count": 155,
+          "role": "letter"
+        },
+        "U+05DD": {
+          "char": "ם",
+          "name": "HEBREW LETTER FINAL MEM",
+          "category": "Lo",
+          "combining": 0,
+          "count": 97,
+          "role": "letter"
+        },
+        "U+05DE": {
+          "char": "מ",
+          "name": "HEBREW LETTER MEM",
+          "category": "Lo",
+          "combining": 0,
+          "count": 101,
+          "role": "letter"
+        },
+        "U+05DF": {
+          "char": "ן",
+          "name": "HEBREW LETTER FINAL NUN",
+          "category": "Lo",
+          "combining": 0,
+          "count": 20,
+          "role": "letter"
+        },
+        "U+05E0": {
+          "char": "נ",
+          "name": "HEBREW LETTER NUN",
+          "category": "Lo",
+          "combining": 0,
+          "count": 48,
+          "role": "letter"
+        },
+        "U+05E1": {
+          "char": "ס",
+          "name": "HEBREW LETTER SAMEKH",
+          "category": "Lo",
+          "combining": 0,
+          "count": 6,
+          "role": "letter"
+        },
+        "U+05E2": {
+          "char": "ע",
+          "name": "HEBREW LETTER AYIN",
+          "category": "Lo",
+          "combining": 0,
+          "count": 71,
+          "role": "letter"
+        },
+        "U+05E3": {
+          "char": "ף",
+          "name": "HEBREW LETTER FINAL PE",
+          "category": "Lo",
+          "combining": 0,
+          "count": 11,
+          "role": "letter"
+        },
+        "U+05E4": {
+          "char": "פ",
+          "name": "HEBREW LETTER PE",
+          "category": "Lo",
+          "combining": 0,
+          "count": 22,
+          "role": "letter"
+        },
+        "U+05E5": {
+          "char": "ץ",
+          "name": "HEBREW LETTER FINAL TSADI",
+          "category": "Lo",
+          "combining": 0,
+          "count": 26,
+          "role": "letter"
+        },
+        "U+05E6": {
+          "char": "צ",
+          "name": "HEBREW LETTER TSADI",
+          "category": "Lo",
+          "combining": 0,
+          "count": 11,
+          "role": "letter"
+        },
+        "U+05E7": {
+          "char": "ק",
+          "name": "HEBREW LETTER QOF",
+          "category": "Lo",
+          "combining": 0,
+          "count": 28,
+          "role": "letter"
+        },
+        "U+05E8": {
+          "char": "ר",
+          "name": "HEBREW LETTER RESH",
+          "category": "Lo",
+          "combining": 0,
+          "count": 147,
+          "role": "letter"
+        },
+        "U+05E9": {
+          "char": "ש",
+          "name": "HEBREW LETTER SHIN",
+          "category": "Lo",
+          "combining": 0,
+          "count": 83,
+          "role": "letter"
+        },
+        "U+05EA": {
+          "char": "ת",
+          "name": "HEBREW LETTER TAV",
+          "category": "Lo",
+          "combining": 0,
+          "count": 86,
+          "role": "letter"
+        }
+      }
+    },
+    "TR1894": {
+      "words": 1509,
+      "distinct": 53,
+      "codepoints": {
+        "U+0300": {
+          "char": "̀",
+          "name": "COMBINING GRAVE ACCENT",
+          "category": "Mn",
+          "combining": 230,
+          "count": 369,
+          "role": "mark"
+        },
+        "U+0301": {
+          "char": "́",
+          "name": "COMBINING ACUTE ACCENT",
+          "category": "Mn",
+          "combining": 230,
+          "count": 568,
+          "role": "mark"
+        },
+        "U+0308": {
+          "char": "̈",
+          "name": "COMBINING DIAERESIS",
+          "category": "Mn",
+          "combining": 230,
+          "count": 3,
+          "role": "mark"
+        },
+        "U+0313": {
+          "char": "̓",
+          "name": "COMBINING COMMA ABOVE",
+          "category": "Mn",
+          "combining": 230,
+          "count": 516,
+          "role": "mark"
+        },
+        "U+0314": {
+          "char": "̔",
+          "name": "COMBINING REVERSED COMMA ABOVE",
+          "category": "Mn",
+          "combining": 230,
+          "count": 233,
+          "role": "mark"
+        },
+        "U+0342": {
+          "char": "͂",
+          "name": "COMBINING GREEK PERISPOMENI",
+          "category": "Mn",
+          "combining": 230,
+          "count": 376,
+          "role": "mark"
+        },
+        "U+0345": {
+          "char": "ͅ",
+          "name": "COMBINING GREEK YPOGEGRAMMENI",
+          "category": "Mn",
+          "combining": 240,
+          "count": 63,
+          "role": "mark"
+        },
+        "U+0391": {
+          "char": "Α",
+          "name": "GREEK CAPITAL LETTER ALPHA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 7,
+          "role": "letter"
+        },
+        "U+0392": {
+          "char": "Β",
+          "name": "GREEK CAPITAL LETTER BETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 2,
+          "role": "letter"
+        },
+        "U+0393": {
+          "char": "Γ",
+          "name": "GREEK CAPITAL LETTER GAMMA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 1,
+          "role": "letter"
+        },
+        "U+0394": {
+          "char": "Δ",
+          "name": "GREEK CAPITAL LETTER DELTA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 1,
+          "role": "letter"
+        },
+        "U+0395": {
+          "char": "Ε",
+          "name": "GREEK CAPITAL LETTER EPSILON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 10,
+          "role": "letter"
+        },
+        "U+0397": {
+          "char": "Η",
+          "name": "GREEK CAPITAL LETTER ETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3,
+          "role": "letter"
+        },
+        "U+0398": {
+          "char": "Θ",
+          "name": "GREEK CAPITAL LETTER THETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 30,
+          "role": "letter"
+        },
+        "U+0399": {
+          "char": "Ι",
+          "name": "GREEK CAPITAL LETTER IOTA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 36,
+          "role": "letter"
+        },
+        "U+039A": {
+          "char": "Κ",
+          "name": "GREEK CAPITAL LETTER KAPPA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 4,
+          "role": "letter"
+        },
+        "U+039B": {
+          "char": "Λ",
+          "name": "GREEK CAPITAL LETTER LAMDA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 2,
+          "role": "letter"
+        },
+        "U+039C": {
+          "char": "Μ",
+          "name": "GREEK CAPITAL LETTER MU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3,
+          "role": "letter"
+        },
+        "U+039D": {
+          "char": "Ν",
+          "name": "GREEK CAPITAL LETTER NU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 7,
+          "role": "letter"
+        },
+        "U+039F": {
+          "char": "Ο",
+          "name": "GREEK CAPITAL LETTER OMICRON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 10,
+          "role": "letter"
+        },
+        "U+03A0": {
+          "char": "Π",
+          "name": "GREEK CAPITAL LETTER PI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 17,
+          "role": "letter"
+        },
+        "U+03A1": {
+          "char": "Ρ",
+          "name": "GREEK CAPITAL LETTER RHO",
+          "category": "Lu",
+          "combining": 0,
+          "count": 2,
+          "role": "letter"
+        },
+        "U+03A3": {
+          "char": "Σ",
+          "name": "GREEK CAPITAL LETTER SIGMA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 5,
+          "role": "letter"
+        },
+        "U+03A4": {
+          "char": "Τ",
+          "name": "GREEK CAPITAL LETTER TAU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 9,
+          "role": "letter"
+        },
+        "U+03A6": {
+          "char": "Φ",
+          "name": "GREEK CAPITAL LETTER PHI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 6,
+          "role": "letter"
+        },
+        "U+03A7": {
+          "char": "Χ",
+          "name": "GREEK CAPITAL LETTER CHI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 13,
+          "role": "letter"
+        },
+        "U+03A9": {
+          "char": "Ω",
+          "name": "GREEK CAPITAL LETTER OMEGA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 1,
+          "role": "letter"
+        },
+        "U+03B1": {
+          "char": "α",
+          "name": "GREEK SMALL LETTER ALPHA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 742,
+          "role": "letter"
+        },
+        "U+03B2": {
+          "char": "β",
+          "name": "GREEK SMALL LETTER BETA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 35,
+          "role": "letter"
+        },
+        "U+03B3": {
+          "char": "γ",
+          "name": "GREEK SMALL LETTER GAMMA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 111,
+          "role": "letter"
+        },
+        "U+03B4": {
+          "char": "δ",
+          "name": "GREEK SMALL LETTER DELTA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 124,
+          "role": "letter"
+        },
+        "U+03B5": {
+          "char": "ε",
+          "name": "GREEK SMALL LETTER EPSILON",
+          "category": "Ll",
+          "combining": 0,
+          "count": 702,
+          "role": "letter"
+        },
+        "U+03B6": {
+          "char": "ζ",
+          "name": "GREEK SMALL LETTER ZETA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 27,
+          "role": "letter"
+        },
+        "U+03B7": {
+          "char": "η",
+          "name": "GREEK SMALL LETTER ETA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 264,
+          "role": "letter"
+        },
+        "U+03B8": {
+          "char": "θ",
+          "name": "GREEK SMALL LETTER THETA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 91,
+          "role": "letter"
+        },
+        "U+03B9": {
+          "char": "ι",
+          "name": "GREEK SMALL LETTER IOTA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 608,
+          "role": "letter"
+        },
+        "U+03BA": {
+          "char": "κ",
+          "name": "GREEK SMALL LETTER KAPPA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 243,
+          "role": "letter"
+        },
+        "U+03BB": {
+          "char": "λ",
+          "name": "GREEK SMALL LETTER LAMDA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 160,
+          "role": "letter"
+        },
+        "U+03BC": {
+          "char": "μ",
+          "name": "GREEK SMALL LETTER MU",
+          "category": "Ll",
+          "combining": 0,
+          "count": 217,
+          "role": "letter"
+        },
+        "U+03BD": {
+          "char": "ν",
+          "name": "GREEK SMALL LETTER NU",
+          "category": "Ll",
+          "combining": 0,
+          "count": 569,
+          "role": "letter"
+        },
+        "U+03BE": {
+          "char": "ξ",
+          "name": "GREEK SMALL LETTER XI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 19,
+          "role": "letter"
+        },
+        "U+03BF": {
+          "char": "ο",
+          "name": "GREEK SMALL LETTER OMICRON",
+          "category": "Ll",
+          "combining": 0,
+          "count": 739,
+          "role": "letter"
+        },
+        "U+03C0": {
+          "char": "π",
+          "name": "GREEK SMALL LETTER PI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 195,
+          "role": "letter"
+        },
+        "U+03C1": {
+          "char": "ρ",
+          "name": "GREEK SMALL LETTER RHO",
+          "category": "Ll",
+          "combining": 0,
+          "count": 248,
+          "role": "letter"
+        },
+        "U+03C2": {
+          "char": "ς",
+          "name": "GREEK SMALL LETTER FINAL SIGMA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 274,
+          "role": "letter"
+        },
+        "U+03C3": {
+          "char": "σ",
+          "name": "GREEK SMALL LETTER SIGMA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 223,
+          "role": "letter"
+        },
+        "U+03C4": {
+          "char": "τ",
+          "name": "GREEK SMALL LETTER TAU",
+          "category": "Ll",
+          "combining": 0,
+          "count": 518,
+          "role": "letter"
+        },
+        "U+03C5": {
+          "char": "υ",
+          "name": "GREEK SMALL LETTER UPSILON",
+          "category": "Ll",
+          "combining": 0,
+          "count": 446,
+          "role": "letter"
+        },
+        "U+03C6": {
+          "char": "φ",
+          "name": "GREEK SMALL LETTER PHI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 36,
+          "role": "letter"
+        },
+        "U+03C7": {
+          "char": "χ",
+          "name": "GREEK SMALL LETTER CHI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 36,
+          "role": "letter"
+        },
+        "U+03C8": {
+          "char": "ψ",
+          "name": "GREEK SMALL LETTER PSI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 11,
+          "role": "letter"
+        },
+        "U+03C9": {
+          "char": "ω",
+          "name": "GREEK SMALL LETTER OMEGA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 204,
+          "role": "letter"
+        },
+        "U+2019": {
+          "char": "’",
+          "name": "RIGHT SINGLE QUOTATION MARK",
+          "category": "Pf",
+          "combining": 0,
+          "count": 21,
+          "role": "punct/other",
+          "note": "RIGHT SINGLE QUOTATION MARK - Greek elision apostrophe; part of the word, phonetically meaningful."
+        }
+      }
+    },
+    "NRV": {
+      "words": 1488,
+      "distinct": 24,
+      "codepoints": {
+        "U+0391": {
+          "char": "Α",
+          "name": "GREEK CAPITAL LETTER ALPHA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 801,
+          "role": "letter"
+        },
+        "U+0392": {
+          "char": "Β",
+          "name": "GREEK CAPITAL LETTER BETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 16,
+          "role": "letter"
+        },
+        "U+0393": {
+          "char": "Γ",
+          "name": "GREEK CAPITAL LETTER GAMMA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 88,
+          "role": "letter"
+        },
+        "U+0394": {
+          "char": "Δ",
+          "name": "GREEK CAPITAL LETTER DELTA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 139,
+          "role": "letter"
+        },
+        "U+0395": {
+          "char": "Ε",
+          "name": "GREEK CAPITAL LETTER EPSILON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 739,
+          "role": "letter"
+        },
+        "U+0396": {
+          "char": "Ζ",
+          "name": "GREEK CAPITAL LETTER ZETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 18,
+          "role": "letter"
+        },
+        "U+0397": {
+          "char": "Η",
+          "name": "GREEK CAPITAL LETTER ETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 296,
+          "role": "letter"
+        },
+        "U+0398": {
+          "char": "Θ",
+          "name": "GREEK CAPITAL LETTER THETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 145,
+          "role": "letter"
+        },
+        "U+0399": {
+          "char": "Ι",
+          "name": "GREEK CAPITAL LETTER IOTA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 811,
+          "role": "letter"
+        },
+        "U+039A": {
+          "char": "Κ",
+          "name": "GREEK CAPITAL LETTER KAPPA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 214,
+          "role": "letter"
+        },
+        "U+039B": {
+          "char": "Λ",
+          "name": "GREEK CAPITAL LETTER LAMDA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 186,
+          "role": "letter"
+        },
+        "U+039C": {
+          "char": "Μ",
+          "name": "GREEK CAPITAL LETTER MU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 190,
+          "role": "letter"
+        },
+        "U+039D": {
+          "char": "Ν",
+          "name": "GREEK CAPITAL LETTER NU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 583,
+          "role": "letter"
+        },
+        "U+039E": {
+          "char": "Ξ",
+          "name": "GREEK CAPITAL LETTER XI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 26,
+          "role": "letter"
+        },
+        "U+039F": {
+          "char": "Ο",
+          "name": "GREEK CAPITAL LETTER OMICRON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 730,
+          "role": "letter"
+        },
+        "U+03A0": {
+          "char": "Π",
+          "name": "GREEK CAPITAL LETTER PI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 223,
+          "role": "letter"
+        },
+        "U+03A1": {
+          "char": "Ρ",
+          "name": "GREEK CAPITAL LETTER RHO",
+          "category": "Lu",
+          "combining": 0,
+          "count": 221,
+          "role": "letter"
+        },
+        "U+03A3": {
+          "char": "Σ",
+          "name": "GREEK CAPITAL LETTER SIGMA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 593,
+          "role": "letter"
+        },
+        "U+03A4": {
+          "char": "Τ",
+          "name": "GREEK CAPITAL LETTER TAU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 526,
+          "role": "letter"
+        },
+        "U+03A5": {
+          "char": "Υ",
+          "name": "GREEK CAPITAL LETTER UPSILON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 492,
+          "role": "letter"
+        },
+        "U+03A6": {
+          "char": "Φ",
+          "name": "GREEK CAPITAL LETTER PHI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 50,
+          "role": "letter"
+        },
+        "U+03A7": {
+          "char": "Χ",
+          "name": "GREEK CAPITAL LETTER CHI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 45,
+          "role": "letter"
+        },
+        "U+03A8": {
+          "char": "Ψ",
+          "name": "GREEK CAPITAL LETTER PSI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 5,
+          "role": "letter"
+        },
+        "U+03A9": {
+          "char": "Ω",
+          "name": "GREEK CAPITAL LETTER OMEGA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 193,
+          "role": "letter"
+        }
+      }
+    }
+  }
+}
