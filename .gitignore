@@ -3,3 +3,7 @@ Git_Ignored_Stuff/
 
 # macOS metadata
 .DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
