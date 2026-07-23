@@ -17,8 +17,9 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path("/Users/Shared/IPA_Bible_Project")
-OUT = ROOT / "Raw_Texts"
-ALLOWLIST = OUT / "codepoint_allowlist.json"
+TEXTS = ROOT / "Raw_Texts/Temp"   # the ripped JSONL
+META = ROOT / "Raw_Texts"         # manifest + codepoint allowlist
+ALLOWLIST = META / "codepoint_allowlist.json"
 
 HEBREW_PRESENTATION = (0xFB1D, 0xFB4F)
 CATGROUP = {"Lu": "letter", "Ll": "letter", "Lo": "letter", "Lt": "letter",
@@ -45,11 +46,11 @@ def describe(ch):
 
 
 def load(fn):
-    return [json.loads(l) for l in open(OUT / fn, encoding="utf-8")]
+    return [json.loads(l) for l in open(TEXTS / fn, encoding="utf-8")]
 
 
 def main():
-    manifest = json.loads((OUT / "manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((META / "manifest.json").read_text(encoding="utf-8"))
 
     by_edition = defaultdict(list)
     for o in manifest["outputs"]:
@@ -57,7 +58,7 @@ def main():
 
     # ---- 4. checksums -----------------------------------------------------
     bad_sums = [o["file"] for o in manifest["outputs"]
-                if hashlib.sha256((OUT / o["file"]).read_bytes()).hexdigest()
+                if hashlib.sha256((TEXTS / o["file"]).read_bytes()).hexdigest()
                 != o["sha256"]]
 
     report, failures = {}, list(bad_sums)

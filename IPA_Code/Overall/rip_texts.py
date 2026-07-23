@@ -26,7 +26,8 @@ from pathlib import Path
 
 ROOT = Path("/Users/Shared/IPA_Bible_Project")
 RAW = ROOT / "Git_Ignored_Stuff/Raw_Downloads"
-OUT = ROOT / "Raw_Texts"
+TEXTS = ROOT / "Raw_Texts/Temp"   # the ripped JSONL
+META = ROOT / "Raw_Texts"         # manifest + codepoint allowlist
 
 MAQQEF = "־"
 
@@ -165,7 +166,7 @@ def rip_nrv(book_key, osis, chap, rows):
 
 # ---------------------------------------------------------------------- run
 def main():
-    OUT.mkdir(parents=True, exist_ok=True)
+    TEXTS.mkdir(parents=True, exist_ok=True)
     tr_data = json.load(open(RAW / "tr1894_bibleapi.json", encoding="utf-8"))
     with open(RAW / "livinggreeknt_new.tsv", encoding="utf-8") as fh:
         nrv_rows = list(csv.reader(fh, delimiter="\t"))[1:]
@@ -181,7 +182,7 @@ def main():
 
         prefix = {"WLC": "WLC", "TR1894": "TR", "NRV": "NRV"}[edition]
         name = f"{prefix}.{osis}.{chap}.jsonl"
-        with open(OUT / name, "w", encoding="utf-8") as fh:
+        with open(TEXTS / name, "w", encoding="utf-8") as fh:
             for r in recs:
                 fh.write(json.dumps(r, ensure_ascii=False) + "\n")
 
@@ -191,7 +192,7 @@ def main():
                         "book": osis, "chapter": chap, "words": len(recs),
                         "verses": max(r["v"] for r in recs),
                         "roundtrip": "pass" if ok else "FAIL",
-                        "sha256": sha256(OUT / name)})
+                        "sha256": sha256(TEXTS / name)})
         rows.append((name, len(recs), max(r["v"] for r in recs), ok, detail))
 
     manifest = {
@@ -203,7 +204,7 @@ def main():
                     for e, m in EDITION_META.items()],
         "outputs": outputs,
     }
-    (OUT / "manifest.json").write_text(
+    (META / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"{'file':22s} {'words':>6s} {'verses':>7s}  {'round-trip':11s} detail")
