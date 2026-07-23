@@ -29,6 +29,7 @@ from pathlib import Path
 ROOT = Path("/Users/Shared/IPA_Bible_Project")
 RAW = ROOT / "Git_Ignored_Stuff/Raw_Downloads"
 TEXTS = ROOT / "Raw_Texts"          # layout: {Language}/{Edition}/*.jsonl
+META = TEXTS / "MISC_INFO"          # manifest, allowlist, corrections
 STAGING = "Staging"                 # slices live under Raw_Texts/Staging/,
                                     # never beside a full corpus
 
@@ -299,7 +300,8 @@ def main():
                     if (RAW / m["source_file"]).exists()],
         "outputs": outputs,
     }
-    (TEXTS / "manifest.json").write_text(
+    META.mkdir(parents=True, exist_ok=True)
+    (META / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
     if full_rows:

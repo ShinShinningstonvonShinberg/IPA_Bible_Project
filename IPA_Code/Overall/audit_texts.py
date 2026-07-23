@@ -37,8 +37,9 @@ from pathlib import Path
 ROOT = Path("/Users/Shared/IPA_Bible_Project")
 TEXTS = ROOT / "Raw_Texts"
 RAW = ROOT / "Git_Ignored_Stuff/Raw_Downloads"
-ALLOWLIST = TEXTS / "codepoint_allowlist.json"
-CORRECTIONS = TEXTS / "corrections.json"
+META = TEXTS / "MISC_INFO"        # manifest, allowlist, corrections
+ALLOWLIST = META / "codepoint_allowlist.json"
+CORRECTIONS = META / "corrections.json"
 
 # Greek isopsephy, for independently re-verifying corrections. The audit never
 # trusts corrections.json: it recomputes every value from the source itself.
@@ -257,7 +258,7 @@ def check_structure(ed, recs):
 
 # --------------------------------------------------------------------- main
 def main():
-    mpath = TEXTS / "manifest.json"
+    mpath = META / "manifest.json"
     if not mpath.exists():
         die(f"no manifest at {mpath}. Run rip_texts.py first.")
     manifest = json.loads(mpath.read_text(encoding="utf-8"))

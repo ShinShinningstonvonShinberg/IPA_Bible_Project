@@ -22,7 +22,8 @@ from pathlib import Path
 ROOT = Path("/Users/Shared/IPA_Bible_Project")
 TEXTS = ROOT / "Raw_Texts"
 RAW = ROOT / "Git_Ignored_Stuff/Raw_Downloads"
-OUT = TEXTS / "corrections.json"
+META = TEXTS / "MISC_INFO"        # manifest, allowlist, corrections
+OUT = META / "corrections.json"
 
 # Greek isopsephy. The 24 classical letters only; the archaic numerals
 # (digamma 6, koppa 90, sampi 900) do not occur in this corpus.
