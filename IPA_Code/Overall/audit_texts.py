@@ -90,6 +90,12 @@ CLASSIFIED = {
     "TR1894": {
         0x2019: "RIGHT SINGLE QUOTATION MARK - Greek elision apostrophe; part "
                 "of the word and phonetically meaningful.",
+        0x0374: "GREEK NUMERAL SIGN (keraia) - marks letters used as "
+                "alphabetic numerals: ιβʹ=12, ρμδʹ=144, χξϛʹ=666. Legitimate "
+                "Greek, but these 14 words are NUMBERS, not pronounceable "
+                "letter sequences, and need explicit handling downstream.",
+        0x02B9: "MODIFIER LETTER PRIME - the NFD decomposition of U+0374 "
+                "keraia, not a separately authored character.",
     },
     "NRV": {},
 }
@@ -243,9 +249,14 @@ def check_structure(ed, recs):
         for g in group[:-1]:
             if g["after"] == "" and not g["raw"].endswith("־"):
                 errs.append(f"{g['id']}: empty `after` on a non-final word")
-        if group[-1]["after"] != "":
-            errs.append(f"{group[-1]['id']}: verse-final `after` is "
-                        f"{group[-1]['after']!r}, expected ''")
+        # A verse-final `after` is NOT required to be empty: in the TR it
+        # legitimately carries the closing punctuation (. or ·) that makes the
+        # verse rebuild byte-exactly. The real invariant is that `after` holds
+        # only separators - never word content.
+        for g in group:
+            if any(unicodedata.category(c)[0] in "LM" for c in g["after"]):
+                errs.append(f"{g['id']}: `after` contains word content: "
+                            f"{g['after']!r}")
 
     per_book = defaultdict(list)
     for bk, ch, v, wi in order:

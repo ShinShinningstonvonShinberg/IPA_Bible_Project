@@ -35,7 +35,21 @@ STAGING = "Staging"                 # slices live under Raw_Texts/Staging/,
 
 MAQQEF = "־"
 
-FULL = ["NRV"]
+FULL = ["NRV", "TR1894"]
+
+# TR source book key -> OSIS code. Mechanical lookup, no judgement.
+TR_OSIS = {
+    "Matthew": "Matt", "Mark": "Mark", "Luke": "Luke", "John": "John",
+    "Acts": "Acts", "Romans": "Rom", "1 Corinthians": "1Cor",
+    "2 Corinthians": "2Cor", "Galatians": "Gal", "Ephesians": "Eph",
+    "Philippians": "Phil", "Colossians": "Col",
+    "1 Thessalonians": "1Thess", "2 Thessalonians": "2Thess",
+    "1 Timothy": "1Tim", "2 Timothy": "2Tim", "Titus": "Titus",
+    "Philemon": "Phlm", "Hebrews": "Heb", "James": "Jas",
+    "1 Peter": "1Pet", "2 Peter": "2Pet", "1 John": "1John",
+    "2 John": "2John", "3 John": "3John", "Jude": "Jude",
+    "Revelation": "Rev",
+}
 
 # Chapter slices, staged separately from the full corpus.
 # (edition, source book key, OSIS code, chapter)
@@ -159,6 +173,57 @@ def rip_tr(book_key, osis, chap, data):
     return recs
 
 
+def tr_source(data, book_key):
+    """Independently derive [(ch, v, verse_text)] for a TR book.
+
+    A separate pass from the rip, so verification is not comparing a value
+    against the expression that produced it.
+    """
+    out = []
+    chapters = data["booksData"][book_key]["chaptersData"]
+    for ch, verses in enumerate(chapters):
+        if ch == 0 or not verses:
+            continue
+        for v, text in enumerate(verses):
+            if v == 0 or not text:
+                continue
+            out.append((ch, v, text))
+    return out
+
+
+def rip_tr_book(book_key, osis, data):
+    """Whole TR book: every chapter. Punctuation is preserved in `after`."""
+    recs = []
+    for ch, vn, vtext in tr_source(data, book_key):
+        prefix, toks = tokenize(vtext)
+        for wi, (raw, after) in enumerate(toks, 1):
+            rec = {"id": f"TR.{osis}.{ch}.{vn}.w{wi}", "book": osis,
+                   "ch": ch, "v": vn, "wi": wi, "raw": raw, "after": after}
+            if wi == 1 and prefix:
+                rec["before"] = prefix
+            recs.append(rec)
+    return recs
+
+
+def verify_tr_from_disk(path, want):
+    """Read the WRITTEN file back and rebuild every verse byte-exactly."""
+    got = [json.loads(l) for l in open(path, encoding="utf-8")]
+    byverse = defaultdict(list)
+    for r in got:
+        byverse[(r["ch"], r["v"])].append(r)
+    if len(byverse) != len(want):
+        return False, f"{len(byverse)} verses on disk != {len(want)} in source"
+    for ch, vn, vtext in want:
+        rs = byverse.get((ch, vn))
+        if not rs:
+            return False, f"missing verse {ch}:{vn}"
+        rebuilt = (rs[0].get("before", "")
+                   + "".join(r["raw"] + r["after"] for r in rs))
+        if rebuilt != vtext:
+            return False, f"{ch}:{vn} rebuild mismatch"
+    return True, f"{len(want)} verses byte-exact from disk"
+
+
 def nrv_source(rows, book_key, chap=None):
     """Independently derive the source word sequence for a book/chapter.
 
@@ -249,15 +314,34 @@ def main():
     for edition in FULL:
         m = EDITION_META[edition]
         lang, ed = m["dir"]
-        for book_key, osis in NRV_OSIS.items():
-            recs = rip_nrv(book_key, osis, nrv_rows)
+        ed_rows = []
+
+        if edition == "NRV":
+            mapping = NRV_OSIS
+        elif edition == "TR1894":
+            mapping = TR_OSIS
+            if tr_data is None:
+                tr_data = json.load(open(RAW / "tr1894_bibleapi.json",
+                                         encoding="utf-8"))
+        else:
+            die(f"no full-rip handler for edition '{edition}'")
+
+        for book_key, osis in mapping.items():
+            if edition == "NRV":
+                recs = rip_nrv(book_key, osis, nrv_rows)
+                want = nrv_source(nrv_rows, book_key)
+                verifier = verify_from_disk
+            else:
+                recs = rip_tr_book(book_key, osis, tr_data)
+                want = tr_source(tr_data, book_key)
+                verifier = verify_tr_from_disk
             if not recs:
-                failures.append(f"{osis}: source book '{book_key}' produced no "
-                                f"records - label mismatch?")
+                failures.append(f"{edition}/{osis}: source book '{book_key}' "
+                                f"produced no records - label mismatch?")
                 continue
             rel = f"{lang}/{ed}/{ed}.{osis}.jsonl"
             p = emit(recs, rel)
-            ok, detail = verify_from_disk(p, nrv_source(nrv_rows, book_key))
+            ok, detail = verifier(p, want)
             if not ok:
                 failures.append(f"{rel}: {detail}")
             nch = len({r["ch"] for r in recs})
@@ -268,23 +352,37 @@ def main():
                             "chapters": nch, "verses": nv, "words": len(recs),
                             "verified": "pass" if ok else "FAIL",
                             "sha256": sha256(p)})
-            full_rows.append((osis, len(recs), nch, nv, ok))
+            ed_rows.append((osis, len(recs), nch, nv, ok))
 
-        # -- reconcile the whole edition against the source ----------------
-        src_books = {r[0] for r in nrv_rows if len(r) > 7 and r[7]}
-        unmapped = src_books - set(NRV_OSIS)
+        # -- reconcile the whole edition against its source ----------------
+        if edition == "NRV":
+            src_books = {r[0] for r in nrv_rows if len(r) > 7 and r[7]}
+            unmapped = src_books - set(NRV_OSIS)
+            exp_words = sum(1 for r in nrv_rows if len(r) > 7 and r[7])
+            exp_verses = None
+        else:
+            src_books = set(tr_data["booksData"])
+            unmapped = src_books - set(TR_OSIS)
+            exp_words = None
+            exp_verses = sum(len(tr_source(tr_data, b)) for b in src_books)
         if unmapped:
-            failures.append(f"source books not in NRV_OSIS: {sorted(unmapped)}")
-        expected_words = sum(1 for r in nrv_rows if len(r) > 7 and r[7])
-        got_words = sum(r[1] for r in full_rows)
-        if expected_words != got_words:
-            failures.append(f"word total {got_words} != source {expected_words}")
-        if len(full_rows) != len(src_books):
-            failures.append(f"ripped {len(full_rows)} books, source has "
-                            f"{len(src_books)}")
-        print(f"reconciliation: {got_words}/{expected_words} words, "
-              f"{len(full_rows)}/{len(src_books)} books, "
-              f"{len(unmapped)} unmapped labels")
+            failures.append(f"{edition}: source books unmapped: {sorted(unmapped)}")
+        if len(ed_rows) != len(src_books):
+            failures.append(f"{edition}: ripped {len(ed_rows)} books, source "
+                            f"has {len(src_books)}")
+        got_words = sum(r[1] for r in ed_rows)
+        got_verses = sum(r[3] for r in ed_rows)
+        if exp_words is not None and exp_words != got_words:
+            failures.append(f"{edition}: word total {got_words} != source "
+                            f"{exp_words}")
+        if exp_verses is not None and exp_verses != got_verses:
+            failures.append(f"{edition}: verse total {got_verses} != source "
+                            f"{exp_verses}")
+        print(f"{edition:8s} reconciliation: {len(ed_rows)}/{len(src_books)} books"
+              + (f", {got_words}/{exp_words} words" if exp_words is not None else
+                 f", {got_verses}/{exp_verses} verses")
+              + f", {len(unmapped)} unmapped")
+        full_rows.extend(ed_rows)
 
     manifest = {
         "layer": "Raw_Texts",

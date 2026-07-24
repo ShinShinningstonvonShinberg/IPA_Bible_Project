@@ -175,6 +175,1274 @@
           "count": 21375
         }
       }
+    },
+    "TR1894": {
+      "words": 140629,
+      "distinct": 180,
+      "codepoints": {
+        "U+0374": {
+          "char": "ʹ",
+          "name": "GREEK NUMERAL SIGN",
+          "category": "Lm",
+          "combining": 0,
+          "count": 14,
+          "note": "GREEK NUMERAL SIGN (keraia) - marks letters used as alphabetic numerals: ιβʹ=12, ρμδʹ=144, χξϛʹ=666. Legitimate Greek, but these 14 words are NUMBERS, not pronounceable letter sequences, and need explicit handling downstream."
+        },
+        "U+0391": {
+          "char": "Α",
+          "name": "GREEK CAPITAL LETTER ALPHA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 67
+        },
+        "U+0392": {
+          "char": "Β",
+          "name": "GREEK CAPITAL LETTER BETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 154
+        },
+        "U+0393": {
+          "char": "Γ",
+          "name": "GREEK CAPITAL LETTER GAMMA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 156
+        },
+        "U+0394": {
+          "char": "Δ",
+          "name": "GREEK CAPITAL LETTER DELTA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 249
+        },
+        "U+0395": {
+          "char": "Ε",
+          "name": "GREEK CAPITAL LETTER EPSILON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 157
+        },
+        "U+0396": {
+          "char": "Ζ",
+          "name": "GREEK CAPITAL LETTER ZETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 39
+        },
+        "U+0397": {
+          "char": "Η",
+          "name": "GREEK CAPITAL LETTER ETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3
+        },
+        "U+0398": {
+          "char": "Θ",
+          "name": "GREEK CAPITAL LETTER THETA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 1361
+        },
+        "U+039A": {
+          "char": "Κ",
+          "name": "GREEK CAPITAL LETTER KAPPA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 1198
+        },
+        "U+039B": {
+          "char": "Λ",
+          "name": "GREEK CAPITAL LETTER LAMDA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 108
+        },
+        "U+039C": {
+          "char": "Μ",
+          "name": "GREEK CAPITAL LETTER MU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 411
+        },
+        "U+039D": {
+          "char": "Ν",
+          "name": "GREEK CAPITAL LETTER NU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 99
+        },
+        "U+039E": {
+          "char": "Ξ",
+          "name": "GREEK CAPITAL LETTER XI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 1
+        },
+        "U+039F": {
+          "char": "Ο",
+          "name": "GREEK CAPITAL LETTER OMICRON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 259
+        },
+        "U+03A0": {
+          "char": "Π",
+          "name": "GREEK CAPITAL LETTER PI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 889
+        },
+        "U+03A1": {
+          "char": "Ρ",
+          "name": "GREEK CAPITAL LETTER RHO",
+          "category": "Lu",
+          "combining": 0,
+          "count": 2
+        },
+        "U+03A3": {
+          "char": "Σ",
+          "name": "GREEK CAPITAL LETTER SIGMA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 427
+        },
+        "U+03A4": {
+          "char": "Τ",
+          "name": "GREEK CAPITAL LETTER TAU",
+          "category": "Lu",
+          "combining": 0,
+          "count": 423
+        },
+        "U+03A5": {
+          "char": "Υ",
+          "name": "GREEK CAPITAL LETTER UPSILON",
+          "category": "Lu",
+          "combining": 0,
+          "count": 10
+        },
+        "U+03A6": {
+          "char": "Φ",
+          "name": "GREEK CAPITAL LETTER PHI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 204
+        },
+        "U+03A7": {
+          "char": "Χ",
+          "name": "GREEK CAPITAL LETTER CHI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 600
+        },
+        "U+03A8": {
+          "char": "Ψ",
+          "name": "GREEK CAPITAL LETTER PSI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 2
+        },
+        "U+03A9": {
+          "char": "Ω",
+          "name": "GREEK CAPITAL LETTER OMEGA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3
+        },
+        "U+03AC": {
+          "char": "ά",
+          "name": "GREEK SMALL LETTER ALPHA WITH TONOS",
+          "category": "Ll",
+          "combining": 0,
+          "count": 7051
+        },
+        "U+03AD": {
+          "char": "έ",
+          "name": "GREEK SMALL LETTER EPSILON WITH TONOS",
+          "category": "Ll",
+          "combining": 0,
+          "count": 8725
+        },
+        "U+03AE": {
+          "char": "ή",
+          "name": "GREEK SMALL LETTER ETA WITH TONOS",
+          "category": "Ll",
+          "combining": 0,
+          "count": 3814
+        },
+        "U+03AF": {
+          "char": "ί",
+          "name": "GREEK SMALL LETTER IOTA WITH TONOS",
+          "category": "Ll",
+          "combining": 0,
+          "count": 10292
+        },
+        "U+03B1": {
+          "char": "α",
+          "name": "GREEK SMALL LETTER ALPHA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 52823
+        },
+        "U+03B2": {
+          "char": "β",
+          "name": "GREEK SMALL LETTER BETA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 3511
+        },
+        "U+03B3": {
+          "char": "γ",
+          "name": "GREEK SMALL LETTER GAMMA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 11161
+        },
+        "U+03B4": {
+          "char": "δ",
+          "name": "GREEK SMALL LETTER DELTA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 12690
+        },
+        "U+03B5": {
+          "char": "ε",
+          "name": "GREEK SMALL LETTER EPSILON",
+          "category": "Ll",
+          "combining": 0,
+          "count": 39035
+        },
+        "U+03B6": {
+          "char": "ζ",
+          "name": "GREEK SMALL LETTER ZETA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1549
+        },
+        "U+03B7": {
+          "char": "η",
+          "name": "GREEK SMALL LETTER ETA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 9247
+        },
+        "U+03B8": {
+          "char": "θ",
+          "name": "GREEK SMALL LETTER THETA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 9548
+        },
+        "U+03B9": {
+          "char": "ι",
+          "name": "GREEK SMALL LETTER IOTA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 26576
+        },
+        "U+03BA": {
+          "char": "κ",
+          "name": "GREEK SMALL LETTER KAPPA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 23185
+        },
+        "U+03BB": {
+          "char": "λ",
+          "name": "GREEK SMALL LETTER LAMDA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 18472
+        },
+        "U+03BC": {
+          "char": "μ",
+          "name": "GREEK SMALL LETTER MU",
+          "category": "Ll",
+          "combining": 0,
+          "count": 19593
+        },
+        "U+03BD": {
+          "char": "ν",
+          "name": "GREEK SMALL LETTER NU",
+          "category": "Ll",
+          "combining": 0,
+          "count": 54926
+        },
+        "U+03BE": {
+          "char": "ξ",
+          "name": "GREEK SMALL LETTER XI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 2249
+        },
+        "U+03BF": {
+          "char": "ο",
+          "name": "GREEK SMALL LETTER OMICRON",
+          "category": "Ll",
+          "combining": 0,
+          "count": 46310
+        },
+        "U+03C0": {
+          "char": "π",
+          "name": "GREEK SMALL LETTER PI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 21014
+        },
+        "U+03C1": {
+          "char": "ρ",
+          "name": "GREEK SMALL LETTER RHO",
+          "category": "Ll",
+          "combining": 0,
+          "count": 23288
+        },
+        "U+03C2": {
+          "char": "ς",
+          "name": "GREEK SMALL LETTER FINAL SIGMA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 27414
+        },
+        "U+03C3": {
+          "char": "σ",
+          "name": "GREEK SMALL LETTER SIGMA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 24561
+        },
+        "U+03C4": {
+          "char": "τ",
+          "name": "GREEK SMALL LETTER TAU",
+          "category": "Ll",
+          "combining": 0,
+          "count": 51782
+        },
+        "U+03C5": {
+          "char": "υ",
+          "name": "GREEK SMALL LETTER UPSILON",
+          "category": "Ll",
+          "combining": 0,
+          "count": 10770
+        },
+        "U+03C6": {
+          "char": "φ",
+          "name": "GREEK SMALL LETTER PHI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 3844
+        },
+        "U+03C7": {
+          "char": "χ",
+          "name": "GREEK SMALL LETTER CHI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 4726
+        },
+        "U+03C8": {
+          "char": "ψ",
+          "name": "GREEK SMALL LETTER PSI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 958
+        },
+        "U+03C9": {
+          "char": "ω",
+          "name": "GREEK SMALL LETTER OMEGA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 8039
+        },
+        "U+03CA": {
+          "char": "ϊ",
+          "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 70
+        },
+        "U+03CB": {
+          "char": "ϋ",
+          "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 10
+        },
+        "U+03CC": {
+          "char": "ό",
+          "name": "GREEK SMALL LETTER OMICRON WITH TONOS",
+          "category": "Ll",
+          "combining": 0,
+          "count": 6556
+        },
+        "U+03CD": {
+          "char": "ύ",
+          "name": "GREEK SMALL LETTER UPSILON WITH TONOS",
+          "category": "Ll",
+          "combining": 0,
+          "count": 5126
+        },
+        "U+03CE": {
+          "char": "ώ",
+          "name": "GREEK SMALL LETTER OMEGA WITH TONOS",
+          "category": "Ll",
+          "combining": 0,
+          "count": 2155
+        },
+        "U+03DB": {
+          "char": "ϛ",
+          "name": "GREEK SMALL LETTER STIGMA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1
+        },
+        "U+1F00": {
+          "char": "ἀ",
+          "name": "GREEK SMALL LETTER ALPHA WITH PSILI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 7447
+        },
+        "U+1F01": {
+          "char": "ἁ",
+          "name": "GREEK SMALL LETTER ALPHA WITH DASIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 464
+        },
+        "U+1F02": {
+          "char": "ἂ",
+          "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 183
+        },
+        "U+1F03": {
+          "char": "ἃ",
+          "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 104
+        },
+        "U+1F04": {
+          "char": "ἄ",
+          "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1157
+        },
+        "U+1F05": {
+          "char": "ἅ",
+          "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 162
+        },
+        "U+1F06": {
+          "char": "ἆ",
+          "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 16
+        },
+        "U+1F08": {
+          "char": "Ἀ",
+          "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 474
+        },
+        "U+1F09": {
+          "char": "Ἁ",
+          "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 82
+        },
+        "U+1F0B": {
+          "char": "Ἃ",
+          "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3
+        },
+        "U+1F0C": {
+          "char": "Ἄ",
+          "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 98
+        },
+        "U+1F0D": {
+          "char": "Ἅ",
+          "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 43
+        },
+        "U+1F0E": {
+          "char": "Ἆ",
+          "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 5
+        },
+        "U+1F10": {
+          "char": "ἐ",
+          "name": "GREEK SMALL LETTER EPSILON WITH PSILI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 12334
+        },
+        "U+1F11": {
+          "char": "ἑ",
+          "name": "GREEK SMALL LETTER EPSILON WITH DASIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 800
+        },
+        "U+1F13": {
+          "char": "ἓ",
+          "name": "GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 57
+        },
+        "U+1F14": {
+          "char": "ἔ",
+          "name": "GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 2776
+        },
+        "U+1F15": {
+          "char": "ἕ",
+          "name": "GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 420
+        },
+        "U+1F18": {
+          "char": "Ἐ",
+          "name": "GREEK CAPITAL LETTER EPSILON WITH PSILI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 343
+        },
+        "U+1F19": {
+          "char": "Ἑ",
+          "name": "GREEK CAPITAL LETTER EPSILON WITH DASIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 51
+        },
+        "U+1F1B": {
+          "char": "Ἓ",
+          "name": "GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3
+        },
+        "U+1F1C": {
+          "char": "Ἔ",
+          "name": "GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 98
+        },
+        "U+1F1D": {
+          "char": "Ἕ",
+          "name": "GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 29
+        },
+        "U+1F20": {
+          "char": "ἠ",
+          "name": "GREEK SMALL LETTER ETA WITH PSILI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 349
+        },
+        "U+1F21": {
+          "char": "ἡ",
+          "name": "GREEK SMALL LETTER ETA WITH DASIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 2387
+        },
+        "U+1F22": {
+          "char": "ἢ",
+          "name": "GREEK SMALL LETTER ETA WITH PSILI AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 335
+        },
+        "U+1F23": {
+          "char": "ἣ",
+          "name": "GREEK SMALL LETTER ETA WITH DASIA AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 94
+        },
+        "U+1F24": {
+          "char": "ἤ",
+          "name": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 418
+        },
+        "U+1F25": {
+          "char": "ἥ",
+          "name": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 138
+        },
+        "U+1F26": {
+          "char": "ἦ",
+          "name": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 621
+        },
+        "U+1F27": {
+          "char": "ἧ",
+          "name": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 52
+        },
+        "U+1F28": {
+          "char": "Ἠ",
+          "name": "GREEK CAPITAL LETTER ETA WITH PSILI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 67
+        },
+        "U+1F29": {
+          "char": "Ἡ",
+          "name": "GREEK CAPITAL LETTER ETA WITH DASIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 94
+        },
+        "U+1F2A": {
+          "char": "Ἢ",
+          "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 2
+        },
+        "U+1F2C": {
+          "char": "Ἤ",
+          "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 12
+        },
+        "U+1F2D": {
+          "char": "Ἥ",
+          "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3
+        },
+        "U+1F2E": {
+          "char": "Ἦ",
+          "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 20
+        },
+        "U+1F30": {
+          "char": "ἰ",
+          "name": "GREEK SMALL LETTER IOTA WITH PSILI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 4199
+        },
+        "U+1F31": {
+          "char": "ἱ",
+          "name": "GREEK SMALL LETTER IOTA WITH DASIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1943
+        },
+        "U+1F32": {
+          "char": "ἲ",
+          "name": "GREEK SMALL LETTER IOTA WITH PSILI AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 2
+        },
+        "U+1F33": {
+          "char": "ἳ",
+          "name": "GREEK SMALL LETTER IOTA WITH DASIA AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 35
+        },
+        "U+1F34": {
+          "char": "ἴ",
+          "name": "GREEK SMALL LETTER IOTA WITH PSILI AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 651
+        },
+        "U+1F35": {
+          "char": "ἵ",
+          "name": "GREEK SMALL LETTER IOTA WITH DASIA AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 838
+        },
+        "U+1F36": {
+          "char": "ἶ",
+          "name": "GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1425
+        },
+        "U+1F37": {
+          "char": "ἷ",
+          "name": "GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 216
+        },
+        "U+1F38": {
+          "char": "Ἰ",
+          "name": "GREEK CAPITAL LETTER IOTA WITH PSILI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 1860
+        },
+        "U+1F39": {
+          "char": "Ἱ",
+          "name": "GREEK CAPITAL LETTER IOTA WITH DASIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 73
+        },
+        "U+1F3C": {
+          "char": "Ἴ",
+          "name": "GREEK CAPITAL LETTER IOTA WITH PSILI AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 18
+        },
+        "U+1F3D": {
+          "char": "Ἵ",
+          "name": "GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 2
+        },
+        "U+1F40": {
+          "char": "ὀ",
+          "name": "GREEK SMALL LETTER OMICRON WITH PSILI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 575
+        },
+        "U+1F41": {
+          "char": "ὁ",
+          "name": "GREEK SMALL LETTER OMICRON WITH DASIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 3288
+        },
+        "U+1F43": {
+          "char": "ὃ",
+          "name": "GREEK SMALL LETTER OMICRON WITH DASIA AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 559
+        },
+        "U+1F44": {
+          "char": "ὄ",
+          "name": "GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 530
+        },
+        "U+1F45": {
+          "char": "ὅ",
+          "name": "GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 2040
+        },
+        "U+1F48": {
+          "char": "Ὀ",
+          "name": "GREEK CAPITAL LETTER OMICRON WITH PSILI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 19
+        },
+        "U+1F49": {
+          "char": "Ὁ",
+          "name": "GREEK CAPITAL LETTER OMICRON WITH DASIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 105
+        },
+        "U+1F4B": {
+          "char": "Ὃ",
+          "name": "GREEK CAPITAL LETTER OMICRON WITH DASIA AND VARIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 16
+        },
+        "U+1F4C": {
+          "char": "Ὄ",
+          "name": "GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 4
+        },
+        "U+1F4D": {
+          "char": "Ὅ",
+          "name": "GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 49
+        },
+        "U+1F50": {
+          "char": "ὐ",
+          "name": "GREEK SMALL LETTER UPSILON WITH PSILI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 8828
+        },
+        "U+1F51": {
+          "char": "ὑ",
+          "name": "GREEK SMALL LETTER UPSILON WITH DASIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 3013
+        },
+        "U+1F52": {
+          "char": "ὒ",
+          "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 4
+        },
+        "U+1F53": {
+          "char": "ὓ",
+          "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 49
+        },
+        "U+1F54": {
+          "char": "ὔ",
+          "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 181
+        },
+        "U+1F55": {
+          "char": "ὕ",
+          "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 438
+        },
+        "U+1F56": {
+          "char": "ὖ",
+          "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 573
+        },
+        "U+1F57": {
+          "char": "ὗ",
+          "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 462
+        },
+        "U+1F59": {
+          "char": "Ὑ",
+          "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 39
+        },
+        "U+1F5D": {
+          "char": "Ὕ",
+          "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 11
+        },
+        "U+1F60": {
+          "char": "ὠ",
+          "name": "GREEK SMALL LETTER OMEGA WITH PSILI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 57
+        },
+        "U+1F61": {
+          "char": "ὡ",
+          "name": "GREEK SMALL LETTER OMEGA WITH DASIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 538
+        },
+        "U+1F62": {
+          "char": "ὢ",
+          "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 42
+        },
+        "U+1F64": {
+          "char": "ὤ",
+          "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 46
+        },
+        "U+1F65": {
+          "char": "ὥ",
+          "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 234
+        },
+        "U+1F66": {
+          "char": "ὦ",
+          "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 44
+        },
+        "U+1F67": {
+          "char": "ὧ",
+          "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 142
+        },
+        "U+1F68": {
+          "char": "Ὠ",
+          "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 3
+        },
+        "U+1F69": {
+          "char": "Ὡ",
+          "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 32
+        },
+        "U+1F6C": {
+          "char": "Ὤ",
+          "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 1
+        },
+        "U+1F6D": {
+          "char": "Ὥ",
+          "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 5
+        },
+        "U+1F6E": {
+          "char": "Ὦ",
+          "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI",
+          "category": "Lu",
+          "combining": 0,
+          "count": 10
+        },
+        "U+1F70": {
+          "char": "ὰ",
+          "name": "GREEK SMALL LETTER ALPHA WITH VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 4748
+        },
+        "U+1F72": {
+          "char": "ὲ",
+          "name": "GREEK SMALL LETTER EPSILON WITH VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 3512
+        },
+        "U+1F74": {
+          "char": "ὴ",
+          "name": "GREEK SMALL LETTER ETA WITH VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 3791
+        },
+        "U+1F76": {
+          "char": "ὶ",
+          "name": "GREEK SMALL LETTER IOTA WITH VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 12006
+        },
+        "U+1F78": {
+          "char": "ὸ",
+          "name": "GREEK SMALL LETTER OMICRON WITH VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 7589
+        },
+        "U+1F7A": {
+          "char": "ὺ",
+          "name": "GREEK SMALL LETTER UPSILON WITH VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1753
+        },
+        "U+1F7C": {
+          "char": "ὼ",
+          "name": "GREEK SMALL LETTER OMEGA WITH VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 981
+        },
+        "U+1F84": {
+          "char": "ᾄ",
+          "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 5
+        },
+        "U+1F85": {
+          "char": "ᾅ",
+          "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 11
+        },
+        "U+1F90": {
+          "char": "ᾐ",
+          "name": "GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 14
+        },
+        "U+1F91": {
+          "char": "ᾑ",
+          "name": "GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1
+        },
+        "U+1F94": {
+          "char": "ᾔ",
+          "name": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 35
+        },
+        "U+1F95": {
+          "char": "ᾕ",
+          "name": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1
+        },
+        "U+1F96": {
+          "char": "ᾖ",
+          "name": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 41
+        },
+        "U+1F97": {
+          "char": "ᾗ",
+          "name": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 39
+        },
+        "U+1FA0": {
+          "char": "ᾠ",
+          "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 16
+        },
+        "U+1FA6": {
+          "char": "ᾦ",
+          "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 2
+        },
+        "U+1FA7": {
+          "char": "ᾧ",
+          "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 123
+        },
+        "U+1FB3": {
+          "char": "ᾳ",
+          "name": "GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 607
+        },
+        "U+1FB4": {
+          "char": "ᾴ",
+          "name": "GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1
+        },
+        "U+1FB6": {
+          "char": "ᾶ",
+          "name": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1437
+        },
+        "U+1FB7": {
+          "char": "ᾷ",
+          "name": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 147
+        },
+        "U+1FC3": {
+          "char": "ῃ",
+          "name": "GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1019
+        },
+        "U+1FC4": {
+          "char": "ῄ",
+          "name": "GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 26
+        },
+        "U+1FC6": {
+          "char": "ῆ",
+          "name": "GREEK SMALL LETTER ETA WITH PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 3315
+        },
+        "U+1FC7": {
+          "char": "ῇ",
+          "name": "GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1487
+        },
+        "U+1FD2": {
+          "char": "ῒ",
+          "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 22
+        },
+        "U+1FD3": {
+          "char": "ΐ",
+          "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 62
+        },
+        "U+1FD6": {
+          "char": "ῖ",
+          "name": "GREEK SMALL LETTER IOTA WITH PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 5735
+        },
+        "U+1FE2": {
+          "char": "ῢ",
+          "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1
+        },
+        "U+1FE3": {
+          "char": "ΰ",
+          "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 3
+        },
+        "U+1FE4": {
+          "char": "ῤ",
+          "name": "GREEK SMALL LETTER RHO WITH PSILI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 4
+        },
+        "U+1FE5": {
+          "char": "ῥ",
+          "name": "GREEK SMALL LETTER RHO WITH DASIA",
+          "category": "Ll",
+          "combining": 0,
+          "count": 193
+        },
+        "U+1FE6": {
+          "char": "ῦ",
+          "name": "GREEK SMALL LETTER UPSILON WITH PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 9115
+        },
+        "U+1FEC": {
+          "char": "Ῥ",
+          "name": "GREEK CAPITAL LETTER RHO WITH DASIA",
+          "category": "Lu",
+          "combining": 0,
+          "count": 51
+        },
+        "U+1FF3": {
+          "char": "ῳ",
+          "name": "GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 1103
+        },
+        "U+1FF4": {
+          "char": "ῴ",
+          "name": "GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 31
+        },
+        "U+1FF6": {
+          "char": "ῶ",
+          "name": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 5406
+        },
+        "U+1FF7": {
+          "char": "ῷ",
+          "name": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI",
+          "category": "Ll",
+          "combining": 0,
+          "count": 2849
+        },
+        "U+2019": {
+          "char": "’",
+          "name": "RIGHT SINGLE QUOTATION MARK",
+          "category": "Pf",
+          "combining": 0,
+          "count": 1335,
+          "note": "RIGHT SINGLE QUOTATION MARK - Greek elision apostrophe; part of the word and phonetically meaningful."
+        }
+      }
     }
   }
 }
