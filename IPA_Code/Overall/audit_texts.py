@@ -86,6 +86,10 @@ CLASSIFIED = {
                 "where WLC attaches ' ׀' to the preceding word.",
         0x034F: "COMBINING GRAPHEME JOINER - blocks canonical reordering of "
                 "Masoretic marks. Load-bearing: never strip.",
+        0x200D: "ZERO WIDTH JOINER - deliberate Masoretic encoding control. "
+                "Occurs 83x, always between a hataf (reduced) vowel and a "
+                "meteg, keeping the two from colliding. Same class as the "
+                "CGJ above: load-bearing, never strip.",
     },
     "TR1894": {
         0x2019: "RIGHT SINGLE QUOTATION MARK - Greek elision apostrophe; part "
@@ -212,7 +216,7 @@ def check_structure(ed, recs):
             errs.append(f"duplicate id: {rid}")
         seen_ids.add(rid)
 
-        ks = frozenset(r) - {"mark", "before"}
+        ks = frozenset(r) - {"mark", "before", "reading", "ketiv"}
         if keys_ref is None:
             keys_ref = ks
         elif ks != keys_ref:
@@ -384,11 +388,15 @@ def main():
             failures.append(ed)
             continue                       # never rewrite a failing edition
 
+        # Freeze exactly what the gate tests: stored UNION nfd. Freezing only
+        # `stored` meant every NFD-only codepoint (the decomposed polytonic
+        # accents) failed as "unclassified" on the very next run.
         entries = {}
-        for ch, n in sorted(R["stored"].items(), key=lambda x: ord(x[0])):
+        for ch in sorted(set(R["stored"]) | set(R["nfd"]), key=ord):
             cp = ord(ch)
             e = describe(ch)
-            e["count"] = n
+            e["stored"] = R["stored"].get(ch, 0)
+            e["nfd"] = R["nfd"].get(ch, 0)
             if cp in CLASSIFIED[ed]:
                 e["note"] = CLASSIFIED[ed][cp]
             elif cp in NOTES:

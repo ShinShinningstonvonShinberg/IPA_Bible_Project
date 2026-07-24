@@ -35,7 +35,25 @@ STAGING = "Staging"                 # slices live under Raw_Texts/Staging/,
 
 MAQQEF = "־"
 
-FULL = ["NRV", "TR1894"]
+FULL = ["NRV", "TR1894", "WLC"]
+
+# WLC source file stem -> OSIS code. 39 books; TanachHeader/TanachIndex are
+# metadata, and the *.DH.xml files are Documentary-Hypothesis annotated
+# duplicates of the Torah. Both are excluded by not appearing here.
+WLC_OSIS = {
+    "Genesis": "Gen", "Exodus": "Exod", "Leviticus": "Lev", "Numbers": "Num",
+    "Deuteronomy": "Deut", "Joshua": "Josh", "Judges": "Judg", "Ruth": "Ruth",
+    "Samuel_1": "1Sam", "Samuel_2": "2Sam", "Kings_1": "1Kgs",
+    "Kings_2": "2Kgs", "Chronicles_1": "1Chr", "Chronicles_2": "2Chr",
+    "Ezra": "Ezra", "Nehemiah": "Neh", "Esther": "Esth", "Job": "Job",
+    "Psalms": "Ps", "Proverbs": "Prov", "Ecclesiastes": "Eccl",
+    "Song_of_Songs": "Song", "Isaiah": "Isa", "Jeremiah": "Jer",
+    "Lamentations": "Lam", "Ezekiel": "Ezek", "Daniel": "Dan",
+    "Hosea": "Hos", "Joel": "Joel", "Amos": "Amos", "Obadiah": "Obad",
+    "Jonah": "Jonah", "Micah": "Mic", "Nahum": "Nah", "Habakkuk": "Hab",
+    "Zephaniah": "Zeph", "Haggai": "Hag", "Zechariah": "Zech",
+    "Malachi": "Mal",
+}
 
 # TR source book key -> OSIS code. Mechanical lookup, no judgement.
 TR_OSIS = {
@@ -68,7 +86,7 @@ NRV_OSIS = {
 # `versification` records each edition's OWN numbering. It deliberately does
 # NOT claim equivalence to another edition's scheme.
 EDITION_META = {
-    "WLC":    {"dir": ("Hebrew", "WLC"), "lang": "hbo", "script": "Hebr",
+    "WLC":    {"dir": ("Hebrew", "Tanak"), "lang": "hbo", "script": "Hebr",
                "versification": "mt",
                "name": "Unicode/XML Leningrad Codex (UXLC 2.5)",
                "url": "https://tanach.us/Books/Tanach.xml.zip",
@@ -171,6 +189,89 @@ def rip_tr(book_key, osis, chap, data):
                 rec["before"] = prefix
             recs.append(rec)
     return recs
+
+
+def eltext(e):
+    """Element text, excluding <x> note markers but keeping their tails."""
+    parts = [e.text or ""]
+    for c in e:
+        if c.tag != "x":
+            parts.append("".join(c.itertext()))
+        parts.append(c.tail or "")
+    return "".join(parts).strip()
+
+
+def wlc_source(book_file):
+    """Independently derive [(ch, v, word, kind, ketiv)] for a WLC book.
+
+    QERE/KETIV POLICY. The Masoretes recorded a written form (ketiv) and a
+    read form (qere) at 1254 places. The ketiv is essentially always unpointed
+    - 1267 unpointed against 2 pointed corpus-wide - so it carries no vowels
+    and cannot be transcribed without inventing them. The qere is pointed
+    every time and is by definition the pronunciation.
+
+    So the QERE is the word, and the ketiv travels with it as metadata:
+    nothing is discarded, it simply is not what gets transcribed.
+
+    Orphans are real Masoretic phenomena and are kept distinct:
+      qere without ketiv  (qere wela ketiv, read but never written) -> a word
+      ketiv without qere  (ketiv wela qere, written but not read)   -> recorded
+                          as unpronounced; it has no read form to transcribe
+    """
+    root = ET.parse(RAW / f"tanach_wlc/Books/{book_file}.xml").getroot()
+    out = []
+    for c in root.iter("c"):
+        ch = int(c.get("n"))
+        for v in c.findall("v"):
+            vn = int(v.get("n"))
+            kids = [e for e in v if e.tag in ("w", "k", "q")]
+            i = 0
+            while i < len(kids):
+                e = kids[i]
+                if e.tag == "w":
+                    out.append((ch, vn, eltext(e), "w", None))
+                    i += 1
+                elif e.tag == "k":
+                    if i + 1 < len(kids) and kids[i + 1].tag == "q":
+                        out.append((ch, vn, eltext(kids[i + 1]), "qere",
+                                    eltext(e)))
+                        i += 2
+                    else:                       # ketiv wela qere: not read
+                        out.append((ch, vn, None, "ketiv_only", eltext(e)))
+                        i += 1
+                else:                           # qere wela ketiv: read only
+                    out.append((ch, vn, eltext(e), "qere_only", None))
+                    i += 1
+    return out
+
+
+def rip_wlc_book(book_file, osis, prefix="Tanak"):
+    """Whole WLC book. Maqqef binds a word to the next, so `after` is empty."""
+    recs, wi, cur = [], 0, None
+    slots = wlc_source(book_file)
+    for idx, (ch, vn, word, kind, ketiv) in enumerate(slots):
+        if (ch, vn) != cur:
+            cur, wi = (ch, vn), 0
+        if word is None:                        # unpronounced ketiv-only slot
+            continue
+        wi += 1
+        nxt = slots[idx + 1] if idx + 1 < len(slots) else None
+        last = not nxt or (nxt[0], nxt[1]) != (ch, vn)
+        after = "" if (last or word.endswith(MAQQEF)) else " "
+        rec = {"id": f"{prefix}.{osis}.{ch}.{vn}.w{wi}", "book": osis,
+               "ch": ch, "v": vn, "wi": wi, "raw": word, "after": after}
+        if kind != "w":
+            rec["reading"] = kind
+            if ketiv:
+                rec["ketiv"] = ketiv
+        recs.append(rec)
+    return recs
+
+
+def wlc_want(book_file):
+    """(ch, v, word) triples for verification - pronounced slots only."""
+    return [(ch, vn, w) for ch, vn, w, kind, k in wlc_source(book_file)
+            if w is not None]
 
 
 def tr_source(data, book_key):
@@ -323,6 +424,8 @@ def main():
             if tr_data is None:
                 tr_data = json.load(open(RAW / "tr1894_bibleapi.json",
                                          encoding="utf-8"))
+        elif edition == "WLC":
+            mapping = WLC_OSIS
         else:
             die(f"no full-rip handler for edition '{edition}'")
 
@@ -330,6 +433,10 @@ def main():
             if edition == "NRV":
                 recs = rip_nrv(book_key, osis, nrv_rows)
                 want = nrv_source(nrv_rows, book_key)
+                verifier = verify_from_disk
+            elif edition == "WLC":
+                recs = rip_wlc_book(book_key, osis, prefix=ed)
+                want = wlc_want(book_key)
                 verifier = verify_from_disk
             else:
                 recs = rip_tr_book(book_key, osis, tr_data)
@@ -359,6 +466,16 @@ def main():
             src_books = {r[0] for r in nrv_rows if len(r) > 7 and r[7]}
             unmapped = src_books - set(NRV_OSIS)
             exp_words = sum(1 for r in nrv_rows if len(r) > 7 and r[7])
+            exp_verses = None
+        elif edition == "WLC":
+            # Every book file on disk must be accounted for: either mapped, or
+            # a known non-book (metadata / Documentary-Hypothesis duplicate).
+            stems = {p.stem for p in (RAW / "tanach_wlc/Books").glob("*.xml")}
+            skip = {s for s in stems if s.endswith(".DH")
+                    or s.startswith("Tanach")}
+            src_books = stems - skip
+            unmapped = src_books - set(WLC_OSIS)
+            exp_words = sum(len(wlc_want(b)) for b in WLC_OSIS)
             exp_verses = None
         else:
             src_books = set(tr_data["booksData"])

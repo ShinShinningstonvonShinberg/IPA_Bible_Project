@@ -11,181 +11,271 @@
           "name": "GREEK CAPITAL LETTER ALPHA",
           "category": "Lu",
           "combining": 0,
-          "count": 76710
+          "stored": 76710,
+          "nfd": 76710
         },
         "U+0392": {
           "char": "Β",
           "name": "GREEK CAPITAL LETTER BETA",
           "category": "Lu",
           "combining": 0,
-          "count": 3514
+          "stored": 3514,
+          "nfd": 3514
         },
         "U+0393": {
           "char": "Γ",
           "name": "GREEK CAPITAL LETTER GAMMA",
           "category": "Lu",
           "combining": 0,
-          "count": 11032
+          "stored": 11032,
+          "nfd": 11032
         },
         "U+0394": {
           "char": "Δ",
           "name": "GREEK CAPITAL LETTER DELTA",
           "category": "Lu",
           "combining": 0,
-          "count": 12759
+          "stored": 12759,
+          "nfd": 12759
         },
         "U+0395": {
           "char": "Ε",
           "name": "GREEK CAPITAL LETTER EPSILON",
           "category": "Lu",
           "combining": 0,
-          "count": 67380
+          "stored": 67380,
+          "nfd": 67380
         },
         "U+0396": {
           "char": "Ζ",
           "name": "GREEK CAPITAL LETTER ZETA",
           "category": "Lu",
           "combining": 0,
-          "count": 1568
+          "stored": 1568,
+          "nfd": 1568
         },
         "U+0397": {
           "char": "Η",
           "name": "GREEK CAPITAL LETTER ETA",
           "category": "Lu",
           "combining": 0,
-          "count": 26938
+          "stored": 26938,
+          "nfd": 26938
         },
         "U+0398": {
           "char": "Θ",
           "name": "GREEK CAPITAL LETTER THETA",
           "category": "Lu",
           "combining": 0,
-          "count": 10658
+          "stored": 10658,
+          "nfd": 10658
         },
         "U+0399": {
           "char": "Ι",
           "name": "GREEK CAPITAL LETTER IOTA",
           "category": "Lu",
           "combining": 0,
-          "count": 72419
+          "stored": 72419,
+          "nfd": 72419
         },
         "U+039A": {
           "char": "Κ",
           "name": "GREEK CAPITAL LETTER KAPPA",
           "category": "Lu",
           "combining": 0,
-          "count": 23912
+          "stored": 23912,
+          "nfd": 23912
         },
         "U+039B": {
           "char": "Λ",
           "name": "GREEK CAPITAL LETTER LAMDA",
           "category": "Lu",
           "combining": 0,
-          "count": 18333
+          "stored": 18333,
+          "nfd": 18333
         },
         "U+039C": {
           "char": "Μ",
           "name": "GREEK CAPITAL LETTER MU",
           "category": "Lu",
           "combining": 0,
-          "count": 19637
+          "stored": 19637,
+          "nfd": 19637
         },
         "U+039D": {
           "char": "Ν",
           "name": "GREEK CAPITAL LETTER NU",
           "category": "Lu",
           "combining": 0,
-          "count": 56419
+          "stored": 56419,
+          "nfd": 56419
         },
         "U+039E": {
           "char": "Ξ",
           "name": "GREEK CAPITAL LETTER XI",
           "category": "Lu",
           "combining": 0,
-          "count": 2222
+          "stored": 2222,
+          "nfd": 2222
         },
         "U+039F": {
           "char": "Ο",
           "name": "GREEK CAPITAL LETTER OMICRON",
           "category": "Lu",
           "combining": 0,
-          "count": 66524
+          "stored": 66524,
+          "nfd": 66524
         },
         "U+03A0": {
           "char": "Π",
           "name": "GREEK CAPITAL LETTER PI",
           "category": "Lu",
           "combining": 0,
-          "count": 21657
+          "stored": 21657,
+          "nfd": 21657
         },
         "U+03A1": {
           "char": "Ρ",
           "name": "GREEK CAPITAL LETTER RHO",
           "category": "Lu",
           "combining": 0,
-          "count": 23091
+          "stored": 23091,
+          "nfd": 23091
         },
         "U+03A3": {
           "char": "Σ",
           "name": "GREEK CAPITAL LETTER SIGMA",
           "category": "Lu",
           "combining": 0,
-          "count": 51624
+          "stored": 51624,
+          "nfd": 51624
         },
         "U+03A4": {
           "char": "Τ",
           "name": "GREEK CAPITAL LETTER TAU",
           "category": "Lu",
           "combining": 0,
-          "count": 51185
+          "stored": 51185,
+          "nfd": 51185
         },
         "U+03A5": {
           "char": "Υ",
           "name": "GREEK CAPITAL LETTER UPSILON",
           "category": "Lu",
           "combining": 0,
-          "count": 39592
+          "stored": 39592,
+          "nfd": 39592
         },
         "U+03A6": {
           "char": "Φ",
           "name": "GREEK CAPITAL LETTER PHI",
           "category": "Lu",
           "combining": 0,
-          "count": 3891
+          "stored": 3891,
+          "nfd": 3891
         },
         "U+03A7": {
           "char": "Χ",
           "name": "GREEK CAPITAL LETTER CHI",
           "category": "Lu",
           "combining": 0,
-          "count": 5235
+          "stored": 5235,
+          "nfd": 5235
         },
         "U+03A8": {
           "char": "Ψ",
           "name": "GREEK CAPITAL LETTER PSI",
           "category": "Lu",
           "combining": 0,
-          "count": 948
+          "stored": 948,
+          "nfd": 948
         },
         "U+03A9": {
           "char": "Ω",
           "name": "GREEK CAPITAL LETTER OMEGA",
           "category": "Lu",
           "combining": 0,
-          "count": 21375
+          "stored": 21375,
+          "nfd": 21375
         }
       }
     },
     "TR1894": {
       "words": 140629,
-      "distinct": 180,
+      "distinct": 189,
       "codepoints": {
+        "U+02B9": {
+          "char": "ʹ",
+          "name": "MODIFIER LETTER PRIME",
+          "category": "Lm",
+          "combining": 0,
+          "stored": 0,
+          "nfd": 14,
+          "note": "MODIFIER LETTER PRIME - the NFD decomposition of U+0374 keraia, not a separately authored character."
+        },
+        "U+0300": {
+          "char": "̀",
+          "name": "COMBINING GRAVE ACCENT",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 0,
+          "nfd": 35891
+        },
+        "U+0301": {
+          "char": "́",
+          "name": "COMBINING ACUTE ACCENT",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 0,
+          "nfd": 54296
+        },
+        "U+0308": {
+          "char": "̈",
+          "name": "COMBINING DIAERESIS",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 0,
+          "nfd": 168
+        },
+        "U+0313": {
+          "char": "̓",
+          "name": "COMBINING COMMA ABOVE",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 0,
+          "nfd": 45944
+        },
+        "U+0314": {
+          "char": "̔",
+          "name": "COMBINING REVERSED COMMA ABOVE",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 0,
+          "nfd": 19532
+        },
+        "U+0342": {
+          "char": "͂",
+          "name": "COMBINING GREEK PERISPOMENI",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 0,
+          "nfd": 33282
+        },
+        "U+0345": {
+          "char": "ͅ",
+          "name": "COMBINING GREEK YPOGEGRAMMENI",
+          "category": "Mn",
+          "combining": 240,
+          "stored": 0,
+          "nfd": 7558
+        },
         "U+0374": {
           "char": "ʹ",
           "name": "GREEK NUMERAL SIGN",
           "category": "Lm",
           "combining": 0,
-          "count": 14,
+          "stored": 14,
+          "nfd": 0,
           "note": "GREEK NUMERAL SIGN (keraia) - marks letters used as alphabetic numerals: ιβʹ=12, ρμδʹ=144, χξϛʹ=666. Legitimate Greek, but these 14 words are NUMBERS, not pronounceable letter sequences, and need explicit handling downstream."
         },
         "U+0391": {
@@ -193,1254 +283,2109 @@
           "name": "GREEK CAPITAL LETTER ALPHA",
           "category": "Lu",
           "combining": 0,
-          "count": 67
+          "stored": 67,
+          "nfd": 772
         },
         "U+0392": {
           "char": "Β",
           "name": "GREEK CAPITAL LETTER BETA",
           "category": "Lu",
           "combining": 0,
-          "count": 154
+          "stored": 154,
+          "nfd": 154
         },
         "U+0393": {
           "char": "Γ",
           "name": "GREEK CAPITAL LETTER GAMMA",
           "category": "Lu",
           "combining": 0,
-          "count": 156
+          "stored": 156,
+          "nfd": 156
         },
         "U+0394": {
           "char": "Δ",
           "name": "GREEK CAPITAL LETTER DELTA",
           "category": "Lu",
           "combining": 0,
-          "count": 249
+          "stored": 249,
+          "nfd": 249
         },
         "U+0395": {
           "char": "Ε",
           "name": "GREEK CAPITAL LETTER EPSILON",
           "category": "Lu",
           "combining": 0,
-          "count": 157
+          "stored": 157,
+          "nfd": 681
         },
         "U+0396": {
           "char": "Ζ",
           "name": "GREEK CAPITAL LETTER ZETA",
           "category": "Lu",
           "combining": 0,
-          "count": 39
+          "stored": 39,
+          "nfd": 39
         },
         "U+0397": {
           "char": "Η",
           "name": "GREEK CAPITAL LETTER ETA",
           "category": "Lu",
           "combining": 0,
-          "count": 3
+          "stored": 3,
+          "nfd": 201
         },
         "U+0398": {
           "char": "Θ",
           "name": "GREEK CAPITAL LETTER THETA",
           "category": "Lu",
           "combining": 0,
-          "count": 1361
+          "stored": 1361,
+          "nfd": 1361
+        },
+        "U+0399": {
+          "char": "Ι",
+          "name": "GREEK CAPITAL LETTER IOTA",
+          "category": "Lu",
+          "combining": 0,
+          "stored": 0,
+          "nfd": 1953
         },
         "U+039A": {
           "char": "Κ",
           "name": "GREEK CAPITAL LETTER KAPPA",
           "category": "Lu",
           "combining": 0,
-          "count": 1198
+          "stored": 1198,
+          "nfd": 1198
         },
         "U+039B": {
           "char": "Λ",
           "name": "GREEK CAPITAL LETTER LAMDA",
           "category": "Lu",
           "combining": 0,
-          "count": 108
+          "stored": 108,
+          "nfd": 108
         },
         "U+039C": {
           "char": "Μ",
           "name": "GREEK CAPITAL LETTER MU",
           "category": "Lu",
           "combining": 0,
-          "count": 411
+          "stored": 411,
+          "nfd": 411
         },
         "U+039D": {
           "char": "Ν",
           "name": "GREEK CAPITAL LETTER NU",
           "category": "Lu",
           "combining": 0,
-          "count": 99
+          "stored": 99,
+          "nfd": 99
         },
         "U+039E": {
           "char": "Ξ",
           "name": "GREEK CAPITAL LETTER XI",
           "category": "Lu",
           "combining": 0,
-          "count": 1
+          "stored": 1,
+          "nfd": 1
         },
         "U+039F": {
           "char": "Ο",
           "name": "GREEK CAPITAL LETTER OMICRON",
           "category": "Lu",
           "combining": 0,
-          "count": 259
+          "stored": 259,
+          "nfd": 452
         },
         "U+03A0": {
           "char": "Π",
           "name": "GREEK CAPITAL LETTER PI",
           "category": "Lu",
           "combining": 0,
-          "count": 889
+          "stored": 889,
+          "nfd": 889
         },
         "U+03A1": {
           "char": "Ρ",
           "name": "GREEK CAPITAL LETTER RHO",
           "category": "Lu",
           "combining": 0,
-          "count": 2
+          "stored": 2,
+          "nfd": 53
         },
         "U+03A3": {
           "char": "Σ",
           "name": "GREEK CAPITAL LETTER SIGMA",
           "category": "Lu",
           "combining": 0,
-          "count": 427
+          "stored": 427,
+          "nfd": 427
         },
         "U+03A4": {
           "char": "Τ",
           "name": "GREEK CAPITAL LETTER TAU",
           "category": "Lu",
           "combining": 0,
-          "count": 423
+          "stored": 423,
+          "nfd": 423
         },
         "U+03A5": {
           "char": "Υ",
           "name": "GREEK CAPITAL LETTER UPSILON",
           "category": "Lu",
           "combining": 0,
-          "count": 10
+          "stored": 10,
+          "nfd": 60
         },
         "U+03A6": {
           "char": "Φ",
           "name": "GREEK CAPITAL LETTER PHI",
           "category": "Lu",
           "combining": 0,
-          "count": 204
+          "stored": 204,
+          "nfd": 204
         },
         "U+03A7": {
           "char": "Χ",
           "name": "GREEK CAPITAL LETTER CHI",
           "category": "Lu",
           "combining": 0,
-          "count": 600
+          "stored": 600,
+          "nfd": 600
         },
         "U+03A8": {
           "char": "Ψ",
           "name": "GREEK CAPITAL LETTER PSI",
           "category": "Lu",
           "combining": 0,
-          "count": 2
+          "stored": 2,
+          "nfd": 2
         },
         "U+03A9": {
           "char": "Ω",
           "name": "GREEK CAPITAL LETTER OMEGA",
           "category": "Lu",
           "combining": 0,
-          "count": 3
+          "stored": 3,
+          "nfd": 54
         },
         "U+03AC": {
           "char": "ά",
           "name": "GREEK SMALL LETTER ALPHA WITH TONOS",
           "category": "Ll",
           "combining": 0,
-          "count": 7051
+          "stored": 7051,
+          "nfd": 0
         },
         "U+03AD": {
           "char": "έ",
           "name": "GREEK SMALL LETTER EPSILON WITH TONOS",
           "category": "Ll",
           "combining": 0,
-          "count": 8725
+          "stored": 8725,
+          "nfd": 0
         },
         "U+03AE": {
           "char": "ή",
           "name": "GREEK SMALL LETTER ETA WITH TONOS",
           "category": "Ll",
           "combining": 0,
-          "count": 3814
+          "stored": 3814,
+          "nfd": 0
         },
         "U+03AF": {
           "char": "ί",
           "name": "GREEK SMALL LETTER IOTA WITH TONOS",
           "category": "Ll",
           "combining": 0,
-          "count": 10292
+          "stored": 10292,
+          "nfd": 0
         },
         "U+03B1": {
           "char": "α",
           "name": "GREEK SMALL LETTER ALPHA",
           "category": "Ll",
           "combining": 0,
-          "count": 52823
+          "stored": 52823,
+          "nfd": 76363
         },
         "U+03B2": {
           "char": "β",
           "name": "GREEK SMALL LETTER BETA",
           "category": "Ll",
           "combining": 0,
-          "count": 3511
+          "stored": 3511,
+          "nfd": 3511
         },
         "U+03B3": {
           "char": "γ",
           "name": "GREEK SMALL LETTER GAMMA",
           "category": "Ll",
           "combining": 0,
-          "count": 11161
+          "stored": 11161,
+          "nfd": 11161
         },
         "U+03B4": {
           "char": "δ",
           "name": "GREEK SMALL LETTER DELTA",
           "category": "Ll",
           "combining": 0,
-          "count": 12690
+          "stored": 12690,
+          "nfd": 12690
         },
         "U+03B5": {
           "char": "ε",
           "name": "GREEK SMALL LETTER EPSILON",
           "category": "Ll",
           "combining": 0,
-          "count": 39035
+          "stored": 39035,
+          "nfd": 67659
         },
         "U+03B6": {
           "char": "ζ",
           "name": "GREEK SMALL LETTER ZETA",
           "category": "Ll",
           "combining": 0,
-          "count": 1549
+          "stored": 1549,
+          "nfd": 1549
         },
         "U+03B7": {
           "char": "η",
           "name": "GREEK SMALL LETTER ETA",
           "category": "Ll",
           "combining": 0,
-          "count": 9247
+          "stored": 9247,
+          "nfd": 27224
         },
         "U+03B8": {
           "char": "θ",
           "name": "GREEK SMALL LETTER THETA",
           "category": "Ll",
           "combining": 0,
-          "count": 9548
+          "stored": 9548,
+          "nfd": 9548
         },
         "U+03B9": {
           "char": "ι",
           "name": "GREEK SMALL LETTER IOTA",
           "category": "Ll",
           "combining": 0,
-          "count": 26576
+          "stored": 26576,
+          "nfd": 64072
         },
         "U+03BA": {
           "char": "κ",
           "name": "GREEK SMALL LETTER KAPPA",
           "category": "Ll",
           "combining": 0,
-          "count": 23185
+          "stored": 23185,
+          "nfd": 23185
         },
         "U+03BB": {
           "char": "λ",
           "name": "GREEK SMALL LETTER LAMDA",
           "category": "Ll",
           "combining": 0,
-          "count": 18472
+          "stored": 18472,
+          "nfd": 18472
         },
         "U+03BC": {
           "char": "μ",
           "name": "GREEK SMALL LETTER MU",
           "category": "Ll",
           "combining": 0,
-          "count": 19593
+          "stored": 19593,
+          "nfd": 19593
         },
         "U+03BD": {
           "char": "ν",
           "name": "GREEK SMALL LETTER NU",
           "category": "Ll",
           "combining": 0,
-          "count": 54926
+          "stored": 54926,
+          "nfd": 54926
         },
         "U+03BE": {
           "char": "ξ",
           "name": "GREEK SMALL LETTER XI",
           "category": "Ll",
           "combining": 0,
-          "count": 2249
+          "stored": 2249,
+          "nfd": 2249
         },
         "U+03BF": {
           "char": "ο",
           "name": "GREEK SMALL LETTER OMICRON",
           "category": "Ll",
           "combining": 0,
-          "count": 46310
+          "stored": 46310,
+          "nfd": 67447
         },
         "U+03C0": {
           "char": "π",
           "name": "GREEK SMALL LETTER PI",
           "category": "Ll",
           "combining": 0,
-          "count": 21014
+          "stored": 21014,
+          "nfd": 21014
         },
         "U+03C1": {
           "char": "ρ",
           "name": "GREEK SMALL LETTER RHO",
           "category": "Ll",
           "combining": 0,
-          "count": 23288
+          "stored": 23288,
+          "nfd": 23485
         },
         "U+03C2": {
           "char": "ς",
           "name": "GREEK SMALL LETTER FINAL SIGMA",
           "category": "Ll",
           "combining": 0,
-          "count": 27414
+          "stored": 27414,
+          "nfd": 27414
         },
         "U+03C3": {
           "char": "σ",
           "name": "GREEK SMALL LETTER SIGMA",
           "category": "Ll",
           "combining": 0,
-          "count": 24561
+          "stored": 24561,
+          "nfd": 24561
         },
         "U+03C4": {
           "char": "τ",
           "name": "GREEK SMALL LETTER TAU",
           "category": "Ll",
           "combining": 0,
-          "count": 51782
+          "stored": 51782,
+          "nfd": 51782
         },
         "U+03C5": {
           "char": "υ",
           "name": "GREEK SMALL LETTER UPSILON",
           "category": "Ll",
           "combining": 0,
-          "count": 10770
+          "stored": 10770,
+          "nfd": 40326
         },
         "U+03C6": {
           "char": "φ",
           "name": "GREEK SMALL LETTER PHI",
           "category": "Ll",
           "combining": 0,
-          "count": 3844
+          "stored": 3844,
+          "nfd": 3844
         },
         "U+03C7": {
           "char": "χ",
           "name": "GREEK SMALL LETTER CHI",
           "category": "Ll",
           "combining": 0,
-          "count": 4726
+          "stored": 4726,
+          "nfd": 4726
         },
         "U+03C8": {
           "char": "ψ",
           "name": "GREEK SMALL LETTER PSI",
           "category": "Ll",
           "combining": 0,
-          "count": 958
+          "stored": 958,
+          "nfd": 958
         },
         "U+03C9": {
           "char": "ω",
           "name": "GREEK SMALL LETTER OMEGA",
           "category": "Ll",
           "combining": 0,
-          "count": 8039
+          "stored": 8039,
+          "nfd": 21808
         },
         "U+03CA": {
           "char": "ϊ",
           "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA",
           "category": "Ll",
           "combining": 0,
-          "count": 70
+          "stored": 70,
+          "nfd": 0
         },
         "U+03CB": {
           "char": "ϋ",
           "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA",
           "category": "Ll",
           "combining": 0,
-          "count": 10
+          "stored": 10,
+          "nfd": 0
         },
         "U+03CC": {
           "char": "ό",
           "name": "GREEK SMALL LETTER OMICRON WITH TONOS",
           "category": "Ll",
           "combining": 0,
-          "count": 6556
+          "stored": 6556,
+          "nfd": 0
         },
         "U+03CD": {
           "char": "ύ",
           "name": "GREEK SMALL LETTER UPSILON WITH TONOS",
           "category": "Ll",
           "combining": 0,
-          "count": 5126
+          "stored": 5126,
+          "nfd": 0
         },
         "U+03CE": {
           "char": "ώ",
           "name": "GREEK SMALL LETTER OMEGA WITH TONOS",
           "category": "Ll",
           "combining": 0,
-          "count": 2155
+          "stored": 2155,
+          "nfd": 0
         },
         "U+03DB": {
           "char": "ϛ",
           "name": "GREEK SMALL LETTER STIGMA",
           "category": "Ll",
           "combining": 0,
-          "count": 1
+          "stored": 1,
+          "nfd": 1
         },
         "U+1F00": {
           "char": "ἀ",
           "name": "GREEK SMALL LETTER ALPHA WITH PSILI",
           "category": "Ll",
           "combining": 0,
-          "count": 7447
+          "stored": 7447,
+          "nfd": 0
         },
         "U+1F01": {
           "char": "ἁ",
           "name": "GREEK SMALL LETTER ALPHA WITH DASIA",
           "category": "Ll",
           "combining": 0,
-          "count": 464
+          "stored": 464,
+          "nfd": 0
         },
         "U+1F02": {
           "char": "ἂ",
           "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 183
+          "stored": 183,
+          "nfd": 0
         },
         "U+1F03": {
           "char": "ἃ",
           "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 104
+          "stored": 104,
+          "nfd": 0
         },
         "U+1F04": {
           "char": "ἄ",
           "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 1157
+          "stored": 1157,
+          "nfd": 0
         },
         "U+1F05": {
           "char": "ἅ",
           "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 162
+          "stored": 162,
+          "nfd": 0
         },
         "U+1F06": {
           "char": "ἆ",
           "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 16
+          "stored": 16,
+          "nfd": 0
         },
         "U+1F08": {
           "char": "Ἀ",
           "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI",
           "category": "Lu",
           "combining": 0,
-          "count": 474
+          "stored": 474,
+          "nfd": 0
         },
         "U+1F09": {
           "char": "Ἁ",
           "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA",
           "category": "Lu",
           "combining": 0,
-          "count": 82
+          "stored": 82,
+          "nfd": 0
         },
         "U+1F0B": {
           "char": "Ἃ",
           "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA",
           "category": "Lu",
           "combining": 0,
-          "count": 3
+          "stored": 3,
+          "nfd": 0
         },
         "U+1F0C": {
           "char": "Ἄ",
           "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 98
+          "stored": 98,
+          "nfd": 0
         },
         "U+1F0D": {
           "char": "Ἅ",
           "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 43
+          "stored": 43,
+          "nfd": 0
         },
         "U+1F0E": {
           "char": "Ἆ",
           "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI",
           "category": "Lu",
           "combining": 0,
-          "count": 5
+          "stored": 5,
+          "nfd": 0
         },
         "U+1F10": {
           "char": "ἐ",
           "name": "GREEK SMALL LETTER EPSILON WITH PSILI",
           "category": "Ll",
           "combining": 0,
-          "count": 12334
+          "stored": 12334,
+          "nfd": 0
         },
         "U+1F11": {
           "char": "ἑ",
           "name": "GREEK SMALL LETTER EPSILON WITH DASIA",
           "category": "Ll",
           "combining": 0,
-          "count": 800
+          "stored": 800,
+          "nfd": 0
         },
         "U+1F13": {
           "char": "ἓ",
           "name": "GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 57
+          "stored": 57,
+          "nfd": 0
         },
         "U+1F14": {
           "char": "ἔ",
           "name": "GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 2776
+          "stored": 2776,
+          "nfd": 0
         },
         "U+1F15": {
           "char": "ἕ",
           "name": "GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 420
+          "stored": 420,
+          "nfd": 0
         },
         "U+1F18": {
           "char": "Ἐ",
           "name": "GREEK CAPITAL LETTER EPSILON WITH PSILI",
           "category": "Lu",
           "combining": 0,
-          "count": 343
+          "stored": 343,
+          "nfd": 0
         },
         "U+1F19": {
           "char": "Ἑ",
           "name": "GREEK CAPITAL LETTER EPSILON WITH DASIA",
           "category": "Lu",
           "combining": 0,
-          "count": 51
+          "stored": 51,
+          "nfd": 0
         },
         "U+1F1B": {
           "char": "Ἓ",
           "name": "GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA",
           "category": "Lu",
           "combining": 0,
-          "count": 3
+          "stored": 3,
+          "nfd": 0
         },
         "U+1F1C": {
           "char": "Ἔ",
           "name": "GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 98
+          "stored": 98,
+          "nfd": 0
         },
         "U+1F1D": {
           "char": "Ἕ",
           "name": "GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 29
+          "stored": 29,
+          "nfd": 0
         },
         "U+1F20": {
           "char": "ἠ",
           "name": "GREEK SMALL LETTER ETA WITH PSILI",
           "category": "Ll",
           "combining": 0,
-          "count": 349
+          "stored": 349,
+          "nfd": 0
         },
         "U+1F21": {
           "char": "ἡ",
           "name": "GREEK SMALL LETTER ETA WITH DASIA",
           "category": "Ll",
           "combining": 0,
-          "count": 2387
+          "stored": 2387,
+          "nfd": 0
         },
         "U+1F22": {
           "char": "ἢ",
           "name": "GREEK SMALL LETTER ETA WITH PSILI AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 335
+          "stored": 335,
+          "nfd": 0
         },
         "U+1F23": {
           "char": "ἣ",
           "name": "GREEK SMALL LETTER ETA WITH DASIA AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 94
+          "stored": 94,
+          "nfd": 0
         },
         "U+1F24": {
           "char": "ἤ",
           "name": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 418
+          "stored": 418,
+          "nfd": 0
         },
         "U+1F25": {
           "char": "ἥ",
           "name": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 138
+          "stored": 138,
+          "nfd": 0
         },
         "U+1F26": {
           "char": "ἦ",
           "name": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 621
+          "stored": 621,
+          "nfd": 0
         },
         "U+1F27": {
           "char": "ἧ",
           "name": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 52
+          "stored": 52,
+          "nfd": 0
         },
         "U+1F28": {
           "char": "Ἠ",
           "name": "GREEK CAPITAL LETTER ETA WITH PSILI",
           "category": "Lu",
           "combining": 0,
-          "count": 67
+          "stored": 67,
+          "nfd": 0
         },
         "U+1F29": {
           "char": "Ἡ",
           "name": "GREEK CAPITAL LETTER ETA WITH DASIA",
           "category": "Lu",
           "combining": 0,
-          "count": 94
+          "stored": 94,
+          "nfd": 0
         },
         "U+1F2A": {
           "char": "Ἢ",
           "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA",
           "category": "Lu",
           "combining": 0,
-          "count": 2
+          "stored": 2,
+          "nfd": 0
         },
         "U+1F2C": {
           "char": "Ἤ",
           "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 12
+          "stored": 12,
+          "nfd": 0
         },
         "U+1F2D": {
           "char": "Ἥ",
           "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 3
+          "stored": 3,
+          "nfd": 0
         },
         "U+1F2E": {
           "char": "Ἦ",
           "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI",
           "category": "Lu",
           "combining": 0,
-          "count": 20
+          "stored": 20,
+          "nfd": 0
         },
         "U+1F30": {
           "char": "ἰ",
           "name": "GREEK SMALL LETTER IOTA WITH PSILI",
           "category": "Ll",
           "combining": 0,
-          "count": 4199
+          "stored": 4199,
+          "nfd": 0
         },
         "U+1F31": {
           "char": "ἱ",
           "name": "GREEK SMALL LETTER IOTA WITH DASIA",
           "category": "Ll",
           "combining": 0,
-          "count": 1943
+          "stored": 1943,
+          "nfd": 0
         },
         "U+1F32": {
           "char": "ἲ",
           "name": "GREEK SMALL LETTER IOTA WITH PSILI AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 2
+          "stored": 2,
+          "nfd": 0
         },
         "U+1F33": {
           "char": "ἳ",
           "name": "GREEK SMALL LETTER IOTA WITH DASIA AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 35
+          "stored": 35,
+          "nfd": 0
         },
         "U+1F34": {
           "char": "ἴ",
           "name": "GREEK SMALL LETTER IOTA WITH PSILI AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 651
+          "stored": 651,
+          "nfd": 0
         },
         "U+1F35": {
           "char": "ἵ",
           "name": "GREEK SMALL LETTER IOTA WITH DASIA AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 838
+          "stored": 838,
+          "nfd": 0
         },
         "U+1F36": {
           "char": "ἶ",
           "name": "GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 1425
+          "stored": 1425,
+          "nfd": 0
         },
         "U+1F37": {
           "char": "ἷ",
           "name": "GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 216
+          "stored": 216,
+          "nfd": 0
         },
         "U+1F38": {
           "char": "Ἰ",
           "name": "GREEK CAPITAL LETTER IOTA WITH PSILI",
           "category": "Lu",
           "combining": 0,
-          "count": 1860
+          "stored": 1860,
+          "nfd": 0
         },
         "U+1F39": {
           "char": "Ἱ",
           "name": "GREEK CAPITAL LETTER IOTA WITH DASIA",
           "category": "Lu",
           "combining": 0,
-          "count": 73
+          "stored": 73,
+          "nfd": 0
         },
         "U+1F3C": {
           "char": "Ἴ",
           "name": "GREEK CAPITAL LETTER IOTA WITH PSILI AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 18
+          "stored": 18,
+          "nfd": 0
         },
         "U+1F3D": {
           "char": "Ἵ",
           "name": "GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 2
+          "stored": 2,
+          "nfd": 0
         },
         "U+1F40": {
           "char": "ὀ",
           "name": "GREEK SMALL LETTER OMICRON WITH PSILI",
           "category": "Ll",
           "combining": 0,
-          "count": 575
+          "stored": 575,
+          "nfd": 0
         },
         "U+1F41": {
           "char": "ὁ",
           "name": "GREEK SMALL LETTER OMICRON WITH DASIA",
           "category": "Ll",
           "combining": 0,
-          "count": 3288
+          "stored": 3288,
+          "nfd": 0
         },
         "U+1F43": {
           "char": "ὃ",
           "name": "GREEK SMALL LETTER OMICRON WITH DASIA AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 559
+          "stored": 559,
+          "nfd": 0
         },
         "U+1F44": {
           "char": "ὄ",
           "name": "GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 530
+          "stored": 530,
+          "nfd": 0
         },
         "U+1F45": {
           "char": "ὅ",
           "name": "GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 2040
+          "stored": 2040,
+          "nfd": 0
         },
         "U+1F48": {
           "char": "Ὀ",
           "name": "GREEK CAPITAL LETTER OMICRON WITH PSILI",
           "category": "Lu",
           "combining": 0,
-          "count": 19
+          "stored": 19,
+          "nfd": 0
         },
         "U+1F49": {
           "char": "Ὁ",
           "name": "GREEK CAPITAL LETTER OMICRON WITH DASIA",
           "category": "Lu",
           "combining": 0,
-          "count": 105
+          "stored": 105,
+          "nfd": 0
         },
         "U+1F4B": {
           "char": "Ὃ",
           "name": "GREEK CAPITAL LETTER OMICRON WITH DASIA AND VARIA",
           "category": "Lu",
           "combining": 0,
-          "count": 16
+          "stored": 16,
+          "nfd": 0
         },
         "U+1F4C": {
           "char": "Ὄ",
           "name": "GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 4
+          "stored": 4,
+          "nfd": 0
         },
         "U+1F4D": {
           "char": "Ὅ",
           "name": "GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 49
+          "stored": 49,
+          "nfd": 0
         },
         "U+1F50": {
           "char": "ὐ",
           "name": "GREEK SMALL LETTER UPSILON WITH PSILI",
           "category": "Ll",
           "combining": 0,
-          "count": 8828
+          "stored": 8828,
+          "nfd": 0
         },
         "U+1F51": {
           "char": "ὑ",
           "name": "GREEK SMALL LETTER UPSILON WITH DASIA",
           "category": "Ll",
           "combining": 0,
-          "count": 3013
+          "stored": 3013,
+          "nfd": 0
         },
         "U+1F52": {
           "char": "ὒ",
           "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 4
+          "stored": 4,
+          "nfd": 0
         },
         "U+1F53": {
           "char": "ὓ",
           "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 49
+          "stored": 49,
+          "nfd": 0
         },
         "U+1F54": {
           "char": "ὔ",
           "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 181
+          "stored": 181,
+          "nfd": 0
         },
         "U+1F55": {
           "char": "ὕ",
           "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 438
+          "stored": 438,
+          "nfd": 0
         },
         "U+1F56": {
           "char": "ὖ",
           "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 573
+          "stored": 573,
+          "nfd": 0
         },
         "U+1F57": {
           "char": "ὗ",
           "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 462
+          "stored": 462,
+          "nfd": 0
         },
         "U+1F59": {
           "char": "Ὑ",
           "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA",
           "category": "Lu",
           "combining": 0,
-          "count": 39
+          "stored": 39,
+          "nfd": 0
         },
         "U+1F5D": {
           "char": "Ὕ",
           "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 11
+          "stored": 11,
+          "nfd": 0
         },
         "U+1F60": {
           "char": "ὠ",
           "name": "GREEK SMALL LETTER OMEGA WITH PSILI",
           "category": "Ll",
           "combining": 0,
-          "count": 57
+          "stored": 57,
+          "nfd": 0
         },
         "U+1F61": {
           "char": "ὡ",
           "name": "GREEK SMALL LETTER OMEGA WITH DASIA",
           "category": "Ll",
           "combining": 0,
-          "count": 538
+          "stored": 538,
+          "nfd": 0
         },
         "U+1F62": {
           "char": "ὢ",
           "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 42
+          "stored": 42,
+          "nfd": 0
         },
         "U+1F64": {
           "char": "ὤ",
           "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 46
+          "stored": 46,
+          "nfd": 0
         },
         "U+1F65": {
           "char": "ὥ",
           "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 234
+          "stored": 234,
+          "nfd": 0
         },
         "U+1F66": {
           "char": "ὦ",
           "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 44
+          "stored": 44,
+          "nfd": 0
         },
         "U+1F67": {
           "char": "ὧ",
           "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 142
+          "stored": 142,
+          "nfd": 0
         },
         "U+1F68": {
           "char": "Ὠ",
           "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI",
           "category": "Lu",
           "combining": 0,
-          "count": 3
+          "stored": 3,
+          "nfd": 0
         },
         "U+1F69": {
           "char": "Ὡ",
           "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA",
           "category": "Lu",
           "combining": 0,
-          "count": 32
+          "stored": 32,
+          "nfd": 0
         },
         "U+1F6C": {
           "char": "Ὤ",
           "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 1
+          "stored": 1,
+          "nfd": 0
         },
         "U+1F6D": {
           "char": "Ὥ",
           "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA",
           "category": "Lu",
           "combining": 0,
-          "count": 5
+          "stored": 5,
+          "nfd": 0
         },
         "U+1F6E": {
           "char": "Ὦ",
           "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI",
           "category": "Lu",
           "combining": 0,
-          "count": 10
+          "stored": 10,
+          "nfd": 0
         },
         "U+1F70": {
           "char": "ὰ",
           "name": "GREEK SMALL LETTER ALPHA WITH VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 4748
+          "stored": 4748,
+          "nfd": 0
         },
         "U+1F72": {
           "char": "ὲ",
           "name": "GREEK SMALL LETTER EPSILON WITH VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 3512
+          "stored": 3512,
+          "nfd": 0
         },
         "U+1F74": {
           "char": "ὴ",
           "name": "GREEK SMALL LETTER ETA WITH VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 3791
+          "stored": 3791,
+          "nfd": 0
         },
         "U+1F76": {
           "char": "ὶ",
           "name": "GREEK SMALL LETTER IOTA WITH VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 12006
+          "stored": 12006,
+          "nfd": 0
         },
         "U+1F78": {
           "char": "ὸ",
           "name": "GREEK SMALL LETTER OMICRON WITH VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 7589
+          "stored": 7589,
+          "nfd": 0
         },
         "U+1F7A": {
           "char": "ὺ",
           "name": "GREEK SMALL LETTER UPSILON WITH VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 1753
+          "stored": 1753,
+          "nfd": 0
         },
         "U+1F7C": {
           "char": "ὼ",
           "name": "GREEK SMALL LETTER OMEGA WITH VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 981
+          "stored": 981,
+          "nfd": 0
         },
         "U+1F84": {
           "char": "ᾄ",
           "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 5
+          "stored": 5,
+          "nfd": 0
         },
         "U+1F85": {
           "char": "ᾅ",
           "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 11
+          "stored": 11,
+          "nfd": 0
         },
         "U+1F90": {
           "char": "ᾐ",
           "name": "GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 14
+          "stored": 14,
+          "nfd": 0
         },
         "U+1F91": {
           "char": "ᾑ",
           "name": "GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 1
+          "stored": 1,
+          "nfd": 0
         },
         "U+1F94": {
           "char": "ᾔ",
           "name": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 35
+          "stored": 35,
+          "nfd": 0
         },
         "U+1F95": {
           "char": "ᾕ",
           "name": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 1
+          "stored": 1,
+          "nfd": 0
         },
         "U+1F96": {
           "char": "ᾖ",
           "name": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 41
+          "stored": 41,
+          "nfd": 0
         },
         "U+1F97": {
           "char": "ᾗ",
           "name": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 39
+          "stored": 39,
+          "nfd": 0
         },
         "U+1FA0": {
           "char": "ᾠ",
           "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 16
+          "stored": 16,
+          "nfd": 0
         },
         "U+1FA6": {
           "char": "ᾦ",
           "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 2
+          "stored": 2,
+          "nfd": 0
         },
         "U+1FA7": {
           "char": "ᾧ",
           "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 123
+          "stored": 123,
+          "nfd": 0
         },
         "U+1FB3": {
           "char": "ᾳ",
           "name": "GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 607
+          "stored": 607,
+          "nfd": 0
         },
         "U+1FB4": {
           "char": "ᾴ",
           "name": "GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 1
+          "stored": 1,
+          "nfd": 0
         },
         "U+1FB6": {
           "char": "ᾶ",
           "name": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 1437
+          "stored": 1437,
+          "nfd": 0
         },
         "U+1FB7": {
           "char": "ᾷ",
           "name": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 147
+          "stored": 147,
+          "nfd": 0
         },
         "U+1FC3": {
           "char": "ῃ",
           "name": "GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 1019
+          "stored": 1019,
+          "nfd": 0
         },
         "U+1FC4": {
           "char": "ῄ",
           "name": "GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 26
+          "stored": 26,
+          "nfd": 0
         },
         "U+1FC6": {
           "char": "ῆ",
           "name": "GREEK SMALL LETTER ETA WITH PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 3315
+          "stored": 3315,
+          "nfd": 0
         },
         "U+1FC7": {
           "char": "ῇ",
           "name": "GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 1487
+          "stored": 1487,
+          "nfd": 0
         },
         "U+1FD2": {
           "char": "ῒ",
           "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 22
+          "stored": 22,
+          "nfd": 0
         },
         "U+1FD3": {
           "char": "ΐ",
           "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 62
+          "stored": 62,
+          "nfd": 0
         },
         "U+1FD6": {
           "char": "ῖ",
           "name": "GREEK SMALL LETTER IOTA WITH PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 5735
+          "stored": 5735,
+          "nfd": 0
         },
         "U+1FE2": {
           "char": "ῢ",
           "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA",
           "category": "Ll",
           "combining": 0,
-          "count": 1
+          "stored": 1,
+          "nfd": 0
         },
         "U+1FE3": {
           "char": "ΰ",
           "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA",
           "category": "Ll",
           "combining": 0,
-          "count": 3
+          "stored": 3,
+          "nfd": 0
         },
         "U+1FE4": {
           "char": "ῤ",
           "name": "GREEK SMALL LETTER RHO WITH PSILI",
           "category": "Ll",
           "combining": 0,
-          "count": 4
+          "stored": 4,
+          "nfd": 0
         },
         "U+1FE5": {
           "char": "ῥ",
           "name": "GREEK SMALL LETTER RHO WITH DASIA",
           "category": "Ll",
           "combining": 0,
-          "count": 193
+          "stored": 193,
+          "nfd": 0
         },
         "U+1FE6": {
           "char": "ῦ",
           "name": "GREEK SMALL LETTER UPSILON WITH PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 9115
+          "stored": 9115,
+          "nfd": 0
         },
         "U+1FEC": {
           "char": "Ῥ",
           "name": "GREEK CAPITAL LETTER RHO WITH DASIA",
           "category": "Lu",
           "combining": 0,
-          "count": 51
+          "stored": 51,
+          "nfd": 0
         },
         "U+1FF3": {
           "char": "ῳ",
           "name": "GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 1103
+          "stored": 1103,
+          "nfd": 0
         },
         "U+1FF4": {
           "char": "ῴ",
           "name": "GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 31
+          "stored": 31,
+          "nfd": 0
         },
         "U+1FF6": {
           "char": "ῶ",
           "name": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 5406
+          "stored": 5406,
+          "nfd": 0
         },
         "U+1FF7": {
           "char": "ῷ",
           "name": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI",
           "category": "Ll",
           "combining": 0,
-          "count": 2849
+          "stored": 2849,
+          "nfd": 0
         },
         "U+2019": {
           "char": "’",
           "name": "RIGHT SINGLE QUOTATION MARK",
           "category": "Pf",
           "combining": 0,
-          "count": 1335,
+          "stored": 1335,
+          "nfd": 1335,
           "note": "RIGHT SINGLE QUOTATION MARK - Greek elision apostrophe; part of the word and phonetically meaningful."
+        }
+      }
+    },
+    "WLC": {
+      "words": 305502,
+      "distinct": 82,
+      "codepoints": {
+        "U+0020": {
+          "char": " ",
+          "name": "SPACE",
+          "category": "Zs",
+          "combining": 0,
+          "stored": 2293,
+          "nfd": 2293,
+          "note": "SPACE inside `raw` - occurs only in the paseq encoding, where WLC attaches ' ׀' to the preceding word."
+        },
+        "U+034F": {
+          "char": "͏",
+          "name": "COMBINING GRAPHEME JOINER",
+          "category": "Mn",
+          "combining": 0,
+          "stored": 1142,
+          "nfd": 1142,
+          "note": "COMBINING GRAPHEME JOINER - blocks canonical reordering of Masoretic marks. Load-bearing: never strip."
+        },
+        "U+0591": {
+          "char": "֑",
+          "name": "HEBREW ACCENT ETNAHTA",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 21572,
+          "nfd": 21572
+        },
+        "U+0592": {
+          "char": "֒",
+          "name": "HEBREW ACCENT SEGOL",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 957,
+          "nfd": 957
+        },
+        "U+0593": {
+          "char": "֓",
+          "name": "HEBREW ACCENT SHALSHELET",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 46,
+          "nfd": 46
+        },
+        "U+0594": {
+          "char": "֔",
+          "name": "HEBREW ACCENT ZAQEF QATAN",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 25566,
+          "nfd": 25566
+        },
+        "U+0595": {
+          "char": "֕",
+          "name": "HEBREW ACCENT ZAQEF GADOL",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 1656,
+          "nfd": 1656
+        },
+        "U+0596": {
+          "char": "֖",
+          "name": "HEBREW ACCENT TIPEHA",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 37168,
+          "nfd": 37168
+        },
+        "U+0597": {
+          "char": "֗",
+          "name": "HEBREW ACCENT REVIA",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 12812,
+          "nfd": 12812
+        },
+        "U+0598": {
+          "char": "֘",
+          "name": "HEBREW ACCENT ZARQA",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 212,
+          "nfd": 212
+        },
+        "U+0599": {
+          "char": "֙",
+          "name": "HEBREW ACCENT PASHTA",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 24455,
+          "nfd": 24455
+        },
+        "U+059A": {
+          "char": "֚",
+          "name": "HEBREW ACCENT YETIV",
+          "category": "Mn",
+          "combining": 222,
+          "stored": 1178,
+          "nfd": 1178
+        },
+        "U+059B": {
+          "char": "֛",
+          "name": "HEBREW ACCENT TEVIR",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 7864,
+          "nfd": 7864
+        },
+        "U+059C": {
+          "char": "֜",
+          "name": "HEBREW ACCENT GERESH",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 4173,
+          "nfd": 4173
+        },
+        "U+059D": {
+          "char": "֝",
+          "name": "HEBREW ACCENT GERESH MUQDAM",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 2966,
+          "nfd": 2966
+        },
+        "U+059E": {
+          "char": "֞",
+          "name": "HEBREW ACCENT GERSHAYIM",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 1730,
+          "nfd": 1730
+        },
+        "U+059F": {
+          "char": "֟",
+          "name": "HEBREW ACCENT QARNEY PARA",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 16,
+          "nfd": 16
+        },
+        "U+05A0": {
+          "char": "֠",
+          "name": "HEBREW ACCENT TELISHA GEDOLA",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 1203,
+          "nfd": 1203
+        },
+        "U+05A1": {
+          "char": "֡",
+          "name": "HEBREW ACCENT PAZER",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 955,
+          "nfd": 955
+        },
+        "U+05A2": {
+          "char": "֢",
+          "name": "HEBREW ACCENT ATNAH HAFUKH",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 198,
+          "nfd": 198
+        },
+        "U+05A3": {
+          "char": "֣",
+          "name": "HEBREW ACCENT MUNAH",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 41353,
+          "nfd": 41353
+        },
+        "U+05A4": {
+          "char": "֤",
+          "name": "HEBREW ACCENT MAHAPAKH",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 12613,
+          "nfd": 12613
+        },
+        "U+05A5": {
+          "char": "֥",
+          "name": "HEBREW ACCENT MERKHA",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 33198,
+          "nfd": 33198
+        },
+        "U+05A6": {
+          "char": "֦",
+          "name": "HEBREW ACCENT MERKHA KEFULA",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 14,
+          "nfd": 14
+        },
+        "U+05A7": {
+          "char": "֧",
+          "name": "HEBREW ACCENT DARGA",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 3271,
+          "nfd": 3271
+        },
+        "U+05A8": {
+          "char": "֨",
+          "name": "HEBREW ACCENT QADMA",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 7540,
+          "nfd": 7540
+        },
+        "U+05A9": {
+          "char": "֩",
+          "name": "HEBREW ACCENT TELISHA QETANA",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 1874,
+          "nfd": 1874
+        },
+        "U+05AA": {
+          "char": "֪",
+          "name": "HEBREW ACCENT YERAH BEN YOMO",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 53,
+          "nfd": 53
+        },
+        "U+05AB": {
+          "char": "֫",
+          "name": "HEBREW ACCENT OLE",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 408,
+          "nfd": 408
+        },
+        "U+05AC": {
+          "char": "֬",
+          "name": "HEBREW ACCENT ILUY",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 184,
+          "nfd": 184
+        },
+        "U+05AD": {
+          "char": "֭",
+          "name": "HEBREW ACCENT DEHI",
+          "category": "Mn",
+          "combining": 222,
+          "stored": 2652,
+          "nfd": 2652
+        },
+        "U+05AE": {
+          "char": "֮",
+          "name": "HEBREW ACCENT ZINOR",
+          "category": "Mn",
+          "combining": 228,
+          "stored": 1227,
+          "nfd": 1227
+        },
+        "U+05B0": {
+          "char": "ְ",
+          "name": "HEBREW POINT SHEVA",
+          "category": "Mn",
+          "combining": 10,
+          "stored": 150444,
+          "nfd": 150444
+        },
+        "U+05B1": {
+          "char": "ֱ",
+          "name": "HEBREW POINT HATAF SEGOL",
+          "category": "Mn",
+          "combining": 11,
+          "stored": 4469,
+          "nfd": 4469
+        },
+        "U+05B2": {
+          "char": "ֲ",
+          "name": "HEBREW POINT HATAF PATAH",
+          "category": "Mn",
+          "combining": 12,
+          "stored": 25606,
+          "nfd": 25606
+        },
+        "U+05B3": {
+          "char": "ֳ",
+          "name": "HEBREW POINT HATAF QAMATS",
+          "category": "Mn",
+          "combining": 13,
+          "stored": 634,
+          "nfd": 634
+        },
+        "U+05B4": {
+          "char": "ִ",
+          "name": "HEBREW POINT HIRIQ",
+          "category": "Mn",
+          "combining": 14,
+          "stored": 108992,
+          "nfd": 108992
+        },
+        "U+05B5": {
+          "char": "ֵ",
+          "name": "HEBREW POINT TSERE",
+          "category": "Mn",
+          "combining": 15,
+          "stored": 59038,
+          "nfd": 59038
+        },
+        "U+05B6": {
+          "char": "ֶ",
+          "name": "HEBREW POINT SEGOL",
+          "category": "Mn",
+          "combining": 16,
+          "stored": 75225,
+          "nfd": 75225
+        },
+        "U+05B7": {
+          "char": "ַ",
+          "name": "HEBREW POINT PATAH",
+          "category": "Mn",
+          "combining": 17,
+          "stored": 117265,
+          "nfd": 117265
+        },
+        "U+05B8": {
+          "char": "ָ",
+          "name": "HEBREW POINT QAMATS",
+          "category": "Mn",
+          "combining": 18,
+          "stored": 152022,
+          "nfd": 152022
+        },
+        "U+05B9": {
+          "char": "ֹ",
+          "name": "HEBREW POINT HOLAM",
+          "category": "Mn",
+          "combining": 19,
+          "stored": 73434,
+          "nfd": 73434
+        },
+        "U+05BA": {
+          "char": "ֺ",
+          "name": "HEBREW POINT HOLAM HASER FOR VAV",
+          "category": "Mn",
+          "combining": 19,
+          "stored": 416,
+          "nfd": 416
+        },
+        "U+05BB": {
+          "char": "ֻ",
+          "name": "HEBREW POINT QUBUTS",
+          "category": "Mn",
+          "combining": 20,
+          "stored": 4371,
+          "nfd": 4371
+        },
+        "U+05BC": {
+          "char": "ּ",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn",
+          "combining": 21,
+          "stored": 170703,
+          "nfd": 170703
+        },
+        "U+05BD": {
+          "char": "ֽ",
+          "name": "HEBREW POINT METEG",
+          "category": "Mn",
+          "combining": 22,
+          "stored": 41330,
+          "nfd": 41330
+        },
+        "U+05BE": {
+          "char": "־",
+          "name": "HEBREW PUNCTUATION MAQAF",
+          "category": "Pd",
+          "combining": 0,
+          "stored": 42532,
+          "nfd": 42532,
+          "note": "MAQQEF - joins words; the following `after` is empty by design."
+        },
+        "U+05BF": {
+          "char": "ֿ",
+          "name": "HEBREW POINT RAFE",
+          "category": "Mn",
+          "combining": 23,
+          "stored": 16,
+          "nfd": 16
+        },
+        "U+05C0": {
+          "char": "׀",
+          "name": "HEBREW PUNCTUATION PASEQ",
+          "category": "Po",
+          "combining": 0,
+          "stored": 2294,
+          "nfd": 2294,
+          "note": "PASEQ - phrase divider, attached to the preceding word."
+        },
+        "U+05C1": {
+          "char": "ׁ",
+          "name": "HEBREW POINT SHIN DOT",
+          "category": "Mn",
+          "combining": 24,
+          "stored": 46065,
+          "nfd": 46065
+        },
+        "U+05C2": {
+          "char": "ׂ",
+          "name": "HEBREW POINT SIN DOT",
+          "category": "Mn",
+          "combining": 25,
+          "stored": 12083,
+          "nfd": 12083
+        },
+        "U+05C3": {
+          "char": "׃",
+          "name": "HEBREW PUNCTUATION SOF PASUQ",
+          "category": "Po",
+          "combining": 0,
+          "stored": 23182,
+          "nfd": 23182,
+          "note": "SOF PASUQ - verse terminator, attached to the last word."
+        },
+        "U+05C4": {
+          "char": "ׄ",
+          "name": "HEBREW MARK UPPER DOT",
+          "category": "Mn",
+          "combining": 230,
+          "stored": 53,
+          "nfd": 53
+        },
+        "U+05C5": {
+          "char": "ׅ",
+          "name": "HEBREW MARK LOWER DOT",
+          "category": "Mn",
+          "combining": 220,
+          "stored": 3,
+          "nfd": 3
+        },
+        "U+05D0": {
+          "char": "א",
+          "name": "HEBREW LETTER ALEF",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 95662,
+          "nfd": 95662
+        },
+        "U+05D1": {
+          "char": "ב",
+          "name": "HEBREW LETTER BET",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 65208,
+          "nfd": 65208
+        },
+        "U+05D2": {
+          "char": "ג",
+          "name": "HEBREW LETTER GIMEL",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 10077,
+          "nfd": 10077
+        },
+        "U+05D3": {
+          "char": "ד",
+          "name": "HEBREW LETTER DALET",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 32375,
+          "nfd": 32375
+        },
+        "U+05D4": {
+          "char": "ה",
+          "name": "HEBREW LETTER HE",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 101973,
+          "nfd": 101973
+        },
+        "U+05D5": {
+          "char": "ו",
+          "name": "HEBREW LETTER VAV",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 129613,
+          "nfd": 129613
+        },
+        "U+05D6": {
+          "char": "ז",
+          "name": "HEBREW LETTER ZAYIN",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 9100,
+          "nfd": 9100
+        },
+        "U+05D7": {
+          "char": "ח",
+          "name": "HEBREW LETTER HET",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 27598,
+          "nfd": 27598
+        },
+        "U+05D8": {
+          "char": "ט",
+          "name": "HEBREW LETTER TET",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 6317,
+          "nfd": 6317
+        },
+        "U+05D9": {
+          "char": "י",
+          "name": "HEBREW LETTER YOD",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 137922,
+          "nfd": 137922
+        },
+        "U+05DA": {
+          "char": "ך",
+          "name": "HEBREW LETTER FINAL KAF",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 14002,
+          "nfd": 14002
+        },
+        "U+05DB": {
+          "char": "כ",
+          "name": "HEBREW LETTER KAF",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 33480,
+          "nfd": 33480
+        },
+        "U+05DC": {
+          "char": "ל",
+          "name": "HEBREW LETTER LAMED",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 88295,
+          "nfd": 88295
+        },
+        "U+05DD": {
+          "char": "ם",
+          "name": "HEBREW LETTER FINAL MEM",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 41289,
+          "nfd": 41289
+        },
+        "U+05DE": {
+          "char": "מ",
+          "name": "HEBREW LETTER MEM",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 57649,
+          "nfd": 57649
+        },
+        "U+05DF": {
+          "char": "ן",
+          "name": "HEBREW LETTER FINAL NUN",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 15240,
+          "nfd": 15240
+        },
+        "U+05E0": {
+          "char": "נ",
+          "name": "HEBREW LETTER NUN",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 39851,
+          "nfd": 39851
+        },
+        "U+05E1": {
+          "char": "ס",
+          "name": "HEBREW LETTER SAMEKH",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 7635,
+          "nfd": 7635
+        },
+        "U+05E2": {
+          "char": "ע",
+          "name": "HEBREW LETTER AYIN",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 44803,
+          "nfd": 44803
+        },
+        "U+05E3": {
+          "char": "ף",
+          "name": "HEBREW LETTER FINAL PE",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 2555,
+          "nfd": 2555
+        },
+        "U+05E4": {
+          "char": "פ",
+          "name": "HEBREW LETTER PE",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 15723,
+          "nfd": 15723
+        },
+        "U+05E5": {
+          "char": "ץ",
+          "name": "HEBREW LETTER FINAL TSADI",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 3288,
+          "nfd": 3288
+        },
+        "U+05E6": {
+          "char": "צ",
+          "name": "HEBREW LETTER TSADI",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 11689,
+          "nfd": 11689
+        },
+        "U+05E7": {
+          "char": "ק",
+          "name": "HEBREW LETTER QOF",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 16278,
+          "nfd": 16278
+        },
+        "U+05E8": {
+          "char": "ר",
+          "name": "HEBREW LETTER RESH",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 68061,
+          "nfd": 68061
+        },
+        "U+05E9": {
+          "char": "ש",
+          "name": "HEBREW LETTER SHIN",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 58195,
+          "nfd": 58195
+        },
+        "U+05EA": {
+          "char": "ת",
+          "name": "HEBREW LETTER TAV",
+          "category": "Lo",
+          "combining": 0,
+          "stored": 63213,
+          "nfd": 63213
+        },
+        "U+200D": {
+          "char": "‍",
+          "name": "ZERO WIDTH JOINER",
+          "category": "Cf",
+          "combining": 0,
+          "stored": 83,
+          "nfd": 83,
+          "note": "ZERO WIDTH JOINER - deliberate Masoretic encoding control. Occurs 83x, always between a hataf (reduced) vowel and a meteg, keeping the two from colliding. Same class as the CGJ above: load-bearing, never strip."
         }
       }
     }

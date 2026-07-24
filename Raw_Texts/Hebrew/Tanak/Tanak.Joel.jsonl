@@ -1,0 +1,957 @@
+{"id": "Tanak.Joel.1.1.w1", "book": "Joel", "ch": 1, "v": 1, "wi": 1, "raw": "דְּבַר־", "after": ""}
+{"id": "Tanak.Joel.1.1.w2", "book": "Joel", "ch": 1, "v": 1, "wi": 2, "raw": "יְהוָה֙", "after": " "}
+{"id": "Tanak.Joel.1.1.w3", "book": "Joel", "ch": 1, "v": 1, "wi": 3, "raw": "אֲשֶׁ֣ר", "after": " "}
+{"id": "Tanak.Joel.1.1.w4", "book": "Joel", "ch": 1, "v": 1, "wi": 4, "raw": "הָיָ֔ה", "after": " "}
+{"id": "Tanak.Joel.1.1.w5", "book": "Joel", "ch": 1, "v": 1, "wi": 5, "raw": "אֶל־", "after": ""}
+{"id": "Tanak.Joel.1.1.w6", "book": "Joel", "ch": 1, "v": 1, "wi": 6, "raw": "יוֹאֵ֖ל", "after": " "}
+{"id": "Tanak.Joel.1.1.w7", "book": "Joel", "ch": 1, "v": 1, "wi": 7, "raw": "בֶּן־", "after": ""}
+{"id": "Tanak.Joel.1.1.w8", "book": "Joel", "ch": 1, "v": 1, "wi": 8, "raw": "פְּתוּאֵֽל׃", "after": ""}
+{"id": "Tanak.Joel.1.2.w1", "book": "Joel", "ch": 1, "v": 2, "wi": 1, "raw": "שִׁמְעוּ־", "after": ""}
+{"id": "Tanak.Joel.1.2.w2", "book": "Joel", "ch": 1, "v": 2, "wi": 2, "raw": "זֹאת֙", "after": " "}
+{"id": "Tanak.Joel.1.2.w3", "book": "Joel", "ch": 1, "v": 2, "wi": 3, "raw": "הַזְּקֵנִ֔ים", "after": " "}
+{"id": "Tanak.Joel.1.2.w4", "book": "Joel", "ch": 1, "v": 2, "wi": 4, "raw": "וְהַֽאֲזִ֔ינוּ", "after": " "}
+{"id": "Tanak.Joel.1.2.w5", "book": "Joel", "ch": 1, "v": 2, "wi": 5, "raw": "כֹּ֖ל", "after": " "}
+{"id": "Tanak.Joel.1.2.w6", "book": "Joel", "ch": 1, "v": 2, "wi": 6, "raw": "יוֹשְׁבֵ֣י", "after": " "}
+{"id": "Tanak.Joel.1.2.w7", "book": "Joel", "ch": 1, "v": 2, "wi": 7, "raw": "הָאָ֑רֶץ", "after": " "}
+{"id": "Tanak.Joel.1.2.w8", "book": "Joel", "ch": 1, "v": 2, "wi": 8, "raw": "הֶהָ֤יְתָה", "after": " "}
+{"id": "Tanak.Joel.1.2.w9", "book": "Joel", "ch": 1, "v": 2, "wi": 9, "raw": "זֹּאת֙", "after": " "}
+{"id": "Tanak.Joel.1.2.w10", "book": "Joel", "ch": 1, "v": 2, "wi": 10, "raw": "בִּֽימֵיכֶ֔ם", "after": " "}
+{"id": "Tanak.Joel.1.2.w11", "book": "Joel", "ch": 1, "v": 2, "wi": 11, "raw": "וְאִ֖ם", "after": " "}
+{"id": "Tanak.Joel.1.2.w12", "book": "Joel", "ch": 1, "v": 2, "wi": 12, "raw": "בִּימֵ֥י", "after": " "}
+{"id": "Tanak.Joel.1.2.w13", "book": "Joel", "ch": 1, "v": 2, "wi": 13, "raw": "אֲבֹֽתֵיכֶֽם׃", "after": ""}
+{"id": "Tanak.Joel.1.3.w1", "book": "Joel", "ch": 1, "v": 3, "wi": 1, "raw": "עָלֶ֖יהָ", "after": " "}
+{"id": "Tanak.Joel.1.3.w2", "book": "Joel", "ch": 1, "v": 3, "wi": 2, "raw": "לִבְנֵיכֶ֣ם", "after": " "}
+{"id": "Tanak.Joel.1.3.w3", "book": "Joel", "ch": 1, "v": 3, "wi": 3, "raw": "סַפֵּ֑רוּ", "after": " "}
+{"id": "Tanak.Joel.1.3.w4", "book": "Joel", "ch": 1, "v": 3, "wi": 4, "raw": "וּבְנֵיכֶם֙", "after": " "}
+{"id": "Tanak.Joel.1.3.w5", "book": "Joel", "ch": 1, "v": 3, "wi": 5, "raw": "לִבְנֵיהֶ֔ם", "after": " "}
+{"id": "Tanak.Joel.1.3.w6", "book": "Joel", "ch": 1, "v": 3, "wi": 6, "raw": "וּבְנֵיהֶ֖ם", "after": " "}
+{"id": "Tanak.Joel.1.3.w7", "book": "Joel", "ch": 1, "v": 3, "wi": 7, "raw": "לְד֥וֹר", "after": " "}
+{"id": "Tanak.Joel.1.3.w8", "book": "Joel", "ch": 1, "v": 3, "wi": 8, "raw": "אַחֵֽר׃", "after": ""}
+{"id": "Tanak.Joel.1.4.w1", "book": "Joel", "ch": 1, "v": 4, "wi": 1, "raw": "יֶ֤תֶר", "after": " "}
+{"id": "Tanak.Joel.1.4.w2", "book": "Joel", "ch": 1, "v": 4, "wi": 2, "raw": "הַגָּזָם֙", "after": " "}
+{"id": "Tanak.Joel.1.4.w3", "book": "Joel", "ch": 1, "v": 4, "wi": 3, "raw": "אָכַ֣ל", "after": " "}
+{"id": "Tanak.Joel.1.4.w4", "book": "Joel", "ch": 1, "v": 4, "wi": 4, "raw": "הָֽאַרְבֶּ֔ה", "after": " "}
+{"id": "Tanak.Joel.1.4.w5", "book": "Joel", "ch": 1, "v": 4, "wi": 5, "raw": "וְיֶ֥תֶר", "after": " "}
+{"id": "Tanak.Joel.1.4.w6", "book": "Joel", "ch": 1, "v": 4, "wi": 6, "raw": "הָאַרְבֶּ֖ה", "after": " "}
+{"id": "Tanak.Joel.1.4.w7", "book": "Joel", "ch": 1, "v": 4, "wi": 7, "raw": "אָכַ֣ל", "after": " "}
+{"id": "Tanak.Joel.1.4.w8", "book": "Joel", "ch": 1, "v": 4, "wi": 8, "raw": "הַיָּ֑לֶק", "after": " "}
+{"id": "Tanak.Joel.1.4.w9", "book": "Joel", "ch": 1, "v": 4, "wi": 9, "raw": "וְיֶ֣תֶר", "after": " "}
+{"id": "Tanak.Joel.1.4.w10", "book": "Joel", "ch": 1, "v": 4, "wi": 10, "raw": "הַיֶּ֔לֶק", "after": " "}
+{"id": "Tanak.Joel.1.4.w11", "book": "Joel", "ch": 1, "v": 4, "wi": 11, "raw": "אָכַ֖ל", "after": " "}
+{"id": "Tanak.Joel.1.4.w12", "book": "Joel", "ch": 1, "v": 4, "wi": 12, "raw": "הֶחָסִֽיל׃", "after": ""}
+{"id": "Tanak.Joel.1.5.w1", "book": "Joel", "ch": 1, "v": 5, "wi": 1, "raw": "הָקִ֤יצוּ", "after": " "}
+{"id": "Tanak.Joel.1.5.w2", "book": "Joel", "ch": 1, "v": 5, "wi": 2, "raw": "שִׁכּוֹרִים֙", "after": " "}
+{"id": "Tanak.Joel.1.5.w3", "book": "Joel", "ch": 1, "v": 5, "wi": 3, "raw": "וּבְכ֔וּ", "after": " "}
+{"id": "Tanak.Joel.1.5.w4", "book": "Joel", "ch": 1, "v": 5, "wi": 4, "raw": "וְהֵילִ֖לוּ", "after": " "}
+{"id": "Tanak.Joel.1.5.w5", "book": "Joel", "ch": 1, "v": 5, "wi": 5, "raw": "כָּל־", "after": ""}
+{"id": "Tanak.Joel.1.5.w6", "book": "Joel", "ch": 1, "v": 5, "wi": 6, "raw": "שֹׁ֣תֵי", "after": " "}
+{"id": "Tanak.Joel.1.5.w7", "book": "Joel", "ch": 1, "v": 5, "wi": 7, "raw": "יָ֑יִן", "after": " "}
+{"id": "Tanak.Joel.1.5.w8", "book": "Joel", "ch": 1, "v": 5, "wi": 8, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.1.5.w9", "book": "Joel", "ch": 1, "v": 5, "wi": 9, "raw": "עָסִ֕יס", "after": " "}
+{"id": "Tanak.Joel.1.5.w10", "book": "Joel", "ch": 1, "v": 5, "wi": 10, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.1.5.w11", "book": "Joel", "ch": 1, "v": 5, "wi": 11, "raw": "נִכְרַ֖ת", "after": " "}
+{"id": "Tanak.Joel.1.5.w12", "book": "Joel", "ch": 1, "v": 5, "wi": 12, "raw": "מִפִּיכֶֽם׃", "after": ""}
+{"id": "Tanak.Joel.1.6.w1", "book": "Joel", "ch": 1, "v": 6, "wi": 1, "raw": "כִּֽי־", "after": ""}
+{"id": "Tanak.Joel.1.6.w2", "book": "Joel", "ch": 1, "v": 6, "wi": 2, "raw": "גוֹי֙", "after": " "}
+{"id": "Tanak.Joel.1.6.w3", "book": "Joel", "ch": 1, "v": 6, "wi": 3, "raw": "עָלָ֣ה", "after": " "}
+{"id": "Tanak.Joel.1.6.w4", "book": "Joel", "ch": 1, "v": 6, "wi": 4, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.1.6.w5", "book": "Joel", "ch": 1, "v": 6, "wi": 5, "raw": "אַרְצִ֔י", "after": " "}
+{"id": "Tanak.Joel.1.6.w6", "book": "Joel", "ch": 1, "v": 6, "wi": 6, "raw": "עָצ֖וּם", "after": " "}
+{"id": "Tanak.Joel.1.6.w7", "book": "Joel", "ch": 1, "v": 6, "wi": 7, "raw": "וְאֵ֣ין", "after": " "}
+{"id": "Tanak.Joel.1.6.w8", "book": "Joel", "ch": 1, "v": 6, "wi": 8, "raw": "מִסְפָּ֑ר", "after": " "}
+{"id": "Tanak.Joel.1.6.w9", "book": "Joel", "ch": 1, "v": 6, "wi": 9, "raw": "שִׁנָּיו֙", "after": " "}
+{"id": "Tanak.Joel.1.6.w10", "book": "Joel", "ch": 1, "v": 6, "wi": 10, "raw": "שִׁנֵּ֣י", "after": " "}
+{"id": "Tanak.Joel.1.6.w11", "book": "Joel", "ch": 1, "v": 6, "wi": 11, "raw": "אַרְיֵ֔ה", "after": " "}
+{"id": "Tanak.Joel.1.6.w12", "book": "Joel", "ch": 1, "v": 6, "wi": 12, "raw": "וּֽמְתַלְּע֥וֹת", "after": " "}
+{"id": "Tanak.Joel.1.6.w13", "book": "Joel", "ch": 1, "v": 6, "wi": 13, "raw": "לָבִ֖יא", "after": " "}
+{"id": "Tanak.Joel.1.6.w14", "book": "Joel", "ch": 1, "v": 6, "wi": 14, "raw": "לֽוֹ׃", "after": ""}
+{"id": "Tanak.Joel.1.7.w1", "book": "Joel", "ch": 1, "v": 7, "wi": 1, "raw": "שָׂ֤ם", "after": " "}
+{"id": "Tanak.Joel.1.7.w2", "book": "Joel", "ch": 1, "v": 7, "wi": 2, "raw": "גַּפְנִי֙", "after": " "}
+{"id": "Tanak.Joel.1.7.w3", "book": "Joel", "ch": 1, "v": 7, "wi": 3, "raw": "לְשַׁמָּ֔ה", "after": " "}
+{"id": "Tanak.Joel.1.7.w4", "book": "Joel", "ch": 1, "v": 7, "wi": 4, "raw": "וּתְאֵנָתִ֖י", "after": " "}
+{"id": "Tanak.Joel.1.7.w5", "book": "Joel", "ch": 1, "v": 7, "wi": 5, "raw": "לִקְצָפָ֑ה", "after": " "}
+{"id": "Tanak.Joel.1.7.w6", "book": "Joel", "ch": 1, "v": 7, "wi": 6, "raw": "חָשֹׂ֤ף", "after": " "}
+{"id": "Tanak.Joel.1.7.w7", "book": "Joel", "ch": 1, "v": 7, "wi": 7, "raw": "חֲשָׂפָהּ֙", "after": " "}
+{"id": "Tanak.Joel.1.7.w8", "book": "Joel", "ch": 1, "v": 7, "wi": 8, "raw": "וְהִשְׁלִ֔יךְ", "after": " "}
+{"id": "Tanak.Joel.1.7.w9", "book": "Joel", "ch": 1, "v": 7, "wi": 9, "raw": "הִלְבִּ֖ינוּ", "after": " "}
+{"id": "Tanak.Joel.1.7.w10", "book": "Joel", "ch": 1, "v": 7, "wi": 10, "raw": "שָׂרִיגֶֽיהָ׃", "after": ""}
+{"id": "Tanak.Joel.1.8.w1", "book": "Joel", "ch": 1, "v": 8, "wi": 1, "raw": "אֱלִ֕י", "after": " "}
+{"id": "Tanak.Joel.1.8.w2", "book": "Joel", "ch": 1, "v": 8, "wi": 2, "raw": "כִּבְתוּלָ֥ה", "after": " "}
+{"id": "Tanak.Joel.1.8.w3", "book": "Joel", "ch": 1, "v": 8, "wi": 3, "raw": "חֲגֻֽרַת־", "after": ""}
+{"id": "Tanak.Joel.1.8.w4", "book": "Joel", "ch": 1, "v": 8, "wi": 4, "raw": "שַׂ֖ק", "after": " "}
+{"id": "Tanak.Joel.1.8.w5", "book": "Joel", "ch": 1, "v": 8, "wi": 5, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.1.8.w6", "book": "Joel", "ch": 1, "v": 8, "wi": 6, "raw": "בַּ֥עַל", "after": " "}
+{"id": "Tanak.Joel.1.8.w7", "book": "Joel", "ch": 1, "v": 8, "wi": 7, "raw": "נְעוּרֶֽיהָ׃", "after": ""}
+{"id": "Tanak.Joel.1.9.w1", "book": "Joel", "ch": 1, "v": 9, "wi": 1, "raw": "הָכְרַ֥ת", "after": " "}
+{"id": "Tanak.Joel.1.9.w2", "book": "Joel", "ch": 1, "v": 9, "wi": 2, "raw": "מִנְחָ֛ה", "after": " "}
+{"id": "Tanak.Joel.1.9.w3", "book": "Joel", "ch": 1, "v": 9, "wi": 3, "raw": "וָנֶ֖סֶךְ", "after": " "}
+{"id": "Tanak.Joel.1.9.w4", "book": "Joel", "ch": 1, "v": 9, "wi": 4, "raw": "מִבֵּ֣ית", "after": " "}
+{"id": "Tanak.Joel.1.9.w5", "book": "Joel", "ch": 1, "v": 9, "wi": 5, "raw": "יְהוָ֑ה", "after": " "}
+{"id": "Tanak.Joel.1.9.w6", "book": "Joel", "ch": 1, "v": 9, "wi": 6, "raw": "אָֽבְלוּ֙", "after": " "}
+{"id": "Tanak.Joel.1.9.w7", "book": "Joel", "ch": 1, "v": 9, "wi": 7, "raw": "הַכֹּ֣הֲנִ֔ים", "after": " "}
+{"id": "Tanak.Joel.1.9.w8", "book": "Joel", "ch": 1, "v": 9, "wi": 8, "raw": "מְשָׁרְתֵ֖י", "after": " "}
+{"id": "Tanak.Joel.1.9.w9", "book": "Joel", "ch": 1, "v": 9, "wi": 9, "raw": "יְהוָֽה׃", "after": ""}
+{"id": "Tanak.Joel.1.10.w1", "book": "Joel", "ch": 1, "v": 10, "wi": 1, "raw": "שֻׁדַּ֣ד", "after": " "}
+{"id": "Tanak.Joel.1.10.w2", "book": "Joel", "ch": 1, "v": 10, "wi": 2, "raw": "שָׂדֶ֔ה", "after": " "}
+{"id": "Tanak.Joel.1.10.w3", "book": "Joel", "ch": 1, "v": 10, "wi": 3, "raw": "אָבְלָ֖ה", "after": " "}
+{"id": "Tanak.Joel.1.10.w4", "book": "Joel", "ch": 1, "v": 10, "wi": 4, "raw": "אֲדָמָ֑ה", "after": " "}
+{"id": "Tanak.Joel.1.10.w5", "book": "Joel", "ch": 1, "v": 10, "wi": 5, "raw": "כִּ֚י", "after": " "}
+{"id": "Tanak.Joel.1.10.w6", "book": "Joel", "ch": 1, "v": 10, "wi": 6, "raw": "שֻׁדַּ֣ד", "after": " "}
+{"id": "Tanak.Joel.1.10.w7", "book": "Joel", "ch": 1, "v": 10, "wi": 7, "raw": "דָּגָ֔ן", "after": " "}
+{"id": "Tanak.Joel.1.10.w8", "book": "Joel", "ch": 1, "v": 10, "wi": 8, "raw": "הוֹבִ֥ישׁ", "after": " "}
+{"id": "Tanak.Joel.1.10.w9", "book": "Joel", "ch": 1, "v": 10, "wi": 9, "raw": "תִּיר֖וֹשׁ", "after": " "}
+{"id": "Tanak.Joel.1.10.w10", "book": "Joel", "ch": 1, "v": 10, "wi": 10, "raw": "אֻמְלַ֥ל", "after": " "}
+{"id": "Tanak.Joel.1.10.w11", "book": "Joel", "ch": 1, "v": 10, "wi": 11, "raw": "יִצְהָֽר׃", "after": ""}
+{"id": "Tanak.Joel.1.11.w1", "book": "Joel", "ch": 1, "v": 11, "wi": 1, "raw": "הֹבִ֣ישׁוּ", "after": " "}
+{"id": "Tanak.Joel.1.11.w2", "book": "Joel", "ch": 1, "v": 11, "wi": 2, "raw": "אִכָּרִ֗ים", "after": " "}
+{"id": "Tanak.Joel.1.11.w3", "book": "Joel", "ch": 1, "v": 11, "wi": 3, "raw": "הֵילִ֙ילוּ֙", "after": " "}
+{"id": "Tanak.Joel.1.11.w4", "book": "Joel", "ch": 1, "v": 11, "wi": 4, "raw": "כֹּֽרְמִ֔ים", "after": " "}
+{"id": "Tanak.Joel.1.11.w5", "book": "Joel", "ch": 1, "v": 11, "wi": 5, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.1.11.w6", "book": "Joel", "ch": 1, "v": 11, "wi": 6, "raw": "חִטָּ֖ה", "after": " "}
+{"id": "Tanak.Joel.1.11.w7", "book": "Joel", "ch": 1, "v": 11, "wi": 7, "raw": "וְעַל־", "after": ""}
+{"id": "Tanak.Joel.1.11.w8", "book": "Joel", "ch": 1, "v": 11, "wi": 8, "raw": "שְׂעֹרָ֑ה", "after": " "}
+{"id": "Tanak.Joel.1.11.w9", "book": "Joel", "ch": 1, "v": 11, "wi": 9, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.1.11.w10", "book": "Joel", "ch": 1, "v": 11, "wi": 10, "raw": "אָבַ֖ד", "after": " "}
+{"id": "Tanak.Joel.1.11.w11", "book": "Joel", "ch": 1, "v": 11, "wi": 11, "raw": "קְצִ֥יר", "after": " "}
+{"id": "Tanak.Joel.1.11.w12", "book": "Joel", "ch": 1, "v": 11, "wi": 12, "raw": "שָׂדֶֽה׃", "after": ""}
+{"id": "Tanak.Joel.1.12.w1", "book": "Joel", "ch": 1, "v": 12, "wi": 1, "raw": "הַגֶּ֣פֶן", "after": " "}
+{"id": "Tanak.Joel.1.12.w2", "book": "Joel", "ch": 1, "v": 12, "wi": 2, "raw": "הוֹבִ֔ישָׁה", "after": " "}
+{"id": "Tanak.Joel.1.12.w3", "book": "Joel", "ch": 1, "v": 12, "wi": 3, "raw": "וְהַתְּאֵנָ֖ה", "after": " "}
+{"id": "Tanak.Joel.1.12.w4", "book": "Joel", "ch": 1, "v": 12, "wi": 4, "raw": "אֻמְלָ֑לָה", "after": " "}
+{"id": "Tanak.Joel.1.12.w5", "book": "Joel", "ch": 1, "v": 12, "wi": 5, "raw": "רִמּ֞וֹן", "after": " "}
+{"id": "Tanak.Joel.1.12.w6", "book": "Joel", "ch": 1, "v": 12, "wi": 6, "raw": "גַּם־", "after": ""}
+{"id": "Tanak.Joel.1.12.w7", "book": "Joel", "ch": 1, "v": 12, "wi": 7, "raw": "תָּמָ֣ר", "after": " "}
+{"id": "Tanak.Joel.1.12.w8", "book": "Joel", "ch": 1, "v": 12, "wi": 8, "raw": "וְתַפּ֗וּחַ", "after": " "}
+{"id": "Tanak.Joel.1.12.w9", "book": "Joel", "ch": 1, "v": 12, "wi": 9, "raw": "כָּל־", "after": ""}
+{"id": "Tanak.Joel.1.12.w10", "book": "Joel", "ch": 1, "v": 12, "wi": 10, "raw": "עֲצֵ֤י", "after": " "}
+{"id": "Tanak.Joel.1.12.w11", "book": "Joel", "ch": 1, "v": 12, "wi": 11, "raw": "הַשָּׂדֶה֙", "after": " "}
+{"id": "Tanak.Joel.1.12.w12", "book": "Joel", "ch": 1, "v": 12, "wi": 12, "raw": "יָבֵ֔שׁוּ", "after": " "}
+{"id": "Tanak.Joel.1.12.w13", "book": "Joel", "ch": 1, "v": 12, "wi": 13, "raw": "כִּֽי־", "after": ""}
+{"id": "Tanak.Joel.1.12.w14", "book": "Joel", "ch": 1, "v": 12, "wi": 14, "raw": "הֹבִ֥ישׁ", "after": " "}
+{"id": "Tanak.Joel.1.12.w15", "book": "Joel", "ch": 1, "v": 12, "wi": 15, "raw": "שָׂשׂ֖וֹן", "after": " "}
+{"id": "Tanak.Joel.1.12.w16", "book": "Joel", "ch": 1, "v": 12, "wi": 16, "raw": "מִן־", "after": ""}
+{"id": "Tanak.Joel.1.12.w17", "book": "Joel", "ch": 1, "v": 12, "wi": 17, "raw": "בְּנֵ֥י", "after": " "}
+{"id": "Tanak.Joel.1.12.w18", "book": "Joel", "ch": 1, "v": 12, "wi": 18, "raw": "אָדָֽם׃", "after": ""}
+{"id": "Tanak.Joel.1.13.w1", "book": "Joel", "ch": 1, "v": 13, "wi": 1, "raw": "חִגְר֨וּ", "after": " "}
+{"id": "Tanak.Joel.1.13.w2", "book": "Joel", "ch": 1, "v": 13, "wi": 2, "raw": "וְסִפְד֜וּ", "after": " "}
+{"id": "Tanak.Joel.1.13.w3", "book": "Joel", "ch": 1, "v": 13, "wi": 3, "raw": "הַכֹּהֲנִ֗ים", "after": " "}
+{"id": "Tanak.Joel.1.13.w4", "book": "Joel", "ch": 1, "v": 13, "wi": 4, "raw": "הֵילִ֙ילוּ֙", "after": " "}
+{"id": "Tanak.Joel.1.13.w5", "book": "Joel", "ch": 1, "v": 13, "wi": 5, "raw": "מְשָׁרְתֵ֣י", "after": " "}
+{"id": "Tanak.Joel.1.13.w6", "book": "Joel", "ch": 1, "v": 13, "wi": 6, "raw": "מִזְבֵּ֔חַ", "after": " "}
+{"id": "Tanak.Joel.1.13.w7", "book": "Joel", "ch": 1, "v": 13, "wi": 7, "raw": "בֹּ֚אוּ", "after": " "}
+{"id": "Tanak.Joel.1.13.w8", "book": "Joel", "ch": 1, "v": 13, "wi": 8, "raw": "לִ֣ינוּ", "after": " "}
+{"id": "Tanak.Joel.1.13.w9", "book": "Joel", "ch": 1, "v": 13, "wi": 9, "raw": "בַשַּׂקִּ֔ים", "after": " "}
+{"id": "Tanak.Joel.1.13.w10", "book": "Joel", "ch": 1, "v": 13, "wi": 10, "raw": "מְשָׁרְתֵ֖י", "after": " "}
+{"id": "Tanak.Joel.1.13.w11", "book": "Joel", "ch": 1, "v": 13, "wi": 11, "raw": "אֱלֹהָ֑י", "after": " "}
+{"id": "Tanak.Joel.1.13.w12", "book": "Joel", "ch": 1, "v": 13, "wi": 12, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.1.13.w13", "book": "Joel", "ch": 1, "v": 13, "wi": 13, "raw": "נִמְנַ֛ע", "after": " "}
+{"id": "Tanak.Joel.1.13.w14", "book": "Joel", "ch": 1, "v": 13, "wi": 14, "raw": "מִבֵּ֥ית", "after": " "}
+{"id": "Tanak.Joel.1.13.w15", "book": "Joel", "ch": 1, "v": 13, "wi": 15, "raw": "אֱלֹהֵיכֶ֖ם", "after": " "}
+{"id": "Tanak.Joel.1.13.w16", "book": "Joel", "ch": 1, "v": 13, "wi": 16, "raw": "מִנְחָ֥ה", "after": " "}
+{"id": "Tanak.Joel.1.13.w17", "book": "Joel", "ch": 1, "v": 13, "wi": 17, "raw": "וָנָֽסֶךְ׃", "after": ""}
+{"id": "Tanak.Joel.1.14.w1", "book": "Joel", "ch": 1, "v": 14, "wi": 1, "raw": "קַדְּשׁוּ־", "after": ""}
+{"id": "Tanak.Joel.1.14.w2", "book": "Joel", "ch": 1, "v": 14, "wi": 2, "raw": "צוֹם֙", "after": " "}
+{"id": "Tanak.Joel.1.14.w3", "book": "Joel", "ch": 1, "v": 14, "wi": 3, "raw": "קִרְא֣וּ", "after": " "}
+{"id": "Tanak.Joel.1.14.w4", "book": "Joel", "ch": 1, "v": 14, "wi": 4, "raw": "עֲצָרָ֔ה", "after": " "}
+{"id": "Tanak.Joel.1.14.w5", "book": "Joel", "ch": 1, "v": 14, "wi": 5, "raw": "אִסְפ֣וּ", "after": " "}
+{"id": "Tanak.Joel.1.14.w6", "book": "Joel", "ch": 1, "v": 14, "wi": 6, "raw": "זְקֵנִ֗ים", "after": " "}
+{"id": "Tanak.Joel.1.14.w7", "book": "Joel", "ch": 1, "v": 14, "wi": 7, "raw": "כֹּ֚ל", "after": " "}
+{"id": "Tanak.Joel.1.14.w8", "book": "Joel", "ch": 1, "v": 14, "wi": 8, "raw": "יֹשְׁבֵ֣י", "after": " "}
+{"id": "Tanak.Joel.1.14.w9", "book": "Joel", "ch": 1, "v": 14, "wi": 9, "raw": "הָאָ֔רֶץ", "after": " "}
+{"id": "Tanak.Joel.1.14.w10", "book": "Joel", "ch": 1, "v": 14, "wi": 10, "raw": "בֵּ֖ית", "after": " "}
+{"id": "Tanak.Joel.1.14.w11", "book": "Joel", "ch": 1, "v": 14, "wi": 11, "raw": "יְהוָ֣ה", "after": " "}
+{"id": "Tanak.Joel.1.14.w12", "book": "Joel", "ch": 1, "v": 14, "wi": 12, "raw": "אֱלֹהֵיכֶ֑ם", "after": " "}
+{"id": "Tanak.Joel.1.14.w13", "book": "Joel", "ch": 1, "v": 14, "wi": 13, "raw": "וְזַעֲק֖וּ", "after": " "}
+{"id": "Tanak.Joel.1.14.w14", "book": "Joel", "ch": 1, "v": 14, "wi": 14, "raw": "אֶל־", "after": ""}
+{"id": "Tanak.Joel.1.14.w15", "book": "Joel", "ch": 1, "v": 14, "wi": 15, "raw": "יְהוָֽה׃", "after": ""}
+{"id": "Tanak.Joel.1.15.w1", "book": "Joel", "ch": 1, "v": 15, "wi": 1, "raw": "אֲהָ֖הּ", "after": " "}
+{"id": "Tanak.Joel.1.15.w2", "book": "Joel", "ch": 1, "v": 15, "wi": 2, "raw": "לַיּ֑וֹם", "after": " "}
+{"id": "Tanak.Joel.1.15.w3", "book": "Joel", "ch": 1, "v": 15, "wi": 3, "raw": "כִּ֤י", "after": " "}
+{"id": "Tanak.Joel.1.15.w4", "book": "Joel", "ch": 1, "v": 15, "wi": 4, "raw": "קָרוֹב֙", "after": " "}
+{"id": "Tanak.Joel.1.15.w5", "book": "Joel", "ch": 1, "v": 15, "wi": 5, "raw": "י֣וֹם", "after": " "}
+{"id": "Tanak.Joel.1.15.w6", "book": "Joel", "ch": 1, "v": 15, "wi": 6, "raw": "יְהוָ֔ה", "after": " "}
+{"id": "Tanak.Joel.1.15.w7", "book": "Joel", "ch": 1, "v": 15, "wi": 7, "raw": "וּכְשֹׁ֖ד", "after": " "}
+{"id": "Tanak.Joel.1.15.w8", "book": "Joel", "ch": 1, "v": 15, "wi": 8, "raw": "מִשַׁדַּ֥י", "after": " "}
+{"id": "Tanak.Joel.1.15.w9", "book": "Joel", "ch": 1, "v": 15, "wi": 9, "raw": "יָבֽוֹא׃", "after": ""}
+{"id": "Tanak.Joel.1.16.w1", "book": "Joel", "ch": 1, "v": 16, "wi": 1, "raw": "הֲל֛וֹא", "after": " "}
+{"id": "Tanak.Joel.1.16.w2", "book": "Joel", "ch": 1, "v": 16, "wi": 2, "raw": "נֶ֥גֶד", "after": " "}
+{"id": "Tanak.Joel.1.16.w3", "book": "Joel", "ch": 1, "v": 16, "wi": 3, "raw": "עֵינֵ֖ינוּ", "after": " "}
+{"id": "Tanak.Joel.1.16.w4", "book": "Joel", "ch": 1, "v": 16, "wi": 4, "raw": "אֹ֣כֶל", "after": " "}
+{"id": "Tanak.Joel.1.16.w5", "book": "Joel", "ch": 1, "v": 16, "wi": 5, "raw": "נִכְרָ֑ת", "after": " "}
+{"id": "Tanak.Joel.1.16.w6", "book": "Joel", "ch": 1, "v": 16, "wi": 6, "raw": "מִבֵּ֥ית", "after": " "}
+{"id": "Tanak.Joel.1.16.w7", "book": "Joel", "ch": 1, "v": 16, "wi": 7, "raw": "אֱלֹהֵ֖ינוּ", "after": " "}
+{"id": "Tanak.Joel.1.16.w8", "book": "Joel", "ch": 1, "v": 16, "wi": 8, "raw": "שִׂמְחָ֥ה", "after": " "}
+{"id": "Tanak.Joel.1.16.w9", "book": "Joel", "ch": 1, "v": 16, "wi": 9, "raw": "וָגִֽיל׃", "after": ""}
+{"id": "Tanak.Joel.1.17.w1", "book": "Joel", "ch": 1, "v": 17, "wi": 1, "raw": "עָבְשׁ֣וּ", "after": " "}
+{"id": "Tanak.Joel.1.17.w2", "book": "Joel", "ch": 1, "v": 17, "wi": 2, "raw": "פְרֻד֗וֹת", "after": " "}
+{"id": "Tanak.Joel.1.17.w3", "book": "Joel", "ch": 1, "v": 17, "wi": 3, "raw": "תַּ֚חַת", "after": " "}
+{"id": "Tanak.Joel.1.17.w4", "book": "Joel", "ch": 1, "v": 17, "wi": 4, "raw": "מֶגְרְפֹ֣תֵיהֶ֔ם", "after": " "}
+{"id": "Tanak.Joel.1.17.w5", "book": "Joel", "ch": 1, "v": 17, "wi": 5, "raw": "נָשַׁ֙מּוּ֙", "after": " "}
+{"id": "Tanak.Joel.1.17.w6", "book": "Joel", "ch": 1, "v": 17, "wi": 6, "raw": "אֹֽצָר֔וֹת", "after": " "}
+{"id": "Tanak.Joel.1.17.w7", "book": "Joel", "ch": 1, "v": 17, "wi": 7, "raw": "נֶהֶרְס֖וּ", "after": " "}
+{"id": "Tanak.Joel.1.17.w8", "book": "Joel", "ch": 1, "v": 17, "wi": 8, "raw": "מַמְּגֻר֑וֹת", "after": " "}
+{"id": "Tanak.Joel.1.17.w9", "book": "Joel", "ch": 1, "v": 17, "wi": 9, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.1.17.w10", "book": "Joel", "ch": 1, "v": 17, "wi": 10, "raw": "הֹבִ֖ישׁ", "after": " "}
+{"id": "Tanak.Joel.1.17.w11", "book": "Joel", "ch": 1, "v": 17, "wi": 11, "raw": "דָּגָֽן׃", "after": ""}
+{"id": "Tanak.Joel.1.18.w1", "book": "Joel", "ch": 1, "v": 18, "wi": 1, "raw": "מַה־", "after": ""}
+{"id": "Tanak.Joel.1.18.w2", "book": "Joel", "ch": 1, "v": 18, "wi": 2, "raw": "נֶּאֶנְחָ֣ה", "after": " "}
+{"id": "Tanak.Joel.1.18.w3", "book": "Joel", "ch": 1, "v": 18, "wi": 3, "raw": "בְהֵמָ֗ה", "after": " "}
+{"id": "Tanak.Joel.1.18.w4", "book": "Joel", "ch": 1, "v": 18, "wi": 4, "raw": "נָבֹ֙כוּ֙", "after": " "}
+{"id": "Tanak.Joel.1.18.w5", "book": "Joel", "ch": 1, "v": 18, "wi": 5, "raw": "עֶדְרֵ֣י", "after": " "}
+{"id": "Tanak.Joel.1.18.w6", "book": "Joel", "ch": 1, "v": 18, "wi": 6, "raw": "בָקָ֔ר", "after": " "}
+{"id": "Tanak.Joel.1.18.w7", "book": "Joel", "ch": 1, "v": 18, "wi": 7, "raw": "כִּ֛י", "after": " "}
+{"id": "Tanak.Joel.1.18.w8", "book": "Joel", "ch": 1, "v": 18, "wi": 8, "raw": "אֵ֥ין", "after": " "}
+{"id": "Tanak.Joel.1.18.w9", "book": "Joel", "ch": 1, "v": 18, "wi": 9, "raw": "מִרְעֶ֖ה", "after": " "}
+{"id": "Tanak.Joel.1.18.w10", "book": "Joel", "ch": 1, "v": 18, "wi": 10, "raw": "לָהֶ֑ם", "after": " "}
+{"id": "Tanak.Joel.1.18.w11", "book": "Joel", "ch": 1, "v": 18, "wi": 11, "raw": "גַּם־", "after": ""}
+{"id": "Tanak.Joel.1.18.w12", "book": "Joel", "ch": 1, "v": 18, "wi": 12, "raw": "עֶדְרֵ֥י", "after": " "}
+{"id": "Tanak.Joel.1.18.w13", "book": "Joel", "ch": 1, "v": 18, "wi": 13, "raw": "הַצֹּ֖אן", "after": " "}
+{"id": "Tanak.Joel.1.18.w14", "book": "Joel", "ch": 1, "v": 18, "wi": 14, "raw": "נֶאְשָֽׁמוּ׃", "after": ""}
+{"id": "Tanak.Joel.1.19.w1", "book": "Joel", "ch": 1, "v": 19, "wi": 1, "raw": "אֵלֶ֥יךָ", "after": " "}
+{"id": "Tanak.Joel.1.19.w2", "book": "Joel", "ch": 1, "v": 19, "wi": 2, "raw": "יְהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.1.19.w3", "book": "Joel", "ch": 1, "v": 19, "wi": 3, "raw": "אֶקְרָ֑א", "after": " "}
+{"id": "Tanak.Joel.1.19.w4", "book": "Joel", "ch": 1, "v": 19, "wi": 4, "raw": "כִּ֣י", "after": " "}
+{"id": "Tanak.Joel.1.19.w5", "book": "Joel", "ch": 1, "v": 19, "wi": 5, "raw": "אֵ֗שׁ", "after": " "}
+{"id": "Tanak.Joel.1.19.w6", "book": "Joel", "ch": 1, "v": 19, "wi": 6, "raw": "אָֽכְלָה֙", "after": " "}
+{"id": "Tanak.Joel.1.19.w7", "book": "Joel", "ch": 1, "v": 19, "wi": 7, "raw": "נְא֣וֹת", "after": " "}
+{"id": "Tanak.Joel.1.19.w8", "book": "Joel", "ch": 1, "v": 19, "wi": 8, "raw": "מִדְבָּ֔ר", "after": " "}
+{"id": "Tanak.Joel.1.19.w9", "book": "Joel", "ch": 1, "v": 19, "wi": 9, "raw": "וְלֶ֣הָבָ֔ה", "after": " "}
+{"id": "Tanak.Joel.1.19.w10", "book": "Joel", "ch": 1, "v": 19, "wi": 10, "raw": "לִהֲטָ֖ה", "after": " "}
+{"id": "Tanak.Joel.1.19.w11", "book": "Joel", "ch": 1, "v": 19, "wi": 11, "raw": "כָּל־", "after": ""}
+{"id": "Tanak.Joel.1.19.w12", "book": "Joel", "ch": 1, "v": 19, "wi": 12, "raw": "עֲצֵ֥י", "after": " "}
+{"id": "Tanak.Joel.1.19.w13", "book": "Joel", "ch": 1, "v": 19, "wi": 13, "raw": "הַשָּׂדֶֽה׃", "after": ""}
+{"id": "Tanak.Joel.1.20.w1", "book": "Joel", "ch": 1, "v": 20, "wi": 1, "raw": "גַּם־", "after": ""}
+{"id": "Tanak.Joel.1.20.w2", "book": "Joel", "ch": 1, "v": 20, "wi": 2, "raw": "בַּהֲמ֥וֹת", "after": " "}
+{"id": "Tanak.Joel.1.20.w3", "book": "Joel", "ch": 1, "v": 20, "wi": 3, "raw": "שָׂדֶ֖ה", "after": " "}
+{"id": "Tanak.Joel.1.20.w4", "book": "Joel", "ch": 1, "v": 20, "wi": 4, "raw": "תַּעֲר֣וֹג", "after": " "}
+{"id": "Tanak.Joel.1.20.w5", "book": "Joel", "ch": 1, "v": 20, "wi": 5, "raw": "אֵלֶ֑יךָ", "after": " "}
+{"id": "Tanak.Joel.1.20.w6", "book": "Joel", "ch": 1, "v": 20, "wi": 6, "raw": "כִּ֤י", "after": " "}
+{"id": "Tanak.Joel.1.20.w7", "book": "Joel", "ch": 1, "v": 20, "wi": 7, "raw": "יָֽבְשׁוּ֙", "after": " "}
+{"id": "Tanak.Joel.1.20.w8", "book": "Joel", "ch": 1, "v": 20, "wi": 8, "raw": "אֲפִ֣יקֵי", "after": " "}
+{"id": "Tanak.Joel.1.20.w9", "book": "Joel", "ch": 1, "v": 20, "wi": 9, "raw": "מָ֔יִם", "after": " "}
+{"id": "Tanak.Joel.1.20.w10", "book": "Joel", "ch": 1, "v": 20, "wi": 10, "raw": "וְאֵ֕שׁ", "after": " "}
+{"id": "Tanak.Joel.1.20.w11", "book": "Joel", "ch": 1, "v": 20, "wi": 11, "raw": "אָכְלָ֖ה", "after": " "}
+{"id": "Tanak.Joel.1.20.w12", "book": "Joel", "ch": 1, "v": 20, "wi": 12, "raw": "נְא֥וֹת", "after": " "}
+{"id": "Tanak.Joel.1.20.w13", "book": "Joel", "ch": 1, "v": 20, "wi": 13, "raw": "הַמִּדְבָּֽר׃", "after": ""}
+{"id": "Tanak.Joel.2.1.w1", "book": "Joel", "ch": 2, "v": 1, "wi": 1, "raw": "תִּקְע֨וּ", "after": " "}
+{"id": "Tanak.Joel.2.1.w2", "book": "Joel", "ch": 2, "v": 1, "wi": 2, "raw": "שׁוֹפָ֜ר", "after": " "}
+{"id": "Tanak.Joel.2.1.w3", "book": "Joel", "ch": 2, "v": 1, "wi": 3, "raw": "בְּצִיּ֗וֹן", "after": " "}
+{"id": "Tanak.Joel.2.1.w4", "book": "Joel", "ch": 2, "v": 1, "wi": 4, "raw": "וְהָרִ֙יעוּ֙", "after": " "}
+{"id": "Tanak.Joel.2.1.w5", "book": "Joel", "ch": 2, "v": 1, "wi": 5, "raw": "בְּהַ֣ר", "after": " "}
+{"id": "Tanak.Joel.2.1.w6", "book": "Joel", "ch": 2, "v": 1, "wi": 6, "raw": "קָדְשִׁ֔י", "after": " "}
+{"id": "Tanak.Joel.2.1.w7", "book": "Joel", "ch": 2, "v": 1, "wi": 7, "raw": "יִרְגְּז֕וּ", "after": " "}
+{"id": "Tanak.Joel.2.1.w8", "book": "Joel", "ch": 2, "v": 1, "wi": 8, "raw": "כֹּ֖ל", "after": " "}
+{"id": "Tanak.Joel.2.1.w9", "book": "Joel", "ch": 2, "v": 1, "wi": 9, "raw": "יֹשְׁבֵ֣י", "after": " "}
+{"id": "Tanak.Joel.2.1.w10", "book": "Joel", "ch": 2, "v": 1, "wi": 10, "raw": "הָאָ֑רֶץ", "after": " "}
+{"id": "Tanak.Joel.2.1.w11", "book": "Joel", "ch": 2, "v": 1, "wi": 11, "raw": "כִּֽי־", "after": ""}
+{"id": "Tanak.Joel.2.1.w12", "book": "Joel", "ch": 2, "v": 1, "wi": 12, "raw": "בָ֥א", "after": " "}
+{"id": "Tanak.Joel.2.1.w13", "book": "Joel", "ch": 2, "v": 1, "wi": 13, "raw": "יוֹם־", "after": ""}
+{"id": "Tanak.Joel.2.1.w14", "book": "Joel", "ch": 2, "v": 1, "wi": 14, "raw": "יְהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.1.w15", "book": "Joel", "ch": 2, "v": 1, "wi": 15, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.2.1.w16", "book": "Joel", "ch": 2, "v": 1, "wi": 16, "raw": "קָרֽוֹב׃", "after": ""}
+{"id": "Tanak.Joel.2.2.w1", "book": "Joel", "ch": 2, "v": 2, "wi": 1, "raw": "י֧וֹם", "after": " "}
+{"id": "Tanak.Joel.2.2.w2", "book": "Joel", "ch": 2, "v": 2, "wi": 2, "raw": "חֹ֣שֶׁךְ", "after": " "}
+{"id": "Tanak.Joel.2.2.w3", "book": "Joel", "ch": 2, "v": 2, "wi": 3, "raw": "וַאֲפֵלָ֗ה", "after": " "}
+{"id": "Tanak.Joel.2.2.w4", "book": "Joel", "ch": 2, "v": 2, "wi": 4, "raw": "י֤וֹם", "after": " "}
+{"id": "Tanak.Joel.2.2.w5", "book": "Joel", "ch": 2, "v": 2, "wi": 5, "raw": "עָנָן֙", "after": " "}
+{"id": "Tanak.Joel.2.2.w6", "book": "Joel", "ch": 2, "v": 2, "wi": 6, "raw": "וַעֲרָפֶ֔ל", "after": " "}
+{"id": "Tanak.Joel.2.2.w7", "book": "Joel", "ch": 2, "v": 2, "wi": 7, "raw": "כְּשַׁ֖חַר", "after": " "}
+{"id": "Tanak.Joel.2.2.w8", "book": "Joel", "ch": 2, "v": 2, "wi": 8, "raw": "פָּרֻ֣שׂ", "after": " "}
+{"id": "Tanak.Joel.2.2.w9", "book": "Joel", "ch": 2, "v": 2, "wi": 9, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.2.2.w10", "book": "Joel", "ch": 2, "v": 2, "wi": 10, "raw": "הֶֽהָרִ֑ים", "after": " "}
+{"id": "Tanak.Joel.2.2.w11", "book": "Joel", "ch": 2, "v": 2, "wi": 11, "raw": "עַ֚ם", "after": " "}
+{"id": "Tanak.Joel.2.2.w12", "book": "Joel", "ch": 2, "v": 2, "wi": 12, "raw": "רַ֣ב", "after": " "}
+{"id": "Tanak.Joel.2.2.w13", "book": "Joel", "ch": 2, "v": 2, "wi": 13, "raw": "וְעָצ֔וּם", "after": " "}
+{"id": "Tanak.Joel.2.2.w14", "book": "Joel", "ch": 2, "v": 2, "wi": 14, "raw": "כָּמֹ֗הוּ", "after": " "}
+{"id": "Tanak.Joel.2.2.w15", "book": "Joel", "ch": 2, "v": 2, "wi": 15, "raw": "לֹ֤א", "after": " "}
+{"id": "Tanak.Joel.2.2.w16", "book": "Joel", "ch": 2, "v": 2, "wi": 16, "raw": "נִֽהְיָה֙", "after": " "}
+{"id": "Tanak.Joel.2.2.w17", "book": "Joel", "ch": 2, "v": 2, "wi": 17, "raw": "מִן־", "after": ""}
+{"id": "Tanak.Joel.2.2.w18", "book": "Joel", "ch": 2, "v": 2, "wi": 18, "raw": "הָ֣עוֹלָ֔ם", "after": " "}
+{"id": "Tanak.Joel.2.2.w19", "book": "Joel", "ch": 2, "v": 2, "wi": 19, "raw": "וְאַֽחֲרָיו֙", "after": " "}
+{"id": "Tanak.Joel.2.2.w20", "book": "Joel", "ch": 2, "v": 2, "wi": 20, "raw": "לֹ֣א", "after": " "}
+{"id": "Tanak.Joel.2.2.w21", "book": "Joel", "ch": 2, "v": 2, "wi": 21, "raw": "יוֹסֵ֔ף", "after": " "}
+{"id": "Tanak.Joel.2.2.w22", "book": "Joel", "ch": 2, "v": 2, "wi": 22, "raw": "עַד־", "after": ""}
+{"id": "Tanak.Joel.2.2.w23", "book": "Joel", "ch": 2, "v": 2, "wi": 23, "raw": "שְׁנֵ֖י", "after": " "}
+{"id": "Tanak.Joel.2.2.w24", "book": "Joel", "ch": 2, "v": 2, "wi": 24, "raw": "דּ֥וֹר", "after": " "}
+{"id": "Tanak.Joel.2.2.w25", "book": "Joel", "ch": 2, "v": 2, "wi": 25, "raw": "וָדֽוֹר׃", "after": ""}
+{"id": "Tanak.Joel.2.3.w1", "book": "Joel", "ch": 2, "v": 3, "wi": 1, "raw": "לְפָנָיו֙", "after": " "}
+{"id": "Tanak.Joel.2.3.w2", "book": "Joel", "ch": 2, "v": 3, "wi": 2, "raw": "אָ֣כְלָה", "after": " "}
+{"id": "Tanak.Joel.2.3.w3", "book": "Joel", "ch": 2, "v": 3, "wi": 3, "raw": "אֵ֔שׁ", "after": " "}
+{"id": "Tanak.Joel.2.3.w4", "book": "Joel", "ch": 2, "v": 3, "wi": 4, "raw": "וְאַחֲרָ֖יו", "after": " "}
+{"id": "Tanak.Joel.2.3.w5", "book": "Joel", "ch": 2, "v": 3, "wi": 5, "raw": "תְּלַהֵ֣ט", "after": " "}
+{"id": "Tanak.Joel.2.3.w6", "book": "Joel", "ch": 2, "v": 3, "wi": 6, "raw": "לֶֽהָבָ֑ה", "after": " "}
+{"id": "Tanak.Joel.2.3.w7", "book": "Joel", "ch": 2, "v": 3, "wi": 7, "raw": "כְּגַן־", "after": ""}
+{"id": "Tanak.Joel.2.3.w8", "book": "Joel", "ch": 2, "v": 3, "wi": 8, "raw": "עֵ֨דֶן", "after": " "}
+{"id": "Tanak.Joel.2.3.w9", "book": "Joel", "ch": 2, "v": 3, "wi": 9, "raw": "הָאָ֜רֶץ", "after": " "}
+{"id": "Tanak.Joel.2.3.w10", "book": "Joel", "ch": 2, "v": 3, "wi": 10, "raw": "לְפָנָ֗יו", "after": " "}
+{"id": "Tanak.Joel.2.3.w11", "book": "Joel", "ch": 2, "v": 3, "wi": 11, "raw": "וְאַֽחֲרָיו֙", "after": " "}
+{"id": "Tanak.Joel.2.3.w12", "book": "Joel", "ch": 2, "v": 3, "wi": 12, "raw": "מִדְבַּ֣ר", "after": " "}
+{"id": "Tanak.Joel.2.3.w13", "book": "Joel", "ch": 2, "v": 3, "wi": 13, "raw": "שְׁמָמָ֔ה", "after": " "}
+{"id": "Tanak.Joel.2.3.w14", "book": "Joel", "ch": 2, "v": 3, "wi": 14, "raw": "וְגַם־", "after": ""}
+{"id": "Tanak.Joel.2.3.w15", "book": "Joel", "ch": 2, "v": 3, "wi": 15, "raw": "פְּלֵיטָ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.3.w16", "book": "Joel", "ch": 2, "v": 3, "wi": 16, "raw": "לֹא־", "after": ""}
+{"id": "Tanak.Joel.2.3.w17", "book": "Joel", "ch": 2, "v": 3, "wi": 17, "raw": "הָ֥יְתָה", "after": " "}
+{"id": "Tanak.Joel.2.3.w18", "book": "Joel", "ch": 2, "v": 3, "wi": 18, "raw": "לּֽוֹ׃", "after": ""}
+{"id": "Tanak.Joel.2.4.w1", "book": "Joel", "ch": 2, "v": 4, "wi": 1, "raw": "כְּמַרְאֵ֥ה", "after": " "}
+{"id": "Tanak.Joel.2.4.w2", "book": "Joel", "ch": 2, "v": 4, "wi": 2, "raw": "סוּסִ֖ים", "after": " "}
+{"id": "Tanak.Joel.2.4.w3", "book": "Joel", "ch": 2, "v": 4, "wi": 3, "raw": "מַרְאֵ֑הוּ", "after": " "}
+{"id": "Tanak.Joel.2.4.w4", "book": "Joel", "ch": 2, "v": 4, "wi": 4, "raw": "וּכְפָרָשִׁ֖ים", "after": " "}
+{"id": "Tanak.Joel.2.4.w5", "book": "Joel", "ch": 2, "v": 4, "wi": 5, "raw": "כֵּ֥ן", "after": " "}
+{"id": "Tanak.Joel.2.4.w6", "book": "Joel", "ch": 2, "v": 4, "wi": 6, "raw": "יְרוּצֽוּן׃", "after": ""}
+{"id": "Tanak.Joel.2.5.w1", "book": "Joel", "ch": 2, "v": 5, "wi": 1, "raw": "כְּק֣וֹל", "after": " "}
+{"id": "Tanak.Joel.2.5.w2", "book": "Joel", "ch": 2, "v": 5, "wi": 2, "raw": "מַרְכָּב֗וֹת", "after": " "}
+{"id": "Tanak.Joel.2.5.w3", "book": "Joel", "ch": 2, "v": 5, "wi": 3, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.2.5.w4", "book": "Joel", "ch": 2, "v": 5, "wi": 4, "raw": "רָאשֵׁ֤י", "after": " "}
+{"id": "Tanak.Joel.2.5.w5", "book": "Joel", "ch": 2, "v": 5, "wi": 5, "raw": "הֶֽהָרִים֙", "after": " "}
+{"id": "Tanak.Joel.2.5.w6", "book": "Joel", "ch": 2, "v": 5, "wi": 6, "raw": "יְרַקֵּד֔וּן", "after": " "}
+{"id": "Tanak.Joel.2.5.w7", "book": "Joel", "ch": 2, "v": 5, "wi": 7, "raw": "כְּקוֹל֙", "after": " "}
+{"id": "Tanak.Joel.2.5.w8", "book": "Joel", "ch": 2, "v": 5, "wi": 8, "raw": "לַ֣הַב", "after": " "}
+{"id": "Tanak.Joel.2.5.w9", "book": "Joel", "ch": 2, "v": 5, "wi": 9, "raw": "אֵ֔שׁ", "after": " "}
+{"id": "Tanak.Joel.2.5.w10", "book": "Joel", "ch": 2, "v": 5, "wi": 10, "raw": "אֹכְלָ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.5.w11", "book": "Joel", "ch": 2, "v": 5, "wi": 11, "raw": "קָ֑שׁ", "after": " "}
+{"id": "Tanak.Joel.2.5.w12", "book": "Joel", "ch": 2, "v": 5, "wi": 12, "raw": "כְּעַ֣ם", "after": " "}
+{"id": "Tanak.Joel.2.5.w13", "book": "Joel", "ch": 2, "v": 5, "wi": 13, "raw": "עָצ֔וּם", "after": " "}
+{"id": "Tanak.Joel.2.5.w14", "book": "Joel", "ch": 2, "v": 5, "wi": 14, "raw": "עֱר֖וּךְ", "after": " "}
+{"id": "Tanak.Joel.2.5.w15", "book": "Joel", "ch": 2, "v": 5, "wi": 15, "raw": "מִלְחָמָֽה׃", "after": ""}
+{"id": "Tanak.Joel.2.6.w1", "book": "Joel", "ch": 2, "v": 6, "wi": 1, "raw": "מִפָּנָ֖יו", "after": " "}
+{"id": "Tanak.Joel.2.6.w2", "book": "Joel", "ch": 2, "v": 6, "wi": 2, "raw": "יָחִ֣ילוּ", "after": " "}
+{"id": "Tanak.Joel.2.6.w3", "book": "Joel", "ch": 2, "v": 6, "wi": 3, "raw": "עַמִּ֑ים", "after": " "}
+{"id": "Tanak.Joel.2.6.w4", "book": "Joel", "ch": 2, "v": 6, "wi": 4, "raw": "כָּל־", "after": ""}
+{"id": "Tanak.Joel.2.6.w5", "book": "Joel", "ch": 2, "v": 6, "wi": 5, "raw": "פָּנִ֖ים", "after": " "}
+{"id": "Tanak.Joel.2.6.w6", "book": "Joel", "ch": 2, "v": 6, "wi": 6, "raw": "קִבְּצ֥וּ", "after": " "}
+{"id": "Tanak.Joel.2.6.w7", "book": "Joel", "ch": 2, "v": 6, "wi": 7, "raw": "פָארֽוּר׃", "after": ""}
+{"id": "Tanak.Joel.2.7.w1", "book": "Joel", "ch": 2, "v": 7, "wi": 1, "raw": "כְּגִבּוֹרִ֣ים", "after": " "}
+{"id": "Tanak.Joel.2.7.w2", "book": "Joel", "ch": 2, "v": 7, "wi": 2, "raw": "יְרֻצ֔וּן", "after": " "}
+{"id": "Tanak.Joel.2.7.w3", "book": "Joel", "ch": 2, "v": 7, "wi": 3, "raw": "כְּאַנְשֵׁ֥י", "after": " "}
+{"id": "Tanak.Joel.2.7.w4", "book": "Joel", "ch": 2, "v": 7, "wi": 4, "raw": "מִלְחָמָ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.7.w5", "book": "Joel", "ch": 2, "v": 7, "wi": 5, "raw": "יַעֲל֣וּ", "after": " "}
+{"id": "Tanak.Joel.2.7.w6", "book": "Joel", "ch": 2, "v": 7, "wi": 6, "raw": "חוֹמָ֑ה", "after": " "}
+{"id": "Tanak.Joel.2.7.w7", "book": "Joel", "ch": 2, "v": 7, "wi": 7, "raw": "וְאִ֤ישׁ", "after": " "}
+{"id": "Tanak.Joel.2.7.w8", "book": "Joel", "ch": 2, "v": 7, "wi": 8, "raw": "בִּדְרָכָיו֙", "after": " "}
+{"id": "Tanak.Joel.2.7.w9", "book": "Joel", "ch": 2, "v": 7, "wi": 9, "raw": "יֵֽלֵכ֔וּן", "after": " "}
+{"id": "Tanak.Joel.2.7.w10", "book": "Joel", "ch": 2, "v": 7, "wi": 10, "raw": "וְלֹ֥א", "after": " "}
+{"id": "Tanak.Joel.2.7.w11", "book": "Joel", "ch": 2, "v": 7, "wi": 11, "raw": "יְעַבְּט֖וּן", "after": " "}
+{"id": "Tanak.Joel.2.7.w12", "book": "Joel", "ch": 2, "v": 7, "wi": 12, "raw": "אֹרְחוֹתָֽם׃", "after": ""}
+{"id": "Tanak.Joel.2.8.w1", "book": "Joel", "ch": 2, "v": 8, "wi": 1, "raw": "וְאִ֤ישׁ", "after": " "}
+{"id": "Tanak.Joel.2.8.w2", "book": "Joel", "ch": 2, "v": 8, "wi": 2, "raw": "אָחִיו֙", "after": " "}
+{"id": "Tanak.Joel.2.8.w3", "book": "Joel", "ch": 2, "v": 8, "wi": 3, "raw": "לֹ֣א", "after": " "}
+{"id": "Tanak.Joel.2.8.w4", "book": "Joel", "ch": 2, "v": 8, "wi": 4, "raw": "יִדְחָק֔וּן", "after": " "}
+{"id": "Tanak.Joel.2.8.w5", "book": "Joel", "ch": 2, "v": 8, "wi": 5, "raw": "גֶּ֥בֶר", "after": " "}
+{"id": "Tanak.Joel.2.8.w6", "book": "Joel", "ch": 2, "v": 8, "wi": 6, "raw": "בִּמְסִלָּת֖וֹ", "after": " "}
+{"id": "Tanak.Joel.2.8.w7", "book": "Joel", "ch": 2, "v": 8, "wi": 7, "raw": "יֵֽלֵכ֑וּן", "after": " "}
+{"id": "Tanak.Joel.2.8.w8", "book": "Joel", "ch": 2, "v": 8, "wi": 8, "raw": "וּבְעַ֥ד", "after": " "}
+{"id": "Tanak.Joel.2.8.w9", "book": "Joel", "ch": 2, "v": 8, "wi": 9, "raw": "הַשֶּׁ֛לַח", "after": " "}
+{"id": "Tanak.Joel.2.8.w10", "book": "Joel", "ch": 2, "v": 8, "wi": 10, "raw": "יִפֹּ֖לוּ", "after": " "}
+{"id": "Tanak.Joel.2.8.w11", "book": "Joel", "ch": 2, "v": 8, "wi": 11, "raw": "לֹ֥א", "after": " "}
+{"id": "Tanak.Joel.2.8.w12", "book": "Joel", "ch": 2, "v": 8, "wi": 12, "raw": "יִבְצָֽעוּ׃", "after": ""}
+{"id": "Tanak.Joel.2.9.w1", "book": "Joel", "ch": 2, "v": 9, "wi": 1, "raw": "בָּעִ֣יר", "after": " "}
+{"id": "Tanak.Joel.2.9.w2", "book": "Joel", "ch": 2, "v": 9, "wi": 2, "raw": "יָשֹׁ֗קּוּ", "after": " "}
+{"id": "Tanak.Joel.2.9.w3", "book": "Joel", "ch": 2, "v": 9, "wi": 3, "raw": "בַּֽחוֹמָה֙", "after": " "}
+{"id": "Tanak.Joel.2.9.w4", "book": "Joel", "ch": 2, "v": 9, "wi": 4, "raw": "יְרֻצ֔וּן", "after": " "}
+{"id": "Tanak.Joel.2.9.w5", "book": "Joel", "ch": 2, "v": 9, "wi": 5, "raw": "בַּבָּתִּ֖ים", "after": " "}
+{"id": "Tanak.Joel.2.9.w6", "book": "Joel", "ch": 2, "v": 9, "wi": 6, "raw": "יַעֲל֑וּ", "after": " "}
+{"id": "Tanak.Joel.2.9.w7", "book": "Joel", "ch": 2, "v": 9, "wi": 7, "raw": "בְּעַ֧ד", "after": " "}
+{"id": "Tanak.Joel.2.9.w8", "book": "Joel", "ch": 2, "v": 9, "wi": 8, "raw": "הַחַלּוֹנִ֛ים", "after": " "}
+{"id": "Tanak.Joel.2.9.w9", "book": "Joel", "ch": 2, "v": 9, "wi": 9, "raw": "יָבֹ֖אוּ", "after": " "}
+{"id": "Tanak.Joel.2.9.w10", "book": "Joel", "ch": 2, "v": 9, "wi": 10, "raw": "כַּגַּנָּֽב׃", "after": ""}
+{"id": "Tanak.Joel.2.10.w1", "book": "Joel", "ch": 2, "v": 10, "wi": 1, "raw": "לְפָנָיו֙", "after": " "}
+{"id": "Tanak.Joel.2.10.w2", "book": "Joel", "ch": 2, "v": 10, "wi": 2, "raw": "רָ֣גְזָה", "after": " "}
+{"id": "Tanak.Joel.2.10.w3", "book": "Joel", "ch": 2, "v": 10, "wi": 3, "raw": "אֶ֔רֶץ", "after": " "}
+{"id": "Tanak.Joel.2.10.w4", "book": "Joel", "ch": 2, "v": 10, "wi": 4, "raw": "רָעֲשׁ֖וּ", "after": " "}
+{"id": "Tanak.Joel.2.10.w5", "book": "Joel", "ch": 2, "v": 10, "wi": 5, "raw": "שָׁמָ֑יִם", "after": " "}
+{"id": "Tanak.Joel.2.10.w6", "book": "Joel", "ch": 2, "v": 10, "wi": 6, "raw": "שֶׁ֤מֶשׁ", "after": " "}
+{"id": "Tanak.Joel.2.10.w7", "book": "Joel", "ch": 2, "v": 10, "wi": 7, "raw": "וְיָרֵ֙חַ֙", "after": " "}
+{"id": "Tanak.Joel.2.10.w8", "book": "Joel", "ch": 2, "v": 10, "wi": 8, "raw": "קָדָ֔רוּ", "after": " "}
+{"id": "Tanak.Joel.2.10.w9", "book": "Joel", "ch": 2, "v": 10, "wi": 9, "raw": "וְכוֹכָבִ֖ים", "after": " "}
+{"id": "Tanak.Joel.2.10.w10", "book": "Joel", "ch": 2, "v": 10, "wi": 10, "raw": "אָסְפ֥וּ", "after": " "}
+{"id": "Tanak.Joel.2.10.w11", "book": "Joel", "ch": 2, "v": 10, "wi": 11, "raw": "נָגְהָֽם׃", "after": ""}
+{"id": "Tanak.Joel.2.11.w1", "book": "Joel", "ch": 2, "v": 11, "wi": 1, "raw": "וַֽיהוָ֗ה", "after": " "}
+{"id": "Tanak.Joel.2.11.w2", "book": "Joel", "ch": 2, "v": 11, "wi": 2, "raw": "נָתַ֤ן", "after": " "}
+{"id": "Tanak.Joel.2.11.w3", "book": "Joel", "ch": 2, "v": 11, "wi": 3, "raw": "קוֹלוֹ֙", "after": " "}
+{"id": "Tanak.Joel.2.11.w4", "book": "Joel", "ch": 2, "v": 11, "wi": 4, "raw": "לִפְנֵ֣י", "after": " "}
+{"id": "Tanak.Joel.2.11.w5", "book": "Joel", "ch": 2, "v": 11, "wi": 5, "raw": "חֵיל֔וֹ", "after": " "}
+{"id": "Tanak.Joel.2.11.w6", "book": "Joel", "ch": 2, "v": 11, "wi": 6, "raw": "כִּ֣י", "after": " "}
+{"id": "Tanak.Joel.2.11.w7", "book": "Joel", "ch": 2, "v": 11, "wi": 7, "raw": "רַ֤ב", "after": " "}
+{"id": "Tanak.Joel.2.11.w8", "book": "Joel", "ch": 2, "v": 11, "wi": 8, "raw": "מְאֹד֙", "after": " "}
+{"id": "Tanak.Joel.2.11.w9", "book": "Joel", "ch": 2, "v": 11, "wi": 9, "raw": "מַחֲנֵ֔הוּ", "after": " "}
+{"id": "Tanak.Joel.2.11.w10", "book": "Joel", "ch": 2, "v": 11, "wi": 10, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.2.11.w11", "book": "Joel", "ch": 2, "v": 11, "wi": 11, "raw": "עָצ֖וּם", "after": " "}
+{"id": "Tanak.Joel.2.11.w12", "book": "Joel", "ch": 2, "v": 11, "wi": 12, "raw": "עֹשֵׂ֣ה", "after": " "}
+{"id": "Tanak.Joel.2.11.w13", "book": "Joel", "ch": 2, "v": 11, "wi": 13, "raw": "דְבָר֑וֹ", "after": " "}
+{"id": "Tanak.Joel.2.11.w14", "book": "Joel", "ch": 2, "v": 11, "wi": 14, "raw": "כִּֽי־", "after": ""}
+{"id": "Tanak.Joel.2.11.w15", "book": "Joel", "ch": 2, "v": 11, "wi": 15, "raw": "גָד֧וֹל", "after": " "}
+{"id": "Tanak.Joel.2.11.w16", "book": "Joel", "ch": 2, "v": 11, "wi": 16, "raw": "יוֹם־", "after": ""}
+{"id": "Tanak.Joel.2.11.w17", "book": "Joel", "ch": 2, "v": 11, "wi": 17, "raw": "יְהוָ֛ה", "after": " "}
+{"id": "Tanak.Joel.2.11.w18", "book": "Joel", "ch": 2, "v": 11, "wi": 18, "raw": "וְנוֹרָ֥א", "after": " "}
+{"id": "Tanak.Joel.2.11.w19", "book": "Joel", "ch": 2, "v": 11, "wi": 19, "raw": "מְאֹ֖ד", "after": " "}
+{"id": "Tanak.Joel.2.11.w20", "book": "Joel", "ch": 2, "v": 11, "wi": 20, "raw": "וּמִ֥י", "after": " "}
+{"id": "Tanak.Joel.2.11.w21", "book": "Joel", "ch": 2, "v": 11, "wi": 21, "raw": "יְכִילֶֽנּוּ׃", "after": ""}
+{"id": "Tanak.Joel.2.12.w1", "book": "Joel", "ch": 2, "v": 12, "wi": 1, "raw": "וְגַם־", "after": ""}
+{"id": "Tanak.Joel.2.12.w2", "book": "Joel", "ch": 2, "v": 12, "wi": 2, "raw": "עַתָּה֙", "after": " "}
+{"id": "Tanak.Joel.2.12.w3", "book": "Joel", "ch": 2, "v": 12, "wi": 3, "raw": "נְאֻם־", "after": ""}
+{"id": "Tanak.Joel.2.12.w4", "book": "Joel", "ch": 2, "v": 12, "wi": 4, "raw": "יְהוָ֔ה", "after": " "}
+{"id": "Tanak.Joel.2.12.w5", "book": "Joel", "ch": 2, "v": 12, "wi": 5, "raw": "שֻׁ֥בוּ", "after": " "}
+{"id": "Tanak.Joel.2.12.w6", "book": "Joel", "ch": 2, "v": 12, "wi": 6, "raw": "עָדַ֖י", "after": " "}
+{"id": "Tanak.Joel.2.12.w7", "book": "Joel", "ch": 2, "v": 12, "wi": 7, "raw": "בְּכָל־", "after": ""}
+{"id": "Tanak.Joel.2.12.w8", "book": "Joel", "ch": 2, "v": 12, "wi": 8, "raw": "לְבַבְכֶ֑ם", "after": " "}
+{"id": "Tanak.Joel.2.12.w9", "book": "Joel", "ch": 2, "v": 12, "wi": 9, "raw": "וּבְצ֥וֹם", "after": " "}
+{"id": "Tanak.Joel.2.12.w10", "book": "Joel", "ch": 2, "v": 12, "wi": 10, "raw": "וּבְבְכִ֖י", "after": " "}
+{"id": "Tanak.Joel.2.12.w11", "book": "Joel", "ch": 2, "v": 12, "wi": 11, "raw": "וּבְמִסְפֵּֽד׃", "after": ""}
+{"id": "Tanak.Joel.2.13.w1", "book": "Joel", "ch": 2, "v": 13, "wi": 1, "raw": "וְקִרְע֤וּ", "after": " "}
+{"id": "Tanak.Joel.2.13.w2", "book": "Joel", "ch": 2, "v": 13, "wi": 2, "raw": "לְבַבְכֶם֙", "after": " "}
+{"id": "Tanak.Joel.2.13.w3", "book": "Joel", "ch": 2, "v": 13, "wi": 3, "raw": "וְאַל־", "after": ""}
+{"id": "Tanak.Joel.2.13.w4", "book": "Joel", "ch": 2, "v": 13, "wi": 4, "raw": "בִּגְדֵיכֶ֔ם", "after": " "}
+{"id": "Tanak.Joel.2.13.w5", "book": "Joel", "ch": 2, "v": 13, "wi": 5, "raw": "וְשׁ֖וּבוּ", "after": " "}
+{"id": "Tanak.Joel.2.13.w6", "book": "Joel", "ch": 2, "v": 13, "wi": 6, "raw": "אֶל־", "after": ""}
+{"id": "Tanak.Joel.2.13.w7", "book": "Joel", "ch": 2, "v": 13, "wi": 7, "raw": "יְהוָ֣ה", "after": " "}
+{"id": "Tanak.Joel.2.13.w8", "book": "Joel", "ch": 2, "v": 13, "wi": 8, "raw": "אֱלֹֽהֵיכֶ֑ם", "after": " "}
+{"id": "Tanak.Joel.2.13.w9", "book": "Joel", "ch": 2, "v": 13, "wi": 9, "raw": "כִּֽי־", "after": ""}
+{"id": "Tanak.Joel.2.13.w10", "book": "Joel", "ch": 2, "v": 13, "wi": 10, "raw": "חַנּ֤וּן", "after": " "}
+{"id": "Tanak.Joel.2.13.w11", "book": "Joel", "ch": 2, "v": 13, "wi": 11, "raw": "וְרַחוּם֙", "after": " "}
+{"id": "Tanak.Joel.2.13.w12", "book": "Joel", "ch": 2, "v": 13, "wi": 12, "raw": "ה֔וּא", "after": " "}
+{"id": "Tanak.Joel.2.13.w13", "book": "Joel", "ch": 2, "v": 13, "wi": 13, "raw": "אֶ֤רֶךְ", "after": " "}
+{"id": "Tanak.Joel.2.13.w14", "book": "Joel", "ch": 2, "v": 13, "wi": 14, "raw": "אַפַּ֙יִם֙", "after": " "}
+{"id": "Tanak.Joel.2.13.w15", "book": "Joel", "ch": 2, "v": 13, "wi": 15, "raw": "וְרַב־", "after": ""}
+{"id": "Tanak.Joel.2.13.w16", "book": "Joel", "ch": 2, "v": 13, "wi": 16, "raw": "חֶ֔סֶד", "after": " "}
+{"id": "Tanak.Joel.2.13.w17", "book": "Joel", "ch": 2, "v": 13, "wi": 17, "raw": "וְנִחָ֖ם", "after": " "}
+{"id": "Tanak.Joel.2.13.w18", "book": "Joel", "ch": 2, "v": 13, "wi": 18, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.2.13.w19", "book": "Joel", "ch": 2, "v": 13, "wi": 19, "raw": "הָרָעָֽה׃", "after": ""}
+{"id": "Tanak.Joel.2.14.w1", "book": "Joel", "ch": 2, "v": 14, "wi": 1, "raw": "מִ֥י", "after": " "}
+{"id": "Tanak.Joel.2.14.w2", "book": "Joel", "ch": 2, "v": 14, "wi": 2, "raw": "יוֹדֵ֖עַ", "after": " "}
+{"id": "Tanak.Joel.2.14.w3", "book": "Joel", "ch": 2, "v": 14, "wi": 3, "raw": "יָשׁ֣וּב", "after": " "}
+{"id": "Tanak.Joel.2.14.w4", "book": "Joel", "ch": 2, "v": 14, "wi": 4, "raw": "וְנִחָ֑ם", "after": " "}
+{"id": "Tanak.Joel.2.14.w5", "book": "Joel", "ch": 2, "v": 14, "wi": 5, "raw": "וְהִשְׁאִ֤יר", "after": " "}
+{"id": "Tanak.Joel.2.14.w6", "book": "Joel", "ch": 2, "v": 14, "wi": 6, "raw": "אַֽחֲרָיו֙", "after": " "}
+{"id": "Tanak.Joel.2.14.w7", "book": "Joel", "ch": 2, "v": 14, "wi": 7, "raw": "בְּרָכָ֔ה", "after": " "}
+{"id": "Tanak.Joel.2.14.w8", "book": "Joel", "ch": 2, "v": 14, "wi": 8, "raw": "מִנְחָ֣ה", "after": " "}
+{"id": "Tanak.Joel.2.14.w9", "book": "Joel", "ch": 2, "v": 14, "wi": 9, "raw": "וָנֶ֔סֶךְ", "after": " "}
+{"id": "Tanak.Joel.2.14.w10", "book": "Joel", "ch": 2, "v": 14, "wi": 10, "raw": "לַיהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.14.w11", "book": "Joel", "ch": 2, "v": 14, "wi": 11, "raw": "אֱלֹהֵיכֶֽם׃", "after": ""}
+{"id": "Tanak.Joel.2.15.w1", "book": "Joel", "ch": 2, "v": 15, "wi": 1, "raw": "תִּקְע֥וּ", "after": " "}
+{"id": "Tanak.Joel.2.15.w2", "book": "Joel", "ch": 2, "v": 15, "wi": 2, "raw": "שׁוֹפָ֖ר", "after": " "}
+{"id": "Tanak.Joel.2.15.w3", "book": "Joel", "ch": 2, "v": 15, "wi": 3, "raw": "בְּצִיּ֑וֹן", "after": " "}
+{"id": "Tanak.Joel.2.15.w4", "book": "Joel", "ch": 2, "v": 15, "wi": 4, "raw": "קַדְּשׁוּ־", "after": ""}
+{"id": "Tanak.Joel.2.15.w5", "book": "Joel", "ch": 2, "v": 15, "wi": 5, "raw": "צ֖וֹם", "after": " "}
+{"id": "Tanak.Joel.2.15.w6", "book": "Joel", "ch": 2, "v": 15, "wi": 6, "raw": "קִרְא֥וּ", "after": " "}
+{"id": "Tanak.Joel.2.15.w7", "book": "Joel", "ch": 2, "v": 15, "wi": 7, "raw": "עֲצָרָֽה׃", "after": ""}
+{"id": "Tanak.Joel.2.16.w1", "book": "Joel", "ch": 2, "v": 16, "wi": 1, "raw": "אִסְפוּ־", "after": ""}
+{"id": "Tanak.Joel.2.16.w2", "book": "Joel", "ch": 2, "v": 16, "wi": 2, "raw": "עָ֞ם", "after": " "}
+{"id": "Tanak.Joel.2.16.w3", "book": "Joel", "ch": 2, "v": 16, "wi": 3, "raw": "קַדְּשׁ֤וּ", "after": " "}
+{"id": "Tanak.Joel.2.16.w4", "book": "Joel", "ch": 2, "v": 16, "wi": 4, "raw": "קָהָל֙", "after": " "}
+{"id": "Tanak.Joel.2.16.w5", "book": "Joel", "ch": 2, "v": 16, "wi": 5, "raw": "קִבְצ֣וּ", "after": " "}
+{"id": "Tanak.Joel.2.16.w6", "book": "Joel", "ch": 2, "v": 16, "wi": 6, "raw": "זְקֵנִ֔ים", "after": " "}
+{"id": "Tanak.Joel.2.16.w7", "book": "Joel", "ch": 2, "v": 16, "wi": 7, "raw": "אִסְפוּ֙", "after": " "}
+{"id": "Tanak.Joel.2.16.w8", "book": "Joel", "ch": 2, "v": 16, "wi": 8, "raw": "עֽוֹלָלִ֔ים", "after": " "}
+{"id": "Tanak.Joel.2.16.w9", "book": "Joel", "ch": 2, "v": 16, "wi": 9, "raw": "וְיֹנְקֵ֖י", "after": " "}
+{"id": "Tanak.Joel.2.16.w10", "book": "Joel", "ch": 2, "v": 16, "wi": 10, "raw": "שָׁדָ֑יִם", "after": " "}
+{"id": "Tanak.Joel.2.16.w11", "book": "Joel", "ch": 2, "v": 16, "wi": 11, "raw": "יֵצֵ֤א", "after": " "}
+{"id": "Tanak.Joel.2.16.w12", "book": "Joel", "ch": 2, "v": 16, "wi": 12, "raw": "חָתָן֙", "after": " "}
+{"id": "Tanak.Joel.2.16.w13", "book": "Joel", "ch": 2, "v": 16, "wi": 13, "raw": "מֵֽחֶדְר֔וֹ", "after": " "}
+{"id": "Tanak.Joel.2.16.w14", "book": "Joel", "ch": 2, "v": 16, "wi": 14, "raw": "וְכַלָּ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.16.w15", "book": "Joel", "ch": 2, "v": 16, "wi": 15, "raw": "מֵחֻפָּתָֽהּ׃", "after": ""}
+{"id": "Tanak.Joel.2.17.w1", "book": "Joel", "ch": 2, "v": 17, "wi": 1, "raw": "בֵּ֤ין", "after": " "}
+{"id": "Tanak.Joel.2.17.w2", "book": "Joel", "ch": 2, "v": 17, "wi": 2, "raw": "הָאוּלָם֙", "after": " "}
+{"id": "Tanak.Joel.2.17.w3", "book": "Joel", "ch": 2, "v": 17, "wi": 3, "raw": "וְלַמִּזְבֵּ֔חַ", "after": " "}
+{"id": "Tanak.Joel.2.17.w4", "book": "Joel", "ch": 2, "v": 17, "wi": 4, "raw": "יִבְכּוּ֙", "after": " "}
+{"id": "Tanak.Joel.2.17.w5", "book": "Joel", "ch": 2, "v": 17, "wi": 5, "raw": "הַכֹּ֣הֲנִ֔ים", "after": " "}
+{"id": "Tanak.Joel.2.17.w6", "book": "Joel", "ch": 2, "v": 17, "wi": 6, "raw": "מְשָׁרְתֵ֖י", "after": " "}
+{"id": "Tanak.Joel.2.17.w7", "book": "Joel", "ch": 2, "v": 17, "wi": 7, "raw": "יְהוָ֑ה", "after": " "}
+{"id": "Tanak.Joel.2.17.w8", "book": "Joel", "ch": 2, "v": 17, "wi": 8, "raw": "וְֽיֹאמְר֞וּ", "after": " "}
+{"id": "Tanak.Joel.2.17.w9", "book": "Joel", "ch": 2, "v": 17, "wi": 9, "raw": "ח֧וּסָה", "after": " "}
+{"id": "Tanak.Joel.2.17.w10", "book": "Joel", "ch": 2, "v": 17, "wi": 10, "raw": "יְהוָ֣ה", "after": " "}
+{"id": "Tanak.Joel.2.17.w11", "book": "Joel", "ch": 2, "v": 17, "wi": 11, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.2.17.w12", "book": "Joel", "ch": 2, "v": 17, "wi": 12, "raw": "עַמֶּ֗ךָ", "after": " "}
+{"id": "Tanak.Joel.2.17.w13", "book": "Joel", "ch": 2, "v": 17, "wi": 13, "raw": "וְאַל־", "after": ""}
+{"id": "Tanak.Joel.2.17.w14", "book": "Joel", "ch": 2, "v": 17, "wi": 14, "raw": "תִּתֵּ֨ן", "after": " "}
+{"id": "Tanak.Joel.2.17.w15", "book": "Joel", "ch": 2, "v": 17, "wi": 15, "raw": "נַחֲלָתְךָ֤", "after": " "}
+{"id": "Tanak.Joel.2.17.w16", "book": "Joel", "ch": 2, "v": 17, "wi": 16, "raw": "לְחֶרְפָּה֙", "after": " "}
+{"id": "Tanak.Joel.2.17.w17", "book": "Joel", "ch": 2, "v": 17, "wi": 17, "raw": "לִמְשָׁל־", "after": ""}
+{"id": "Tanak.Joel.2.17.w18", "book": "Joel", "ch": 2, "v": 17, "wi": 18, "raw": "בָּ֣ם", "after": " "}
+{"id": "Tanak.Joel.2.17.w19", "book": "Joel", "ch": 2, "v": 17, "wi": 19, "raw": "גּוֹיִ֔ם", "after": " "}
+{"id": "Tanak.Joel.2.17.w20", "book": "Joel", "ch": 2, "v": 17, "wi": 20, "raw": "לָ֚מָּה", "after": " "}
+{"id": "Tanak.Joel.2.17.w21", "book": "Joel", "ch": 2, "v": 17, "wi": 21, "raw": "יֹאמְר֣וּ", "after": " "}
+{"id": "Tanak.Joel.2.17.w22", "book": "Joel", "ch": 2, "v": 17, "wi": 22, "raw": "בָֽעַמִּ֔ים", "after": " "}
+{"id": "Tanak.Joel.2.17.w23", "book": "Joel", "ch": 2, "v": 17, "wi": 23, "raw": "אַיֵּ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.17.w24", "book": "Joel", "ch": 2, "v": 17, "wi": 24, "raw": "אֱלֹהֵיהֶֽם׃", "after": ""}
+{"id": "Tanak.Joel.2.18.w1", "book": "Joel", "ch": 2, "v": 18, "wi": 1, "raw": "וַיְקַנֵּ֥א", "after": " "}
+{"id": "Tanak.Joel.2.18.w2", "book": "Joel", "ch": 2, "v": 18, "wi": 2, "raw": "יְהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.18.w3", "book": "Joel", "ch": 2, "v": 18, "wi": 3, "raw": "לְאַרְצ֑וֹ", "after": " "}
+{"id": "Tanak.Joel.2.18.w4", "book": "Joel", "ch": 2, "v": 18, "wi": 4, "raw": "וַיַּחְמֹ֖ל", "after": " "}
+{"id": "Tanak.Joel.2.18.w5", "book": "Joel", "ch": 2, "v": 18, "wi": 5, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.2.18.w6", "book": "Joel", "ch": 2, "v": 18, "wi": 6, "raw": "עַמּֽוֹ׃", "after": ""}
+{"id": "Tanak.Joel.2.19.w1", "book": "Joel", "ch": 2, "v": 19, "wi": 1, "raw": "וַיַּ֨עַן", "after": " "}
+{"id": "Tanak.Joel.2.19.w2", "book": "Joel", "ch": 2, "v": 19, "wi": 2, "raw": "יְהוָ֜ה", "after": " "}
+{"id": "Tanak.Joel.2.19.w3", "book": "Joel", "ch": 2, "v": 19, "wi": 3, "raw": "וַיֹּ֣אמֶר", "after": " "}
+{"id": "Tanak.Joel.2.19.w4", "book": "Joel", "ch": 2, "v": 19, "wi": 4, "raw": "לְעַמּ֗וֹ", "after": " "}
+{"id": "Tanak.Joel.2.19.w5", "book": "Joel", "ch": 2, "v": 19, "wi": 5, "raw": "הִנְנִ֨י", "after": " "}
+{"id": "Tanak.Joel.2.19.w6", "book": "Joel", "ch": 2, "v": 19, "wi": 6, "raw": "שֹׁלֵ֤חַ", "after": " "}
+{"id": "Tanak.Joel.2.19.w7", "book": "Joel", "ch": 2, "v": 19, "wi": 7, "raw": "לָכֶם֙", "after": " "}
+{"id": "Tanak.Joel.2.19.w8", "book": "Joel", "ch": 2, "v": 19, "wi": 8, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.2.19.w9", "book": "Joel", "ch": 2, "v": 19, "wi": 9, "raw": "הַדָּגָן֙", "after": " "}
+{"id": "Tanak.Joel.2.19.w10", "book": "Joel", "ch": 2, "v": 19, "wi": 10, "raw": "וְהַתִּיר֣וֹשׁ", "after": " "}
+{"id": "Tanak.Joel.2.19.w11", "book": "Joel", "ch": 2, "v": 19, "wi": 11, "raw": "וְהַיִּצְהָ֔ר", "after": " "}
+{"id": "Tanak.Joel.2.19.w12", "book": "Joel", "ch": 2, "v": 19, "wi": 12, "raw": "וּשְׂבַעְתֶּ֖ם", "after": " "}
+{"id": "Tanak.Joel.2.19.w13", "book": "Joel", "ch": 2, "v": 19, "wi": 13, "raw": "אֹת֑וֹ", "after": " "}
+{"id": "Tanak.Joel.2.19.w14", "book": "Joel", "ch": 2, "v": 19, "wi": 14, "raw": "וְלֹא־", "after": ""}
+{"id": "Tanak.Joel.2.19.w15", "book": "Joel", "ch": 2, "v": 19, "wi": 15, "raw": "אֶתֵּ֨ן", "after": " "}
+{"id": "Tanak.Joel.2.19.w16", "book": "Joel", "ch": 2, "v": 19, "wi": 16, "raw": "אֶתְכֶ֥ם", "after": " "}
+{"id": "Tanak.Joel.2.19.w17", "book": "Joel", "ch": 2, "v": 19, "wi": 17, "raw": "ע֛וֹד", "after": " "}
+{"id": "Tanak.Joel.2.19.w18", "book": "Joel", "ch": 2, "v": 19, "wi": 18, "raw": "חֶרְפָּ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.19.w19", "book": "Joel", "ch": 2, "v": 19, "wi": 19, "raw": "בַּגּוֹיִֽם׃", "after": ""}
+{"id": "Tanak.Joel.2.20.w1", "book": "Joel", "ch": 2, "v": 20, "wi": 1, "raw": "וְֽאֶת־", "after": ""}
+{"id": "Tanak.Joel.2.20.w2", "book": "Joel", "ch": 2, "v": 20, "wi": 2, "raw": "הַצְּפוֹנִ֞י", "after": " "}
+{"id": "Tanak.Joel.2.20.w3", "book": "Joel", "ch": 2, "v": 20, "wi": 3, "raw": "אַרְחִ֣יק", "after": " "}
+{"id": "Tanak.Joel.2.20.w4", "book": "Joel", "ch": 2, "v": 20, "wi": 4, "raw": "מֵעֲלֵיכֶ֗ם", "after": " "}
+{"id": "Tanak.Joel.2.20.w5", "book": "Joel", "ch": 2, "v": 20, "wi": 5, "raw": "וְהִדַּחְתִּיו֮", "after": " "}
+{"id": "Tanak.Joel.2.20.w6", "book": "Joel", "ch": 2, "v": 20, "wi": 6, "raw": "אֶל־", "after": ""}
+{"id": "Tanak.Joel.2.20.w7", "book": "Joel", "ch": 2, "v": 20, "wi": 7, "raw": "אֶ֣רֶץ", "after": " "}
+{"id": "Tanak.Joel.2.20.w8", "book": "Joel", "ch": 2, "v": 20, "wi": 8, "raw": "צִיָּ֣ה", "after": " "}
+{"id": "Tanak.Joel.2.20.w9", "book": "Joel", "ch": 2, "v": 20, "wi": 9, "raw": "וּשְׁמָמָה֒", "after": " "}
+{"id": "Tanak.Joel.2.20.w10", "book": "Joel", "ch": 2, "v": 20, "wi": 10, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.2.20.w11", "book": "Joel", "ch": 2, "v": 20, "wi": 11, "raw": "פָּנָ֗יו", "after": " "}
+{"id": "Tanak.Joel.2.20.w12", "book": "Joel", "ch": 2, "v": 20, "wi": 12, "raw": "אֶל־", "after": ""}
+{"id": "Tanak.Joel.2.20.w13", "book": "Joel", "ch": 2, "v": 20, "wi": 13, "raw": "הַיָּם֙", "after": " "}
+{"id": "Tanak.Joel.2.20.w14", "book": "Joel", "ch": 2, "v": 20, "wi": 14, "raw": "הַקַּדְמֹנִ֔י", "after": " "}
+{"id": "Tanak.Joel.2.20.w15", "book": "Joel", "ch": 2, "v": 20, "wi": 15, "raw": "וְסֹפ֖וֹ", "after": " "}
+{"id": "Tanak.Joel.2.20.w16", "book": "Joel", "ch": 2, "v": 20, "wi": 16, "raw": "אֶל־", "after": ""}
+{"id": "Tanak.Joel.2.20.w17", "book": "Joel", "ch": 2, "v": 20, "wi": 17, "raw": "הַיָּ֣ם", "after": " "}
+{"id": "Tanak.Joel.2.20.w18", "book": "Joel", "ch": 2, "v": 20, "wi": 18, "raw": "הָאַֽחֲר֑וֹן", "after": " "}
+{"id": "Tanak.Joel.2.20.w19", "book": "Joel", "ch": 2, "v": 20, "wi": 19, "raw": "וְעָלָ֣ה", "after": " "}
+{"id": "Tanak.Joel.2.20.w20", "book": "Joel", "ch": 2, "v": 20, "wi": 20, "raw": "בָאְשׁ֗וֹ", "after": " "}
+{"id": "Tanak.Joel.2.20.w21", "book": "Joel", "ch": 2, "v": 20, "wi": 21, "raw": "וְתַ֙עַל֙", "after": " "}
+{"id": "Tanak.Joel.2.20.w22", "book": "Joel", "ch": 2, "v": 20, "wi": 22, "raw": "צַחֲנָת֔וֹ", "after": " "}
+{"id": "Tanak.Joel.2.20.w23", "book": "Joel", "ch": 2, "v": 20, "wi": 23, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.2.20.w24", "book": "Joel", "ch": 2, "v": 20, "wi": 24, "raw": "הִגְדִּ֖יל", "after": " "}
+{"id": "Tanak.Joel.2.20.w25", "book": "Joel", "ch": 2, "v": 20, "wi": 25, "raw": "לַעֲשֽׂוֹת׃", "after": ""}
+{"id": "Tanak.Joel.2.21.w1", "book": "Joel", "ch": 2, "v": 21, "wi": 1, "raw": "אַל־", "after": ""}
+{"id": "Tanak.Joel.2.21.w2", "book": "Joel", "ch": 2, "v": 21, "wi": 2, "raw": "תִּֽירְאִ֖י", "after": " "}
+{"id": "Tanak.Joel.2.21.w3", "book": "Joel", "ch": 2, "v": 21, "wi": 3, "raw": "אֲדָמָ֑ה", "after": " "}
+{"id": "Tanak.Joel.2.21.w4", "book": "Joel", "ch": 2, "v": 21, "wi": 4, "raw": "גִּ֣ילִי", "after": " "}
+{"id": "Tanak.Joel.2.21.w5", "book": "Joel", "ch": 2, "v": 21, "wi": 5, "raw": "וּשְׂמָ֔חִי", "after": " "}
+{"id": "Tanak.Joel.2.21.w6", "book": "Joel", "ch": 2, "v": 21, "wi": 6, "raw": "כִּֽי־", "after": ""}
+{"id": "Tanak.Joel.2.21.w7", "book": "Joel", "ch": 2, "v": 21, "wi": 7, "raw": "הִגְדִּ֥יל", "after": " "}
+{"id": "Tanak.Joel.2.21.w8", "book": "Joel", "ch": 2, "v": 21, "wi": 8, "raw": "יְהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.21.w9", "book": "Joel", "ch": 2, "v": 21, "wi": 9, "raw": "לַעֲשֽׂוֹת׃", "after": ""}
+{"id": "Tanak.Joel.2.22.w1", "book": "Joel", "ch": 2, "v": 22, "wi": 1, "raw": "אַל־", "after": ""}
+{"id": "Tanak.Joel.2.22.w2", "book": "Joel", "ch": 2, "v": 22, "wi": 2, "raw": "תִּֽירְאוּ֙", "after": " "}
+{"id": "Tanak.Joel.2.22.w3", "book": "Joel", "ch": 2, "v": 22, "wi": 3, "raw": "בַּהֲמ֣וֹת", "after": " "}
+{"id": "Tanak.Joel.2.22.w4", "book": "Joel", "ch": 2, "v": 22, "wi": 4, "raw": "שָׂדַ֔י", "after": " "}
+{"id": "Tanak.Joel.2.22.w5", "book": "Joel", "ch": 2, "v": 22, "wi": 5, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.2.22.w6", "book": "Joel", "ch": 2, "v": 22, "wi": 6, "raw": "דָשְׁא֖וּ", "after": " "}
+{"id": "Tanak.Joel.2.22.w7", "book": "Joel", "ch": 2, "v": 22, "wi": 7, "raw": "נְא֣וֹת", "after": " "}
+{"id": "Tanak.Joel.2.22.w8", "book": "Joel", "ch": 2, "v": 22, "wi": 8, "raw": "מִדְבָּ֑ר", "after": " "}
+{"id": "Tanak.Joel.2.22.w9", "book": "Joel", "ch": 2, "v": 22, "wi": 9, "raw": "כִּֽי־", "after": ""}
+{"id": "Tanak.Joel.2.22.w10", "book": "Joel", "ch": 2, "v": 22, "wi": 10, "raw": "עֵץ֙", "after": " "}
+{"id": "Tanak.Joel.2.22.w11", "book": "Joel", "ch": 2, "v": 22, "wi": 11, "raw": "נָשָׂ֣א", "after": " "}
+{"id": "Tanak.Joel.2.22.w12", "book": "Joel", "ch": 2, "v": 22, "wi": 12, "raw": "פִרְי֔וֹ", "after": " "}
+{"id": "Tanak.Joel.2.22.w13", "book": "Joel", "ch": 2, "v": 22, "wi": 13, "raw": "תְּאֵנָ֥ה", "after": " "}
+{"id": "Tanak.Joel.2.22.w14", "book": "Joel", "ch": 2, "v": 22, "wi": 14, "raw": "וָגֶ֖פֶן", "after": " "}
+{"id": "Tanak.Joel.2.22.w15", "book": "Joel", "ch": 2, "v": 22, "wi": 15, "raw": "נָתְנ֥וּ", "after": " "}
+{"id": "Tanak.Joel.2.22.w16", "book": "Joel", "ch": 2, "v": 22, "wi": 16, "raw": "חֵילָֽם׃", "after": ""}
+{"id": "Tanak.Joel.2.23.w1", "book": "Joel", "ch": 2, "v": 23, "wi": 1, "raw": "וּבְנֵ֣י", "after": " "}
+{"id": "Tanak.Joel.2.23.w2", "book": "Joel", "ch": 2, "v": 23, "wi": 2, "raw": "צִיּ֗וֹן", "after": " "}
+{"id": "Tanak.Joel.2.23.w3", "book": "Joel", "ch": 2, "v": 23, "wi": 3, "raw": "גִּ֤ילוּ", "after": " "}
+{"id": "Tanak.Joel.2.23.w4", "book": "Joel", "ch": 2, "v": 23, "wi": 4, "raw": "וְשִׂמְחוּ֙", "after": " "}
+{"id": "Tanak.Joel.2.23.w5", "book": "Joel", "ch": 2, "v": 23, "wi": 5, "raw": "בַּיהוָ֣ה", "after": " "}
+{"id": "Tanak.Joel.2.23.w6", "book": "Joel", "ch": 2, "v": 23, "wi": 6, "raw": "אֱלֹֽהֵיכֶ֔ם", "after": " "}
+{"id": "Tanak.Joel.2.23.w7", "book": "Joel", "ch": 2, "v": 23, "wi": 7, "raw": "כִּֽי־", "after": ""}
+{"id": "Tanak.Joel.2.23.w8", "book": "Joel", "ch": 2, "v": 23, "wi": 8, "raw": "נָתַ֥ן", "after": " "}
+{"id": "Tanak.Joel.2.23.w9", "book": "Joel", "ch": 2, "v": 23, "wi": 9, "raw": "לָכֶ֛ם", "after": " "}
+{"id": "Tanak.Joel.2.23.w10", "book": "Joel", "ch": 2, "v": 23, "wi": 10, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.2.23.w11", "book": "Joel", "ch": 2, "v": 23, "wi": 11, "raw": "הַמּוֹרֶ֖ה", "after": " "}
+{"id": "Tanak.Joel.2.23.w12", "book": "Joel", "ch": 2, "v": 23, "wi": 12, "raw": "לִצְדָקָ֑ה", "after": " "}
+{"id": "Tanak.Joel.2.23.w13", "book": "Joel", "ch": 2, "v": 23, "wi": 13, "raw": "וַיּ֣וֹרֶד", "after": " "}
+{"id": "Tanak.Joel.2.23.w14", "book": "Joel", "ch": 2, "v": 23, "wi": 14, "raw": "לָכֶ֗ם", "after": " "}
+{"id": "Tanak.Joel.2.23.w15", "book": "Joel", "ch": 2, "v": 23, "wi": 15, "raw": "גֶּ֛שֶׁם", "after": " "}
+{"id": "Tanak.Joel.2.23.w16", "book": "Joel", "ch": 2, "v": 23, "wi": 16, "raw": "מוֹרֶ֥ה", "after": " "}
+{"id": "Tanak.Joel.2.23.w17", "book": "Joel", "ch": 2, "v": 23, "wi": 17, "raw": "וּמַלְק֖וֹשׁ", "after": " "}
+{"id": "Tanak.Joel.2.23.w18", "book": "Joel", "ch": 2, "v": 23, "wi": 18, "raw": "בָּרִאשֽׁוֹן׃", "after": ""}
+{"id": "Tanak.Joel.2.24.w1", "book": "Joel", "ch": 2, "v": 24, "wi": 1, "raw": "וּמָלְא֥וּ", "after": " "}
+{"id": "Tanak.Joel.2.24.w2", "book": "Joel", "ch": 2, "v": 24, "wi": 2, "raw": "הַגֳּרָנ֖וֹת", "after": " "}
+{"id": "Tanak.Joel.2.24.w3", "book": "Joel", "ch": 2, "v": 24, "wi": 3, "raw": "בָּ֑ר", "after": " "}
+{"id": "Tanak.Joel.2.24.w4", "book": "Joel", "ch": 2, "v": 24, "wi": 4, "raw": "וְהֵשִׁ֥יקוּ", "after": " "}
+{"id": "Tanak.Joel.2.24.w5", "book": "Joel", "ch": 2, "v": 24, "wi": 5, "raw": "הַיְקָבִ֖ים", "after": " "}
+{"id": "Tanak.Joel.2.24.w6", "book": "Joel", "ch": 2, "v": 24, "wi": 6, "raw": "תִּיר֥וֹשׁ", "after": " "}
+{"id": "Tanak.Joel.2.24.w7", "book": "Joel", "ch": 2, "v": 24, "wi": 7, "raw": "וְיִצְהָֽר׃", "after": ""}
+{"id": "Tanak.Joel.2.25.w1", "book": "Joel", "ch": 2, "v": 25, "wi": 1, "raw": "וְשִׁלַּמְתִּ֤י", "after": " "}
+{"id": "Tanak.Joel.2.25.w2", "book": "Joel", "ch": 2, "v": 25, "wi": 2, "raw": "לָכֶם֙", "after": " "}
+{"id": "Tanak.Joel.2.25.w3", "book": "Joel", "ch": 2, "v": 25, "wi": 3, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.2.25.w4", "book": "Joel", "ch": 2, "v": 25, "wi": 4, "raw": "הַשָּׁנִ֔ים", "after": " "}
+{"id": "Tanak.Joel.2.25.w5", "book": "Joel", "ch": 2, "v": 25, "wi": 5, "raw": "אֲשֶׁר֙", "after": " "}
+{"id": "Tanak.Joel.2.25.w6", "book": "Joel", "ch": 2, "v": 25, "wi": 6, "raw": "אָכַ֣ל", "after": " "}
+{"id": "Tanak.Joel.2.25.w7", "book": "Joel", "ch": 2, "v": 25, "wi": 7, "raw": "הָֽאַרְבֶּ֔ה", "after": " "}
+{"id": "Tanak.Joel.2.25.w8", "book": "Joel", "ch": 2, "v": 25, "wi": 8, "raw": "הַיֶּ֖לֶק", "after": " "}
+{"id": "Tanak.Joel.2.25.w9", "book": "Joel", "ch": 2, "v": 25, "wi": 9, "raw": "וְהֶחָסִ֣יל", "after": " "}
+{"id": "Tanak.Joel.2.25.w10", "book": "Joel", "ch": 2, "v": 25, "wi": 10, "raw": "וְהַגָּזָ֑ם", "after": " "}
+{"id": "Tanak.Joel.2.25.w11", "book": "Joel", "ch": 2, "v": 25, "wi": 11, "raw": "חֵילִי֙", "after": " "}
+{"id": "Tanak.Joel.2.25.w12", "book": "Joel", "ch": 2, "v": 25, "wi": 12, "raw": "הַגָּד֔וֹל", "after": " "}
+{"id": "Tanak.Joel.2.25.w13", "book": "Joel", "ch": 2, "v": 25, "wi": 13, "raw": "אֲשֶׁ֥ר", "after": " "}
+{"id": "Tanak.Joel.2.25.w14", "book": "Joel", "ch": 2, "v": 25, "wi": 14, "raw": "שִׁלַּ֖חְתִּי", "after": " "}
+{"id": "Tanak.Joel.2.25.w15", "book": "Joel", "ch": 2, "v": 25, "wi": 15, "raw": "בָּכֶֽם׃", "after": ""}
+{"id": "Tanak.Joel.2.26.w1", "book": "Joel", "ch": 2, "v": 26, "wi": 1, "raw": "וַאֲכַלְתֶּ֤ם", "after": " "}
+{"id": "Tanak.Joel.2.26.w2", "book": "Joel", "ch": 2, "v": 26, "wi": 2, "raw": "אָכוֹל֙", "after": " "}
+{"id": "Tanak.Joel.2.26.w3", "book": "Joel", "ch": 2, "v": 26, "wi": 3, "raw": "וְשָׂב֔וֹעַ", "after": " "}
+{"id": "Tanak.Joel.2.26.w4", "book": "Joel", "ch": 2, "v": 26, "wi": 4, "raw": "וְהִלַּלְתֶּ֗ם", "after": " "}
+{"id": "Tanak.Joel.2.26.w5", "book": "Joel", "ch": 2, "v": 26, "wi": 5, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.2.26.w6", "book": "Joel", "ch": 2, "v": 26, "wi": 6, "raw": "שֵׁ֤ם", "after": " "}
+{"id": "Tanak.Joel.2.26.w7", "book": "Joel", "ch": 2, "v": 26, "wi": 7, "raw": "יְהוָה֙", "after": " "}
+{"id": "Tanak.Joel.2.26.w8", "book": "Joel", "ch": 2, "v": 26, "wi": 8, "raw": "אֱלֹ֣הֵיכֶ֔ם", "after": " "}
+{"id": "Tanak.Joel.2.26.w9", "book": "Joel", "ch": 2, "v": 26, "wi": 9, "raw": "אֲשֶׁר־", "after": ""}
+{"id": "Tanak.Joel.2.26.w10", "book": "Joel", "ch": 2, "v": 26, "wi": 10, "raw": "עָשָׂ֥ה", "after": " "}
+{"id": "Tanak.Joel.2.26.w11", "book": "Joel", "ch": 2, "v": 26, "wi": 11, "raw": "עִמָּכֶ֖ם", "after": " "}
+{"id": "Tanak.Joel.2.26.w12", "book": "Joel", "ch": 2, "v": 26, "wi": 12, "raw": "לְהַפְלִ֑יא", "after": " "}
+{"id": "Tanak.Joel.2.26.w13", "book": "Joel", "ch": 2, "v": 26, "wi": 13, "raw": "וְלֹא־", "after": ""}
+{"id": "Tanak.Joel.2.26.w14", "book": "Joel", "ch": 2, "v": 26, "wi": 14, "raw": "יֵבֹ֥שׁוּ", "after": " "}
+{"id": "Tanak.Joel.2.26.w15", "book": "Joel", "ch": 2, "v": 26, "wi": 15, "raw": "עַמִּ֖י", "after": " "}
+{"id": "Tanak.Joel.2.26.w16", "book": "Joel", "ch": 2, "v": 26, "wi": 16, "raw": "לְעוֹלָֽם׃", "after": ""}
+{"id": "Tanak.Joel.2.27.w1", "book": "Joel", "ch": 2, "v": 27, "wi": 1, "raw": "וִידַעְתֶּ֗ם", "after": " "}
+{"id": "Tanak.Joel.2.27.w2", "book": "Joel", "ch": 2, "v": 27, "wi": 2, "raw": "כִּ֣י", "after": " "}
+{"id": "Tanak.Joel.2.27.w3", "book": "Joel", "ch": 2, "v": 27, "wi": 3, "raw": "בְקֶ֤רֶב", "after": " "}
+{"id": "Tanak.Joel.2.27.w4", "book": "Joel", "ch": 2, "v": 27, "wi": 4, "raw": "יִשְׂרָאֵל֙", "after": " "}
+{"id": "Tanak.Joel.2.27.w5", "book": "Joel", "ch": 2, "v": 27, "wi": 5, "raw": "אָ֔נִי", "after": " "}
+{"id": "Tanak.Joel.2.27.w6", "book": "Joel", "ch": 2, "v": 27, "wi": 6, "raw": "וַאֲנִ֛י", "after": " "}
+{"id": "Tanak.Joel.2.27.w7", "book": "Joel", "ch": 2, "v": 27, "wi": 7, "raw": "יְהוָ֥ה", "after": " "}
+{"id": "Tanak.Joel.2.27.w8", "book": "Joel", "ch": 2, "v": 27, "wi": 8, "raw": "אֱלֹהֵיכֶ֖ם", "after": " "}
+{"id": "Tanak.Joel.2.27.w9", "book": "Joel", "ch": 2, "v": 27, "wi": 9, "raw": "וְאֵ֣ין", "after": " "}
+{"id": "Tanak.Joel.2.27.w10", "book": "Joel", "ch": 2, "v": 27, "wi": 10, "raw": "ע֑וֹד", "after": " "}
+{"id": "Tanak.Joel.2.27.w11", "book": "Joel", "ch": 2, "v": 27, "wi": 11, "raw": "וְלֹא־", "after": ""}
+{"id": "Tanak.Joel.2.27.w12", "book": "Joel", "ch": 2, "v": 27, "wi": 12, "raw": "יֵבֹ֥שׁוּ", "after": " "}
+{"id": "Tanak.Joel.2.27.w13", "book": "Joel", "ch": 2, "v": 27, "wi": 13, "raw": "עַמִּ֖י", "after": " "}
+{"id": "Tanak.Joel.2.27.w14", "book": "Joel", "ch": 2, "v": 27, "wi": 14, "raw": "לְעוֹלָֽם׃", "after": ""}
+{"id": "Tanak.Joel.3.1.w1", "book": "Joel", "ch": 3, "v": 1, "wi": 1, "raw": "וְהָיָ֣ה", "after": " "}
+{"id": "Tanak.Joel.3.1.w2", "book": "Joel", "ch": 3, "v": 1, "wi": 2, "raw": "אַֽחֲרֵי־", "after": ""}
+{"id": "Tanak.Joel.3.1.w3", "book": "Joel", "ch": 3, "v": 1, "wi": 3, "raw": "כֵ֗ן", "after": " "}
+{"id": "Tanak.Joel.3.1.w4", "book": "Joel", "ch": 3, "v": 1, "wi": 4, "raw": "אֶשְׁפּ֤וֹךְ", "after": " "}
+{"id": "Tanak.Joel.3.1.w5", "book": "Joel", "ch": 3, "v": 1, "wi": 5, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.3.1.w6", "book": "Joel", "ch": 3, "v": 1, "wi": 6, "raw": "רוּחִי֙", "after": " "}
+{"id": "Tanak.Joel.3.1.w7", "book": "Joel", "ch": 3, "v": 1, "wi": 7, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.3.1.w8", "book": "Joel", "ch": 3, "v": 1, "wi": 8, "raw": "כָּל־", "after": ""}
+{"id": "Tanak.Joel.3.1.w9", "book": "Joel", "ch": 3, "v": 1, "wi": 9, "raw": "בָּשָׂ֔ר", "after": " "}
+{"id": "Tanak.Joel.3.1.w10", "book": "Joel", "ch": 3, "v": 1, "wi": 10, "raw": "וְנִבְּא֖וּ", "after": " "}
+{"id": "Tanak.Joel.3.1.w11", "book": "Joel", "ch": 3, "v": 1, "wi": 11, "raw": "בְּנֵיכֶ֣ם", "after": " "}
+{"id": "Tanak.Joel.3.1.w12", "book": "Joel", "ch": 3, "v": 1, "wi": 12, "raw": "וּבְנֽוֹתֵיכֶ֑ם", "after": " "}
+{"id": "Tanak.Joel.3.1.w13", "book": "Joel", "ch": 3, "v": 1, "wi": 13, "raw": "זִקְנֵיכֶם֙", "after": " "}
+{"id": "Tanak.Joel.3.1.w14", "book": "Joel", "ch": 3, "v": 1, "wi": 14, "raw": "חֲלֹמ֣וֹת", "after": " "}
+{"id": "Tanak.Joel.3.1.w15", "book": "Joel", "ch": 3, "v": 1, "wi": 15, "raw": "יַחֲלֹמ֔וּן", "after": " "}
+{"id": "Tanak.Joel.3.1.w16", "book": "Joel", "ch": 3, "v": 1, "wi": 16, "raw": "בַּח֣וּרֵיכֶ֔ם", "after": " "}
+{"id": "Tanak.Joel.3.1.w17", "book": "Joel", "ch": 3, "v": 1, "wi": 17, "raw": "חֶזְיֹנ֖וֹת", "after": " "}
+{"id": "Tanak.Joel.3.1.w18", "book": "Joel", "ch": 3, "v": 1, "wi": 18, "raw": "יִרְאֽוּ׃", "after": ""}
+{"id": "Tanak.Joel.3.2.w1", "book": "Joel", "ch": 3, "v": 2, "wi": 1, "raw": "וְגַ֥ם", "after": " "}
+{"id": "Tanak.Joel.3.2.w2", "book": "Joel", "ch": 3, "v": 2, "wi": 2, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.3.2.w3", "book": "Joel", "ch": 3, "v": 2, "wi": 3, "raw": "הָֽעֲבָדִ֖ים", "after": " "}
+{"id": "Tanak.Joel.3.2.w4", "book": "Joel", "ch": 3, "v": 2, "wi": 4, "raw": "וְעַל־", "after": ""}
+{"id": "Tanak.Joel.3.2.w5", "book": "Joel", "ch": 3, "v": 2, "wi": 5, "raw": "הַשְּׁפָח֑וֹת", "after": " "}
+{"id": "Tanak.Joel.3.2.w6", "book": "Joel", "ch": 3, "v": 2, "wi": 6, "raw": "בַּיָּמִ֣ים", "after": " "}
+{"id": "Tanak.Joel.3.2.w7", "book": "Joel", "ch": 3, "v": 2, "wi": 7, "raw": "הָהֵ֔מָּה", "after": " "}
+{"id": "Tanak.Joel.3.2.w8", "book": "Joel", "ch": 3, "v": 2, "wi": 8, "raw": "אֶשְׁפּ֖וֹךְ", "after": " "}
+{"id": "Tanak.Joel.3.2.w9", "book": "Joel", "ch": 3, "v": 2, "wi": 9, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.3.2.w10", "book": "Joel", "ch": 3, "v": 2, "wi": 10, "raw": "רוּחִֽי׃", "after": ""}
+{"id": "Tanak.Joel.3.3.w1", "book": "Joel", "ch": 3, "v": 3, "wi": 1, "raw": "וְנָֽתַתִּי֙", "after": " "}
+{"id": "Tanak.Joel.3.3.w2", "book": "Joel", "ch": 3, "v": 3, "wi": 2, "raw": "מֽוֹפְתִ֔ים", "after": " "}
+{"id": "Tanak.Joel.3.3.w3", "book": "Joel", "ch": 3, "v": 3, "wi": 3, "raw": "בַּשָּׁמַ֖יִם", "after": " "}
+{"id": "Tanak.Joel.3.3.w4", "book": "Joel", "ch": 3, "v": 3, "wi": 4, "raw": "וּבָאָ֑רֶץ", "after": " "}
+{"id": "Tanak.Joel.3.3.w5", "book": "Joel", "ch": 3, "v": 3, "wi": 5, "raw": "דָּ֣ם", "after": " "}
+{"id": "Tanak.Joel.3.3.w6", "book": "Joel", "ch": 3, "v": 3, "wi": 6, "raw": "וָאֵ֔שׁ", "after": " "}
+{"id": "Tanak.Joel.3.3.w7", "book": "Joel", "ch": 3, "v": 3, "wi": 7, "raw": "וְתִֽימֲר֖וֹת", "after": " "}
+{"id": "Tanak.Joel.3.3.w8", "book": "Joel", "ch": 3, "v": 3, "wi": 8, "raw": "עָשָֽׁן׃", "after": ""}
+{"id": "Tanak.Joel.3.4.w1", "book": "Joel", "ch": 3, "v": 4, "wi": 1, "raw": "הַשֶּׁ֙מֶשׁ֙", "after": " "}
+{"id": "Tanak.Joel.3.4.w2", "book": "Joel", "ch": 3, "v": 4, "wi": 2, "raw": "יֵהָפֵ֣ךְ", "after": " "}
+{"id": "Tanak.Joel.3.4.w3", "book": "Joel", "ch": 3, "v": 4, "wi": 3, "raw": "לְחֹ֔שֶׁךְ", "after": " "}
+{"id": "Tanak.Joel.3.4.w4", "book": "Joel", "ch": 3, "v": 4, "wi": 4, "raw": "וְהַיָּרֵ֖חַ", "after": " "}
+{"id": "Tanak.Joel.3.4.w5", "book": "Joel", "ch": 3, "v": 4, "wi": 5, "raw": "לְדָ֑ם", "after": " "}
+{"id": "Tanak.Joel.3.4.w6", "book": "Joel", "ch": 3, "v": 4, "wi": 6, "raw": "לִפְנֵ֗י", "after": " "}
+{"id": "Tanak.Joel.3.4.w7", "book": "Joel", "ch": 3, "v": 4, "wi": 7, "raw": "בּ֚וֹא", "after": " "}
+{"id": "Tanak.Joel.3.4.w8", "book": "Joel", "ch": 3, "v": 4, "wi": 8, "raw": "י֣וֹם", "after": " "}
+{"id": "Tanak.Joel.3.4.w9", "book": "Joel", "ch": 3, "v": 4, "wi": 9, "raw": "יְהוָ֔ה", "after": " "}
+{"id": "Tanak.Joel.3.4.w10", "book": "Joel", "ch": 3, "v": 4, "wi": 10, "raw": "הַגָּד֖וֹל", "after": " "}
+{"id": "Tanak.Joel.3.4.w11", "book": "Joel", "ch": 3, "v": 4, "wi": 11, "raw": "וְהַנּוֹרָֽא׃", "after": ""}
+{"id": "Tanak.Joel.3.5.w1", "book": "Joel", "ch": 3, "v": 5, "wi": 1, "raw": "וְהָיָ֗ה", "after": " "}
+{"id": "Tanak.Joel.3.5.w2", "book": "Joel", "ch": 3, "v": 5, "wi": 2, "raw": "כֹּ֧ל", "after": " "}
+{"id": "Tanak.Joel.3.5.w3", "book": "Joel", "ch": 3, "v": 5, "wi": 3, "raw": "אֲשֶׁר־", "after": ""}
+{"id": "Tanak.Joel.3.5.w4", "book": "Joel", "ch": 3, "v": 5, "wi": 4, "raw": "יִקְרָ֛א", "after": " "}
+{"id": "Tanak.Joel.3.5.w5", "book": "Joel", "ch": 3, "v": 5, "wi": 5, "raw": "בְּשֵׁ֥ם", "after": " "}
+{"id": "Tanak.Joel.3.5.w6", "book": "Joel", "ch": 3, "v": 5, "wi": 6, "raw": "יְהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.3.5.w7", "book": "Joel", "ch": 3, "v": 5, "wi": 7, "raw": "יִמָּלֵ֑ט", "after": " "}
+{"id": "Tanak.Joel.3.5.w8", "book": "Joel", "ch": 3, "v": 5, "wi": 8, "raw": "כִּ֠י", "after": " "}
+{"id": "Tanak.Joel.3.5.w9", "book": "Joel", "ch": 3, "v": 5, "wi": 9, "raw": "בְּהַר־", "after": ""}
+{"id": "Tanak.Joel.3.5.w10", "book": "Joel", "ch": 3, "v": 5, "wi": 10, "raw": "צִיּ֨וֹן", "after": " "}
+{"id": "Tanak.Joel.3.5.w11", "book": "Joel", "ch": 3, "v": 5, "wi": 11, "raw": "וּבִירוּשָׁלִַ֜ם", "after": " "}
+{"id": "Tanak.Joel.3.5.w12", "book": "Joel", "ch": 3, "v": 5, "wi": 12, "raw": "תִּֽהְיֶ֣ה", "after": " "}
+{"id": "Tanak.Joel.3.5.w13", "book": "Joel", "ch": 3, "v": 5, "wi": 13, "raw": "פְלֵיטָ֗ה", "after": " "}
+{"id": "Tanak.Joel.3.5.w14", "book": "Joel", "ch": 3, "v": 5, "wi": 14, "raw": "כַּֽאֲשֶׁר֙", "after": " "}
+{"id": "Tanak.Joel.3.5.w15", "book": "Joel", "ch": 3, "v": 5, "wi": 15, "raw": "אָמַ֣ר", "after": " "}
+{"id": "Tanak.Joel.3.5.w16", "book": "Joel", "ch": 3, "v": 5, "wi": 16, "raw": "יְהוָ֔ה", "after": " "}
+{"id": "Tanak.Joel.3.5.w17", "book": "Joel", "ch": 3, "v": 5, "wi": 17, "raw": "וּבַ֨שְּׂרִידִ֔ים", "after": " "}
+{"id": "Tanak.Joel.3.5.w18", "book": "Joel", "ch": 3, "v": 5, "wi": 18, "raw": "אֲשֶׁ֥ר", "after": " "}
+{"id": "Tanak.Joel.3.5.w19", "book": "Joel", "ch": 3, "v": 5, "wi": 19, "raw": "יְהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.3.5.w20", "book": "Joel", "ch": 3, "v": 5, "wi": 20, "raw": "קֹרֵֽא׃", "after": ""}
+{"id": "Tanak.Joel.4.1.w1", "book": "Joel", "ch": 4, "v": 1, "wi": 1, "raw": "כִּ֗י", "after": " "}
+{"id": "Tanak.Joel.4.1.w2", "book": "Joel", "ch": 4, "v": 1, "wi": 2, "raw": "הִנֵּ֛ה", "after": " "}
+{"id": "Tanak.Joel.4.1.w3", "book": "Joel", "ch": 4, "v": 1, "wi": 3, "raw": "בַּיָּמִ֥ים", "after": " "}
+{"id": "Tanak.Joel.4.1.w4", "book": "Joel", "ch": 4, "v": 1, "wi": 4, "raw": "הָהֵ֖מָּה", "after": " "}
+{"id": "Tanak.Joel.4.1.w5", "book": "Joel", "ch": 4, "v": 1, "wi": 5, "raw": "וּבָעֵ֣ת", "after": " "}
+{"id": "Tanak.Joel.4.1.w6", "book": "Joel", "ch": 4, "v": 1, "wi": 6, "raw": "הַהִ֑יא", "after": " "}
+{"id": "Tanak.Joel.4.1.w7", "book": "Joel", "ch": 4, "v": 1, "wi": 7, "raw": "אֲשֶׁ֥ר", "after": " "}
+{"id": "Tanak.Joel.4.1.w8", "book": "Joel", "ch": 4, "v": 1, "wi": 8, "raw": "אָשִׁ֛יב", "after": " ", "reading": "qere", "ketiv": "אשוב"}
+{"id": "Tanak.Joel.4.1.w9", "book": "Joel", "ch": 4, "v": 1, "wi": 9, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.4.1.w10", "book": "Joel", "ch": 4, "v": 1, "wi": 10, "raw": "שְׁב֥וּת", "after": " "}
+{"id": "Tanak.Joel.4.1.w11", "book": "Joel", "ch": 4, "v": 1, "wi": 11, "raw": "יְהוּדָ֖ה", "after": " "}
+{"id": "Tanak.Joel.4.1.w12", "book": "Joel", "ch": 4, "v": 1, "wi": 12, "raw": "וִירוּשָׁלָֽ͏ִם׃", "after": ""}
+{"id": "Tanak.Joel.4.2.w1", "book": "Joel", "ch": 4, "v": 2, "wi": 1, "raw": "וְקִבַּצְתִּי֙", "after": " "}
+{"id": "Tanak.Joel.4.2.w2", "book": "Joel", "ch": 4, "v": 2, "wi": 2, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.4.2.w3", "book": "Joel", "ch": 4, "v": 2, "wi": 3, "raw": "כָּל־", "after": ""}
+{"id": "Tanak.Joel.4.2.w4", "book": "Joel", "ch": 4, "v": 2, "wi": 4, "raw": "הַגּוֹיִ֔ם", "after": " "}
+{"id": "Tanak.Joel.4.2.w5", "book": "Joel", "ch": 4, "v": 2, "wi": 5, "raw": "וְה֣וֹרַדְתִּ֔ים", "after": " "}
+{"id": "Tanak.Joel.4.2.w6", "book": "Joel", "ch": 4, "v": 2, "wi": 6, "raw": "אֶל־", "after": ""}
+{"id": "Tanak.Joel.4.2.w7", "book": "Joel", "ch": 4, "v": 2, "wi": 7, "raw": "עֵ֖מֶק", "after": " "}
+{"id": "Tanak.Joel.4.2.w8", "book": "Joel", "ch": 4, "v": 2, "wi": 8, "raw": "יְהֽוֹשָׁפָ֑ט", "after": " "}
+{"id": "Tanak.Joel.4.2.w9", "book": "Joel", "ch": 4, "v": 2, "wi": 9, "raw": "וְנִשְׁפַּטְתִּ֨י", "after": " "}
+{"id": "Tanak.Joel.4.2.w10", "book": "Joel", "ch": 4, "v": 2, "wi": 10, "raw": "עִמָּ֜ם", "after": " "}
+{"id": "Tanak.Joel.4.2.w11", "book": "Joel", "ch": 4, "v": 2, "wi": 11, "raw": "שָׁ֗ם", "after": " "}
+{"id": "Tanak.Joel.4.2.w12", "book": "Joel", "ch": 4, "v": 2, "wi": 12, "raw": "עַל־", "after": ""}
+{"id": "Tanak.Joel.4.2.w13", "book": "Joel", "ch": 4, "v": 2, "wi": 13, "raw": "עַמִּ֨י", "after": " "}
+{"id": "Tanak.Joel.4.2.w14", "book": "Joel", "ch": 4, "v": 2, "wi": 14, "raw": "וְנַחֲלָתִ֤י", "after": " "}
+{"id": "Tanak.Joel.4.2.w15", "book": "Joel", "ch": 4, "v": 2, "wi": 15, "raw": "יִשְׂרָאֵל֙", "after": " "}
+{"id": "Tanak.Joel.4.2.w16", "book": "Joel", "ch": 4, "v": 2, "wi": 16, "raw": "אֲשֶׁ֣ר", "after": " "}
+{"id": "Tanak.Joel.4.2.w17", "book": "Joel", "ch": 4, "v": 2, "wi": 17, "raw": "פִּזְּר֣וּ", "after": " "}
+{"id": "Tanak.Joel.4.2.w18", "book": "Joel", "ch": 4, "v": 2, "wi": 18, "raw": "בַגּוֹיִ֔ם", "after": " "}
+{"id": "Tanak.Joel.4.2.w19", "book": "Joel", "ch": 4, "v": 2, "wi": 19, "raw": "וְאֶת־", "after": ""}
+{"id": "Tanak.Joel.4.2.w20", "book": "Joel", "ch": 4, "v": 2, "wi": 20, "raw": "אַרְצִ֖י", "after": " "}
+{"id": "Tanak.Joel.4.2.w21", "book": "Joel", "ch": 4, "v": 2, "wi": 21, "raw": "חִלֵּֽקוּ׃", "after": ""}
+{"id": "Tanak.Joel.4.3.w1", "book": "Joel", "ch": 4, "v": 3, "wi": 1, "raw": "וְאֶל־", "after": ""}
+{"id": "Tanak.Joel.4.3.w2", "book": "Joel", "ch": 4, "v": 3, "wi": 2, "raw": "עַמִּ֖י", "after": " "}
+{"id": "Tanak.Joel.4.3.w3", "book": "Joel", "ch": 4, "v": 3, "wi": 3, "raw": "יַדּ֣וּ", "after": " "}
+{"id": "Tanak.Joel.4.3.w4", "book": "Joel", "ch": 4, "v": 3, "wi": 4, "raw": "גוֹרָ֑ל", "after": " "}
+{"id": "Tanak.Joel.4.3.w5", "book": "Joel", "ch": 4, "v": 3, "wi": 5, "raw": "וַיִּתְּנ֤וּ", "after": " "}
+{"id": "Tanak.Joel.4.3.w6", "book": "Joel", "ch": 4, "v": 3, "wi": 6, "raw": "הַיֶּ֙לֶד֙", "after": " "}
+{"id": "Tanak.Joel.4.3.w7", "book": "Joel", "ch": 4, "v": 3, "wi": 7, "raw": "בַּזּוֹנָ֔ה", "after": " "}
+{"id": "Tanak.Joel.4.3.w8", "book": "Joel", "ch": 4, "v": 3, "wi": 8, "raw": "וְהַיַּלְדָּ֛ה", "after": " "}
+{"id": "Tanak.Joel.4.3.w9", "book": "Joel", "ch": 4, "v": 3, "wi": 9, "raw": "מָכְר֥וּ", "after": " "}
+{"id": "Tanak.Joel.4.3.w10", "book": "Joel", "ch": 4, "v": 3, "wi": 10, "raw": "בַיַּ֖יִן", "after": " "}
+{"id": "Tanak.Joel.4.3.w11", "book": "Joel", "ch": 4, "v": 3, "wi": 11, "raw": "וַיִּשְׁתּֽוּ׃", "after": ""}
+{"id": "Tanak.Joel.4.4.w1", "book": "Joel", "ch": 4, "v": 4, "wi": 1, "raw": "וְ֠גַם", "after": " "}
+{"id": "Tanak.Joel.4.4.w2", "book": "Joel", "ch": 4, "v": 4, "wi": 2, "raw": "מָה־", "after": ""}
+{"id": "Tanak.Joel.4.4.w3", "book": "Joel", "ch": 4, "v": 4, "wi": 3, "raw": "אַתֶּ֥ם", "after": " "}
+{"id": "Tanak.Joel.4.4.w4", "book": "Joel", "ch": 4, "v": 4, "wi": 4, "raw": "לִי֙", "after": " "}
+{"id": "Tanak.Joel.4.4.w5", "book": "Joel", "ch": 4, "v": 4, "wi": 5, "raw": "צֹ֣ר", "after": " "}
+{"id": "Tanak.Joel.4.4.w6", "book": "Joel", "ch": 4, "v": 4, "wi": 6, "raw": "וְצִיד֔וֹן", "after": " "}
+{"id": "Tanak.Joel.4.4.w7", "book": "Joel", "ch": 4, "v": 4, "wi": 7, "raw": "וְכֹ֖ל", "after": " "}
+{"id": "Tanak.Joel.4.4.w8", "book": "Joel", "ch": 4, "v": 4, "wi": 8, "raw": "גְּלִיל֣וֹת", "after": " "}
+{"id": "Tanak.Joel.4.4.w9", "book": "Joel", "ch": 4, "v": 4, "wi": 9, "raw": "פְּלָ֑שֶׁת", "after": " "}
+{"id": "Tanak.Joel.4.4.w10", "book": "Joel", "ch": 4, "v": 4, "wi": 10, "raw": "הַגְּמ֗וּל", "after": " "}
+{"id": "Tanak.Joel.4.4.w11", "book": "Joel", "ch": 4, "v": 4, "wi": 11, "raw": "אַתֶּם֙", "after": " "}
+{"id": "Tanak.Joel.4.4.w12", "book": "Joel", "ch": 4, "v": 4, "wi": 12, "raw": "מְשַׁלְּמִ֣ים", "after": " "}
+{"id": "Tanak.Joel.4.4.w13", "book": "Joel", "ch": 4, "v": 4, "wi": 13, "raw": "עָלָ֔י", "after": " "}
+{"id": "Tanak.Joel.4.4.w14", "book": "Joel", "ch": 4, "v": 4, "wi": 14, "raw": "וְאִם־", "after": ""}
+{"id": "Tanak.Joel.4.4.w15", "book": "Joel", "ch": 4, "v": 4, "wi": 15, "raw": "גֹּמְלִ֤ים", "after": " "}
+{"id": "Tanak.Joel.4.4.w16", "book": "Joel", "ch": 4, "v": 4, "wi": 16, "raw": "אַתֶּם֙", "after": " "}
+{"id": "Tanak.Joel.4.4.w17", "book": "Joel", "ch": 4, "v": 4, "wi": 17, "raw": "עָלַ֔י", "after": " "}
+{"id": "Tanak.Joel.4.4.w18", "book": "Joel", "ch": 4, "v": 4, "wi": 18, "raw": "קַ֣ל", "after": " "}
+{"id": "Tanak.Joel.4.4.w19", "book": "Joel", "ch": 4, "v": 4, "wi": 19, "raw": "מְהֵרָ֔ה", "after": " "}
+{"id": "Tanak.Joel.4.4.w20", "book": "Joel", "ch": 4, "v": 4, "wi": 20, "raw": "אָשִׁ֥יב", "after": " "}
+{"id": "Tanak.Joel.4.4.w21", "book": "Joel", "ch": 4, "v": 4, "wi": 21, "raw": "גְּמֻלְכֶ֖ם", "after": " "}
+{"id": "Tanak.Joel.4.4.w22", "book": "Joel", "ch": 4, "v": 4, "wi": 22, "raw": "בְּרֹאשְׁכֶֽם׃", "after": ""}
+{"id": "Tanak.Joel.4.5.w1", "book": "Joel", "ch": 4, "v": 5, "wi": 1, "raw": "אֲשֶׁר־", "after": ""}
+{"id": "Tanak.Joel.4.5.w2", "book": "Joel", "ch": 4, "v": 5, "wi": 2, "raw": "כַּסְפִּ֥י", "after": " "}
+{"id": "Tanak.Joel.4.5.w3", "book": "Joel", "ch": 4, "v": 5, "wi": 3, "raw": "וּזְהָבִ֖י", "after": " "}
+{"id": "Tanak.Joel.4.5.w4", "book": "Joel", "ch": 4, "v": 5, "wi": 4, "raw": "לְקַחְתֶּ֑ם", "after": " "}
+{"id": "Tanak.Joel.4.5.w5", "book": "Joel", "ch": 4, "v": 5, "wi": 5, "raw": "וּמַֽחֲמַדַּי֙", "after": " "}
+{"id": "Tanak.Joel.4.5.w6", "book": "Joel", "ch": 4, "v": 5, "wi": 6, "raw": "הַטֹּבִ֔ים", "after": " "}
+{"id": "Tanak.Joel.4.5.w7", "book": "Joel", "ch": 4, "v": 5, "wi": 7, "raw": "הֲבֵאתֶ֖ם", "after": " "}
+{"id": "Tanak.Joel.4.5.w8", "book": "Joel", "ch": 4, "v": 5, "wi": 8, "raw": "לְהֵיכְלֵיכֶֽם׃", "after": ""}
+{"id": "Tanak.Joel.4.6.w1", "book": "Joel", "ch": 4, "v": 6, "wi": 1, "raw": "וּבְנֵ֤י", "after": " "}
+{"id": "Tanak.Joel.4.6.w2", "book": "Joel", "ch": 4, "v": 6, "wi": 2, "raw": "יְהוּדָה֙", "after": " "}
+{"id": "Tanak.Joel.4.6.w3", "book": "Joel", "ch": 4, "v": 6, "wi": 3, "raw": "וּבְנֵ֣י", "after": " "}
+{"id": "Tanak.Joel.4.6.w4", "book": "Joel", "ch": 4, "v": 6, "wi": 4, "raw": "יְרוּשָׁלִַ֔ם", "after": " "}
+{"id": "Tanak.Joel.4.6.w5", "book": "Joel", "ch": 4, "v": 6, "wi": 5, "raw": "מְכַרְתֶּ֖ם", "after": " "}
+{"id": "Tanak.Joel.4.6.w6", "book": "Joel", "ch": 4, "v": 6, "wi": 6, "raw": "לִבְנֵ֣י", "after": " "}
+{"id": "Tanak.Joel.4.6.w7", "book": "Joel", "ch": 4, "v": 6, "wi": 7, "raw": "הַיְּוָנִ֑ים", "after": " "}
+{"id": "Tanak.Joel.4.6.w8", "book": "Joel", "ch": 4, "v": 6, "wi": 8, "raw": "לְמַ֥עַן", "after": " "}
+{"id": "Tanak.Joel.4.6.w9", "book": "Joel", "ch": 4, "v": 6, "wi": 9, "raw": "הַרְחִיקָ֖ם", "after": " "}
+{"id": "Tanak.Joel.4.6.w10", "book": "Joel", "ch": 4, "v": 6, "wi": 10, "raw": "מֵעַ֥ל", "after": " "}
+{"id": "Tanak.Joel.4.6.w11", "book": "Joel", "ch": 4, "v": 6, "wi": 11, "raw": "גְּבוּלָֽם׃", "after": ""}
+{"id": "Tanak.Joel.4.7.w1", "book": "Joel", "ch": 4, "v": 7, "wi": 1, "raw": "הִנְנִ֣י", "after": " "}
+{"id": "Tanak.Joel.4.7.w2", "book": "Joel", "ch": 4, "v": 7, "wi": 2, "raw": "מְעִירָ֔ם", "after": " "}
+{"id": "Tanak.Joel.4.7.w3", "book": "Joel", "ch": 4, "v": 7, "wi": 3, "raw": "מִן־", "after": ""}
+{"id": "Tanak.Joel.4.7.w4", "book": "Joel", "ch": 4, "v": 7, "wi": 4, "raw": "הַ֨מָּק֔וֹם", "after": " "}
+{"id": "Tanak.Joel.4.7.w5", "book": "Joel", "ch": 4, "v": 7, "wi": 5, "raw": "אֲשֶׁר־", "after": ""}
+{"id": "Tanak.Joel.4.7.w6", "book": "Joel", "ch": 4, "v": 7, "wi": 6, "raw": "מְכַרְתֶּ֥ם", "after": " "}
+{"id": "Tanak.Joel.4.7.w7", "book": "Joel", "ch": 4, "v": 7, "wi": 7, "raw": "אֹתָ֖ם", "after": " "}
+{"id": "Tanak.Joel.4.7.w8", "book": "Joel", "ch": 4, "v": 7, "wi": 8, "raw": "שָׁ֑מָּה", "after": " "}
+{"id": "Tanak.Joel.4.7.w9", "book": "Joel", "ch": 4, "v": 7, "wi": 9, "raw": "וַהֲשִׁבֹתִ֥י", "after": " "}
+{"id": "Tanak.Joel.4.7.w10", "book": "Joel", "ch": 4, "v": 7, "wi": 10, "raw": "גְמֻלְכֶ֖ם", "after": " "}
+{"id": "Tanak.Joel.4.7.w11", "book": "Joel", "ch": 4, "v": 7, "wi": 11, "raw": "בְּרֹאשְׁכֶֽם׃", "after": ""}
+{"id": "Tanak.Joel.4.8.w1", "book": "Joel", "ch": 4, "v": 8, "wi": 1, "raw": "וּמָכַרְתִּ֞י", "after": " "}
+{"id": "Tanak.Joel.4.8.w2", "book": "Joel", "ch": 4, "v": 8, "wi": 2, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.4.8.w3", "book": "Joel", "ch": 4, "v": 8, "wi": 3, "raw": "בְּנֵיכֶ֣ם", "after": " "}
+{"id": "Tanak.Joel.4.8.w4", "book": "Joel", "ch": 4, "v": 8, "wi": 4, "raw": "וְאֶת־", "after": ""}
+{"id": "Tanak.Joel.4.8.w5", "book": "Joel", "ch": 4, "v": 8, "wi": 5, "raw": "בְּנֽוֹתֵיכֶ֗ם", "after": " "}
+{"id": "Tanak.Joel.4.8.w6", "book": "Joel", "ch": 4, "v": 8, "wi": 6, "raw": "בְּיַד֙", "after": " "}
+{"id": "Tanak.Joel.4.8.w7", "book": "Joel", "ch": 4, "v": 8, "wi": 7, "raw": "בְּנֵ֣י", "after": " "}
+{"id": "Tanak.Joel.4.8.w8", "book": "Joel", "ch": 4, "v": 8, "wi": 8, "raw": "יְהוּדָ֔ה", "after": " "}
+{"id": "Tanak.Joel.4.8.w9", "book": "Joel", "ch": 4, "v": 8, "wi": 9, "raw": "וּמְכָר֥וּם", "after": " "}
+{"id": "Tanak.Joel.4.8.w10", "book": "Joel", "ch": 4, "v": 8, "wi": 10, "raw": "לִשְׁבָאיִ֖ם", "after": " "}
+{"id": "Tanak.Joel.4.8.w11", "book": "Joel", "ch": 4, "v": 8, "wi": 11, "raw": "אֶל־", "after": ""}
+{"id": "Tanak.Joel.4.8.w12", "book": "Joel", "ch": 4, "v": 8, "wi": 12, "raw": "גּ֣וֹי", "after": " "}
+{"id": "Tanak.Joel.4.8.w13", "book": "Joel", "ch": 4, "v": 8, "wi": 13, "raw": "רָח֑וֹק", "after": " "}
+{"id": "Tanak.Joel.4.8.w14", "book": "Joel", "ch": 4, "v": 8, "wi": 14, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.4.8.w15", "book": "Joel", "ch": 4, "v": 8, "wi": 15, "raw": "יְהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.4.8.w16", "book": "Joel", "ch": 4, "v": 8, "wi": 16, "raw": "דִּבֵּֽר׃", "after": ""}
+{"id": "Tanak.Joel.4.9.w1", "book": "Joel", "ch": 4, "v": 9, "wi": 1, "raw": "קִרְאוּ־", "after": ""}
+{"id": "Tanak.Joel.4.9.w2", "book": "Joel", "ch": 4, "v": 9, "wi": 2, "raw": "זֹאת֙", "after": " "}
+{"id": "Tanak.Joel.4.9.w3", "book": "Joel", "ch": 4, "v": 9, "wi": 3, "raw": "בַּגּוֹיִ֔ם", "after": " "}
+{"id": "Tanak.Joel.4.9.w4", "book": "Joel", "ch": 4, "v": 9, "wi": 4, "raw": "קַדְּשׁ֖וּ", "after": " "}
+{"id": "Tanak.Joel.4.9.w5", "book": "Joel", "ch": 4, "v": 9, "wi": 5, "raw": "מִלְחָמָ֑ה", "after": " "}
+{"id": "Tanak.Joel.4.9.w6", "book": "Joel", "ch": 4, "v": 9, "wi": 6, "raw": "הָעִ֙ירוּ֙", "after": " "}
+{"id": "Tanak.Joel.4.9.w7", "book": "Joel", "ch": 4, "v": 9, "wi": 7, "raw": "הַגִּבּוֹרִ֔ים", "after": " "}
+{"id": "Tanak.Joel.4.9.w8", "book": "Joel", "ch": 4, "v": 9, "wi": 8, "raw": "יִגְּשׁ֣וּ", "after": " "}
+{"id": "Tanak.Joel.4.9.w9", "book": "Joel", "ch": 4, "v": 9, "wi": 9, "raw": "יַֽעֲל֔וּ", "after": " "}
+{"id": "Tanak.Joel.4.9.w10", "book": "Joel", "ch": 4, "v": 9, "wi": 10, "raw": "כֹּ֖ל", "after": " "}
+{"id": "Tanak.Joel.4.9.w11", "book": "Joel", "ch": 4, "v": 9, "wi": 11, "raw": "אַנְשֵׁ֥י", "after": " "}
+{"id": "Tanak.Joel.4.9.w12", "book": "Joel", "ch": 4, "v": 9, "wi": 12, "raw": "הַמִּלְחָמָֽה׃", "after": ""}
+{"id": "Tanak.Joel.4.10.w1", "book": "Joel", "ch": 4, "v": 10, "wi": 1, "raw": "כֹּ֤תּוּ", "after": " "}
+{"id": "Tanak.Joel.4.10.w2", "book": "Joel", "ch": 4, "v": 10, "wi": 2, "raw": "אִתֵּיכֶם֙", "after": " "}
+{"id": "Tanak.Joel.4.10.w3", "book": "Joel", "ch": 4, "v": 10, "wi": 3, "raw": "לַֽחֲרָב֔וֹת", "after": " "}
+{"id": "Tanak.Joel.4.10.w4", "book": "Joel", "ch": 4, "v": 10, "wi": 4, "raw": "וּמַזְמְרֹֽתֵיכֶ֖ם", "after": " "}
+{"id": "Tanak.Joel.4.10.w5", "book": "Joel", "ch": 4, "v": 10, "wi": 5, "raw": "לִרְמָחִ֑ים", "after": " "}
+{"id": "Tanak.Joel.4.10.w6", "book": "Joel", "ch": 4, "v": 10, "wi": 6, "raw": "הַֽחַלָּ֔שׁ", "after": " "}
+{"id": "Tanak.Joel.4.10.w7", "book": "Joel", "ch": 4, "v": 10, "wi": 7, "raw": "יֹאמַ֖ר", "after": " "}
+{"id": "Tanak.Joel.4.10.w8", "book": "Joel", "ch": 4, "v": 10, "wi": 8, "raw": "גִּבּ֥וֹר", "after": " "}
+{"id": "Tanak.Joel.4.10.w9", "book": "Joel", "ch": 4, "v": 10, "wi": 9, "raw": "אָֽנִי׃", "after": ""}
+{"id": "Tanak.Joel.4.11.w1", "book": "Joel", "ch": 4, "v": 11, "wi": 1, "raw": "ע֣וּשׁוּ", "after": " "}
+{"id": "Tanak.Joel.4.11.w2", "book": "Joel", "ch": 4, "v": 11, "wi": 2, "raw": "וָבֹ֧אוּ", "after": " "}
+{"id": "Tanak.Joel.4.11.w3", "book": "Joel", "ch": 4, "v": 11, "wi": 3, "raw": "כָֽל־", "after": ""}
+{"id": "Tanak.Joel.4.11.w4", "book": "Joel", "ch": 4, "v": 11, "wi": 4, "raw": "הַגּוֹיִ֛ם", "after": " "}
+{"id": "Tanak.Joel.4.11.w5", "book": "Joel", "ch": 4, "v": 11, "wi": 5, "raw": "מִסָּבִ֖יב", "after": " "}
+{"id": "Tanak.Joel.4.11.w6", "book": "Joel", "ch": 4, "v": 11, "wi": 6, "raw": "וְנִקְבָּ֑צוּ", "after": " "}
+{"id": "Tanak.Joel.4.11.w7", "book": "Joel", "ch": 4, "v": 11, "wi": 7, "raw": "שָׁ֕מָּה", "after": " "}
+{"id": "Tanak.Joel.4.11.w8", "book": "Joel", "ch": 4, "v": 11, "wi": 8, "raw": "הַֽנְחַ֥ת", "after": " "}
+{"id": "Tanak.Joel.4.11.w9", "book": "Joel", "ch": 4, "v": 11, "wi": 9, "raw": "יְהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.4.11.w10", "book": "Joel", "ch": 4, "v": 11, "wi": 10, "raw": "גִּבּוֹרֶֽיךָ׃", "after": ""}
+{"id": "Tanak.Joel.4.12.w1", "book": "Joel", "ch": 4, "v": 12, "wi": 1, "raw": "יֵע֙וֹרוּ֙", "after": " "}
+{"id": "Tanak.Joel.4.12.w2", "book": "Joel", "ch": 4, "v": 12, "wi": 2, "raw": "וְיַעֲל֣וּ", "after": " "}
+{"id": "Tanak.Joel.4.12.w3", "book": "Joel", "ch": 4, "v": 12, "wi": 3, "raw": "הַגּוֹיִ֔ם", "after": " "}
+{"id": "Tanak.Joel.4.12.w4", "book": "Joel", "ch": 4, "v": 12, "wi": 4, "raw": "אֶל־", "after": ""}
+{"id": "Tanak.Joel.4.12.w5", "book": "Joel", "ch": 4, "v": 12, "wi": 5, "raw": "עֵ֖מֶק", "after": " "}
+{"id": "Tanak.Joel.4.12.w6", "book": "Joel", "ch": 4, "v": 12, "wi": 6, "raw": "יְהֽוֹשָׁפָ֑ט", "after": " "}
+{"id": "Tanak.Joel.4.12.w7", "book": "Joel", "ch": 4, "v": 12, "wi": 7, "raw": "כִּ֣י", "after": " "}
+{"id": "Tanak.Joel.4.12.w8", "book": "Joel", "ch": 4, "v": 12, "wi": 8, "raw": "שָׁ֗ם", "after": " "}
+{"id": "Tanak.Joel.4.12.w9", "book": "Joel", "ch": 4, "v": 12, "wi": 9, "raw": "אֵשֵׁ֛ב", "after": " "}
+{"id": "Tanak.Joel.4.12.w10", "book": "Joel", "ch": 4, "v": 12, "wi": 10, "raw": "לִשְׁפֹּ֥ט", "after": " "}
+{"id": "Tanak.Joel.4.12.w11", "book": "Joel", "ch": 4, "v": 12, "wi": 11, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.4.12.w12", "book": "Joel", "ch": 4, "v": 12, "wi": 12, "raw": "כָּל־", "after": ""}
+{"id": "Tanak.Joel.4.12.w13", "book": "Joel", "ch": 4, "v": 12, "wi": 13, "raw": "הַגּוֹיִ֖ם", "after": " "}
+{"id": "Tanak.Joel.4.12.w14", "book": "Joel", "ch": 4, "v": 12, "wi": 14, "raw": "מִסָּבִֽיב׃", "after": ""}
+{"id": "Tanak.Joel.4.13.w1", "book": "Joel", "ch": 4, "v": 13, "wi": 1, "raw": "שִׁלְח֣וּ", "after": " "}
+{"id": "Tanak.Joel.4.13.w2", "book": "Joel", "ch": 4, "v": 13, "wi": 2, "raw": "מַגָּ֔ל", "after": " "}
+{"id": "Tanak.Joel.4.13.w3", "book": "Joel", "ch": 4, "v": 13, "wi": 3, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.4.13.w4", "book": "Joel", "ch": 4, "v": 13, "wi": 4, "raw": "בָשַׁ֖ל", "after": " "}
+{"id": "Tanak.Joel.4.13.w5", "book": "Joel", "ch": 4, "v": 13, "wi": 5, "raw": "קָצִ֑יר", "after": " "}
+{"id": "Tanak.Joel.4.13.w6", "book": "Joel", "ch": 4, "v": 13, "wi": 6, "raw": "בֹּ֤אֽוּ", "after": " "}
+{"id": "Tanak.Joel.4.13.w7", "book": "Joel", "ch": 4, "v": 13, "wi": 7, "raw": "רְדוּ֙", "after": " "}
+{"id": "Tanak.Joel.4.13.w8", "book": "Joel", "ch": 4, "v": 13, "wi": 8, "raw": "כִּֽי־", "after": ""}
+{"id": "Tanak.Joel.4.13.w9", "book": "Joel", "ch": 4, "v": 13, "wi": 9, "raw": "מָ֣לְאָה", "after": " "}
+{"id": "Tanak.Joel.4.13.w10", "book": "Joel", "ch": 4, "v": 13, "wi": 10, "raw": "גַּ֔ת", "after": " "}
+{"id": "Tanak.Joel.4.13.w11", "book": "Joel", "ch": 4, "v": 13, "wi": 11, "raw": "הֵשִׁ֙יקוּ֙", "after": " "}
+{"id": "Tanak.Joel.4.13.w12", "book": "Joel", "ch": 4, "v": 13, "wi": 12, "raw": "הַיְקָבִ֔ים", "after": " "}
+{"id": "Tanak.Joel.4.13.w13", "book": "Joel", "ch": 4, "v": 13, "wi": 13, "raw": "כִּ֥י", "after": " "}
+{"id": "Tanak.Joel.4.13.w14", "book": "Joel", "ch": 4, "v": 13, "wi": 14, "raw": "רַבָּ֖ה", "after": " "}
+{"id": "Tanak.Joel.4.13.w15", "book": "Joel", "ch": 4, "v": 13, "wi": 15, "raw": "רָעָתָֽם׃", "after": ""}
+{"id": "Tanak.Joel.4.14.w1", "book": "Joel", "ch": 4, "v": 14, "wi": 1, "raw": "הֲמוֹנִ֣ים", "after": " "}
+{"id": "Tanak.Joel.4.14.w2", "book": "Joel", "ch": 4, "v": 14, "wi": 2, "raw": "הֲמוֹנִ֔ים", "after": " "}
+{"id": "Tanak.Joel.4.14.w3", "book": "Joel", "ch": 4, "v": 14, "wi": 3, "raw": "בְּעֵ֖מֶק", "after": " "}
+{"id": "Tanak.Joel.4.14.w4", "book": "Joel", "ch": 4, "v": 14, "wi": 4, "raw": "הֶֽחָר֑וּץ", "after": " "}
+{"id": "Tanak.Joel.4.14.w5", "book": "Joel", "ch": 4, "v": 14, "wi": 5, "raw": "כִּ֤י", "after": " "}
+{"id": "Tanak.Joel.4.14.w6", "book": "Joel", "ch": 4, "v": 14, "wi": 6, "raw": "קָרוֹב֙", "after": " "}
+{"id": "Tanak.Joel.4.14.w7", "book": "Joel", "ch": 4, "v": 14, "wi": 7, "raw": "י֣וֹם", "after": " "}
+{"id": "Tanak.Joel.4.14.w8", "book": "Joel", "ch": 4, "v": 14, "wi": 8, "raw": "יְהוָ֔ה", "after": " "}
+{"id": "Tanak.Joel.4.14.w9", "book": "Joel", "ch": 4, "v": 14, "wi": 9, "raw": "בְּעֵ֖מֶק", "after": " "}
+{"id": "Tanak.Joel.4.14.w10", "book": "Joel", "ch": 4, "v": 14, "wi": 10, "raw": "הֶחָרֽוּץ׃", "after": ""}
+{"id": "Tanak.Joel.4.15.w1", "book": "Joel", "ch": 4, "v": 15, "wi": 1, "raw": "שֶׁ֥מֶשׁ", "after": " "}
+{"id": "Tanak.Joel.4.15.w2", "book": "Joel", "ch": 4, "v": 15, "wi": 2, "raw": "וְיָרֵ֖חַ", "after": " "}
+{"id": "Tanak.Joel.4.15.w3", "book": "Joel", "ch": 4, "v": 15, "wi": 3, "raw": "קָדָ֑רוּ", "after": " "}
+{"id": "Tanak.Joel.4.15.w4", "book": "Joel", "ch": 4, "v": 15, "wi": 4, "raw": "וְכוֹכָבִ֖ים", "after": " "}
+{"id": "Tanak.Joel.4.15.w5", "book": "Joel", "ch": 4, "v": 15, "wi": 5, "raw": "אָסְפ֥וּ", "after": " "}
+{"id": "Tanak.Joel.4.15.w6", "book": "Joel", "ch": 4, "v": 15, "wi": 6, "raw": "נָגְהָֽם׃", "after": ""}
+{"id": "Tanak.Joel.4.16.w1", "book": "Joel", "ch": 4, "v": 16, "wi": 1, "raw": "וַיהוָ֞ה", "after": " "}
+{"id": "Tanak.Joel.4.16.w2", "book": "Joel", "ch": 4, "v": 16, "wi": 2, "raw": "מִצִּיּ֣וֹן", "after": " "}
+{"id": "Tanak.Joel.4.16.w3", "book": "Joel", "ch": 4, "v": 16, "wi": 3, "raw": "יִשְׁאָ֗ג", "after": " "}
+{"id": "Tanak.Joel.4.16.w4", "book": "Joel", "ch": 4, "v": 16, "wi": 4, "raw": "וּמִירוּשָׁלִַ֙ם֙", "after": " "}
+{"id": "Tanak.Joel.4.16.w5", "book": "Joel", "ch": 4, "v": 16, "wi": 5, "raw": "יִתֵּ֣ן", "after": " "}
+{"id": "Tanak.Joel.4.16.w6", "book": "Joel", "ch": 4, "v": 16, "wi": 6, "raw": "קוֹל֔וֹ", "after": " "}
+{"id": "Tanak.Joel.4.16.w7", "book": "Joel", "ch": 4, "v": 16, "wi": 7, "raw": "וְרָעֲשׁ֖וּ", "after": " "}
+{"id": "Tanak.Joel.4.16.w8", "book": "Joel", "ch": 4, "v": 16, "wi": 8, "raw": "שָׁמַ֣יִם", "after": " "}
+{"id": "Tanak.Joel.4.16.w9", "book": "Joel", "ch": 4, "v": 16, "wi": 9, "raw": "וָאָ֑רֶץ", "after": " "}
+{"id": "Tanak.Joel.4.16.w10", "book": "Joel", "ch": 4, "v": 16, "wi": 10, "raw": "וַֽיהוָה֙", "after": " "}
+{"id": "Tanak.Joel.4.16.w11", "book": "Joel", "ch": 4, "v": 16, "wi": 11, "raw": "מַֽחֲסֶ֣ה", "after": " "}
+{"id": "Tanak.Joel.4.16.w12", "book": "Joel", "ch": 4, "v": 16, "wi": 12, "raw": "לְעַמּ֔וֹ", "after": " "}
+{"id": "Tanak.Joel.4.16.w13", "book": "Joel", "ch": 4, "v": 16, "wi": 13, "raw": "וּמָע֖וֹז", "after": " "}
+{"id": "Tanak.Joel.4.16.w14", "book": "Joel", "ch": 4, "v": 16, "wi": 14, "raw": "לִבְנֵ֥י", "after": " "}
+{"id": "Tanak.Joel.4.16.w15", "book": "Joel", "ch": 4, "v": 16, "wi": 15, "raw": "יִשְׂרָאֵֽל׃", "after": ""}
+{"id": "Tanak.Joel.4.17.w1", "book": "Joel", "ch": 4, "v": 17, "wi": 1, "raw": "וִֽידַעְתֶּ֗ם", "after": " "}
+{"id": "Tanak.Joel.4.17.w2", "book": "Joel", "ch": 4, "v": 17, "wi": 2, "raw": "כִּ֣י", "after": " "}
+{"id": "Tanak.Joel.4.17.w3", "book": "Joel", "ch": 4, "v": 17, "wi": 3, "raw": "אֲנִ֤י", "after": " "}
+{"id": "Tanak.Joel.4.17.w4", "book": "Joel", "ch": 4, "v": 17, "wi": 4, "raw": "יְהוָה֙", "after": " "}
+{"id": "Tanak.Joel.4.17.w5", "book": "Joel", "ch": 4, "v": 17, "wi": 5, "raw": "אֱלֹ֣הֵיכֶ֔ם", "after": " "}
+{"id": "Tanak.Joel.4.17.w6", "book": "Joel", "ch": 4, "v": 17, "wi": 6, "raw": "שֹׁכֵ֖ן", "after": " "}
+{"id": "Tanak.Joel.4.17.w7", "book": "Joel", "ch": 4, "v": 17, "wi": 7, "raw": "בְּצִיּ֣וֹן", "after": " "}
+{"id": "Tanak.Joel.4.17.w8", "book": "Joel", "ch": 4, "v": 17, "wi": 8, "raw": "הַר־", "after": ""}
+{"id": "Tanak.Joel.4.17.w9", "book": "Joel", "ch": 4, "v": 17, "wi": 9, "raw": "קָדְשִׁ֑י", "after": " "}
+{"id": "Tanak.Joel.4.17.w10", "book": "Joel", "ch": 4, "v": 17, "wi": 10, "raw": "וְהָיְתָ֤ה", "after": " "}
+{"id": "Tanak.Joel.4.17.w11", "book": "Joel", "ch": 4, "v": 17, "wi": 11, "raw": "יְרוּשָׁלִַ֙ם֙", "after": " "}
+{"id": "Tanak.Joel.4.17.w12", "book": "Joel", "ch": 4, "v": 17, "wi": 12, "raw": "קֹ֔דֶשׁ", "after": " "}
+{"id": "Tanak.Joel.4.17.w13", "book": "Joel", "ch": 4, "v": 17, "wi": 13, "raw": "וְזָרִ֥ים", "after": " "}
+{"id": "Tanak.Joel.4.17.w14", "book": "Joel", "ch": 4, "v": 17, "wi": 14, "raw": "לֹא־", "after": ""}
+{"id": "Tanak.Joel.4.17.w15", "book": "Joel", "ch": 4, "v": 17, "wi": 15, "raw": "יַֽעַבְרוּ־", "after": ""}
+{"id": "Tanak.Joel.4.17.w16", "book": "Joel", "ch": 4, "v": 17, "wi": 16, "raw": "בָ֖הּ", "after": " "}
+{"id": "Tanak.Joel.4.17.w17", "book": "Joel", "ch": 4, "v": 17, "wi": 17, "raw": "עֽוֹד׃", "after": ""}
+{"id": "Tanak.Joel.4.18.w1", "book": "Joel", "ch": 4, "v": 18, "wi": 1, "raw": "וְהָיָה֩", "after": " "}
+{"id": "Tanak.Joel.4.18.w2", "book": "Joel", "ch": 4, "v": 18, "wi": 2, "raw": "בַיּ֨וֹם", "after": " "}
+{"id": "Tanak.Joel.4.18.w3", "book": "Joel", "ch": 4, "v": 18, "wi": 3, "raw": "הַה֜וּא", "after": " "}
+{"id": "Tanak.Joel.4.18.w4", "book": "Joel", "ch": 4, "v": 18, "wi": 4, "raw": "יִטְּפ֧וּ", "after": " "}
+{"id": "Tanak.Joel.4.18.w5", "book": "Joel", "ch": 4, "v": 18, "wi": 5, "raw": "הֶהָרִ֣ים", "after": " "}
+{"id": "Tanak.Joel.4.18.w6", "book": "Joel", "ch": 4, "v": 18, "wi": 6, "raw": "עָסִ֗יס", "after": " "}
+{"id": "Tanak.Joel.4.18.w7", "book": "Joel", "ch": 4, "v": 18, "wi": 7, "raw": "וְהַגְּבָעוֹת֙", "after": " "}
+{"id": "Tanak.Joel.4.18.w8", "book": "Joel", "ch": 4, "v": 18, "wi": 8, "raw": "תֵּלַ֣כְנָה", "after": " "}
+{"id": "Tanak.Joel.4.18.w9", "book": "Joel", "ch": 4, "v": 18, "wi": 9, "raw": "חָלָ֔ב", "after": " "}
+{"id": "Tanak.Joel.4.18.w10", "book": "Joel", "ch": 4, "v": 18, "wi": 10, "raw": "וְכָל־", "after": ""}
+{"id": "Tanak.Joel.4.18.w11", "book": "Joel", "ch": 4, "v": 18, "wi": 11, "raw": "אֲפִיקֵ֥י", "after": " "}
+{"id": "Tanak.Joel.4.18.w12", "book": "Joel", "ch": 4, "v": 18, "wi": 12, "raw": "יְהוּדָ֖ה", "after": " "}
+{"id": "Tanak.Joel.4.18.w13", "book": "Joel", "ch": 4, "v": 18, "wi": 13, "raw": "יֵ֣לְכוּ", "after": " "}
+{"id": "Tanak.Joel.4.18.w14", "book": "Joel", "ch": 4, "v": 18, "wi": 14, "raw": "מָ֑יִם", "after": " "}
+{"id": "Tanak.Joel.4.18.w15", "book": "Joel", "ch": 4, "v": 18, "wi": 15, "raw": "וּמַעְיָ֗ן", "after": " "}
+{"id": "Tanak.Joel.4.18.w16", "book": "Joel", "ch": 4, "v": 18, "wi": 16, "raw": "מִבֵּ֤ית", "after": " "}
+{"id": "Tanak.Joel.4.18.w17", "book": "Joel", "ch": 4, "v": 18, "wi": 17, "raw": "יְהוָה֙", "after": " "}
+{"id": "Tanak.Joel.4.18.w18", "book": "Joel", "ch": 4, "v": 18, "wi": 18, "raw": "יֵצֵ֔א", "after": " "}
+{"id": "Tanak.Joel.4.18.w19", "book": "Joel", "ch": 4, "v": 18, "wi": 19, "raw": "וְהִשְׁקָ֖ה", "after": " "}
+{"id": "Tanak.Joel.4.18.w20", "book": "Joel", "ch": 4, "v": 18, "wi": 20, "raw": "אֶת־", "after": ""}
+{"id": "Tanak.Joel.4.18.w21", "book": "Joel", "ch": 4, "v": 18, "wi": 21, "raw": "נַ֥חַל", "after": " "}
+{"id": "Tanak.Joel.4.18.w22", "book": "Joel", "ch": 4, "v": 18, "wi": 22, "raw": "הַשִּׁטִּֽים׃", "after": ""}
+{"id": "Tanak.Joel.4.19.w1", "book": "Joel", "ch": 4, "v": 19, "wi": 1, "raw": "מִצְרַ֙יִם֙", "after": " "}
+{"id": "Tanak.Joel.4.19.w2", "book": "Joel", "ch": 4, "v": 19, "wi": 2, "raw": "לִשְׁמָמָ֣ה", "after": " "}
+{"id": "Tanak.Joel.4.19.w3", "book": "Joel", "ch": 4, "v": 19, "wi": 3, "raw": "תִֽהְיֶ֔ה", "after": " "}
+{"id": "Tanak.Joel.4.19.w4", "book": "Joel", "ch": 4, "v": 19, "wi": 4, "raw": "וֶאֱד֕וֹם", "after": " "}
+{"id": "Tanak.Joel.4.19.w5", "book": "Joel", "ch": 4, "v": 19, "wi": 5, "raw": "לְמִדְבַּ֥ר", "after": " "}
+{"id": "Tanak.Joel.4.19.w6", "book": "Joel", "ch": 4, "v": 19, "wi": 6, "raw": "שְׁמָמָ֖ה", "after": " "}
+{"id": "Tanak.Joel.4.19.w7", "book": "Joel", "ch": 4, "v": 19, "wi": 7, "raw": "תִּֽהְיֶ֑ה", "after": " "}
+{"id": "Tanak.Joel.4.19.w8", "book": "Joel", "ch": 4, "v": 19, "wi": 8, "raw": "מֵֽחֲמַס֙", "after": " "}
+{"id": "Tanak.Joel.4.19.w9", "book": "Joel", "ch": 4, "v": 19, "wi": 9, "raw": "בְּנֵ֣י", "after": " "}
+{"id": "Tanak.Joel.4.19.w10", "book": "Joel", "ch": 4, "v": 19, "wi": 10, "raw": "יְהוּדָ֔ה", "after": " "}
+{"id": "Tanak.Joel.4.19.w11", "book": "Joel", "ch": 4, "v": 19, "wi": 11, "raw": "אֲשֶׁר־", "after": ""}
+{"id": "Tanak.Joel.4.19.w12", "book": "Joel", "ch": 4, "v": 19, "wi": 12, "raw": "שָׁפְכ֥וּ", "after": " "}
+{"id": "Tanak.Joel.4.19.w13", "book": "Joel", "ch": 4, "v": 19, "wi": 13, "raw": "דָם־", "after": ""}
+{"id": "Tanak.Joel.4.19.w14", "book": "Joel", "ch": 4, "v": 19, "wi": 14, "raw": "נָקִ֖יא", "after": " "}
+{"id": "Tanak.Joel.4.19.w15", "book": "Joel", "ch": 4, "v": 19, "wi": 15, "raw": "בְּאַרְצָֽם׃", "after": ""}
+{"id": "Tanak.Joel.4.20.w1", "book": "Joel", "ch": 4, "v": 20, "wi": 1, "raw": "וִיהוּדָ֖ה", "after": " "}
+{"id": "Tanak.Joel.4.20.w2", "book": "Joel", "ch": 4, "v": 20, "wi": 2, "raw": "לְעוֹלָ֣ם", "after": " "}
+{"id": "Tanak.Joel.4.20.w3", "book": "Joel", "ch": 4, "v": 20, "wi": 3, "raw": "תֵּשֵׁ֑ב", "after": " "}
+{"id": "Tanak.Joel.4.20.w4", "book": "Joel", "ch": 4, "v": 20, "wi": 4, "raw": "וִירוּשָׁלַ֖͏ִם", "after": " "}
+{"id": "Tanak.Joel.4.20.w5", "book": "Joel", "ch": 4, "v": 20, "wi": 5, "raw": "לְד֥וֹר", "after": " "}
+{"id": "Tanak.Joel.4.20.w6", "book": "Joel", "ch": 4, "v": 20, "wi": 6, "raw": "וָדֽוֹר׃", "after": ""}
+{"id": "Tanak.Joel.4.21.w1", "book": "Joel", "ch": 4, "v": 21, "wi": 1, "raw": "וְנִקֵּ֖יתִי", "after": " "}
+{"id": "Tanak.Joel.4.21.w2", "book": "Joel", "ch": 4, "v": 21, "wi": 2, "raw": "דָּמָ֣ם", "after": " "}
+{"id": "Tanak.Joel.4.21.w3", "book": "Joel", "ch": 4, "v": 21, "wi": 3, "raw": "לֹֽא־", "after": ""}
+{"id": "Tanak.Joel.4.21.w4", "book": "Joel", "ch": 4, "v": 21, "wi": 4, "raw": "נִקֵּ֑יתִי", "after": " "}
+{"id": "Tanak.Joel.4.21.w5", "book": "Joel", "ch": 4, "v": 21, "wi": 5, "raw": "וַֽיהוָ֖ה", "after": " "}
+{"id": "Tanak.Joel.4.21.w6", "book": "Joel", "ch": 4, "v": 21, "wi": 6, "raw": "שֹׁכֵ֥ן", "after": " "}
+{"id": "Tanak.Joel.4.21.w7", "book": "Joel", "ch": 4, "v": 21, "wi": 7, "raw": "בְּצִיּֽוֹן׃", "after": ""}
